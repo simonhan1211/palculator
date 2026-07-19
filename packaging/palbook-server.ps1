@@ -1,19 +1,38 @@
 # Palbook local server — serves the static app/ folder and opens the browser.
 # No installation needed: this uses only built-in Windows PowerShell.
 $ErrorActionPreference = "Stop"
-$port = 8731
-$url = "http://localhost:$port/"
 $root = [IO.Path]::GetFullPath((Join-Path $PSScriptRoot "app"))
 
-$listener = New-Object System.Net.HttpListener
-$listener.Prefixes.Add($url)
-try {
-    $listener.Start()
-} catch {
-    # Port already in use — assume Palbook is already running.
-    Start-Process $url
-    exit
+if (-not (Test-Path (Join-Path $root "index.html"))) {
+    Write-Host ""
+    Write-Host "  The 'app' folder is missing next to this script." -ForegroundColor Red
+    Write-Host "  Make sure the WHOLE Palbook folder was extracted from the zip."
+    exit 1
 }
+
+# Try a few ports in case something else on this machine owns the first one.
+$ports = 8731, 8732, 8733
+$listener = $null
+$port = $null
+foreach ($p in $ports) {
+    $try = New-Object System.Net.HttpListener
+    $try.Prefixes.Add("http://localhost:$p/")
+    try {
+        $try.Start()
+        $listener = $try
+        $port = $p
+        break
+    } catch {
+        $try.Close()
+    }
+}
+if (-not $listener) {
+    # Every port is busy — almost certainly Palbook is already running.
+    Start-Process "http://localhost:$($ports[0])/"
+    Write-Host "  Palbook looks like it is already running - opened the browser."
+    exit 0
+}
+$url = "http://localhost:$port/"
 
 Start-Process $url
 Write-Host ""
