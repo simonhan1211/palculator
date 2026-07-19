@@ -1,0 +1,783 @@
+[
+  {
+    "id": "r_ai_core",
+    "outputItemId": "ai_core",
+    "outputQuantity": 1,
+    "ingredients": [
+      {
+        "itemId": "computer",
+        "quantity": 5
+      },
+      {
+        "itemId": "soralite_ingot",
+        "quantity": 10
+      },
+      {
+        "itemId": "thermal_core",
+        "quantity": 2
+      },
+      {
+        "itemId": "ancient_civilization_core",
+        "quantity": 1
+      }
+    ],
+    "workbench": "Advanced Workshop",
+    "goldCost": 5000000
+  },
+  {
+    "id": "r_assault_rifle",
+    "outputItemId": "assault_rifle",
+    "outputQuantity": 1,
+    "ingredients": [
+      {
+        "itemId": "refined_ingot",
+        "quantity": 40
+      },
+      {
+        "itemId": "polymer",
+        "quantity": 10
+      },
+      {
+        "itemId": "carbon_fiber",
+        "quantity": 10
+      }
+    ],
+    "workbench": "Weapon Assembly Line",
+    "goldCost": 100000
+  },
+  {
+    "id": "r_assault_rifle_2",
+    "outputItemId": "assault_rifle_2",
+    "outputQuantity": 1,
+    "ingredients": [
+      {
+        "itemId": "refined_ingot",
+        "quantity": 50
+      },
+      {
+        "itemId": "polymer",
+        "quantity": 12
+      },
+      {
+        "itemId": "carbon_fiber",
+        "quantity": 12
+      },
+      {
+        "itemId": "ancient_civilization_parts",
+        "quantity": 1
+      }
+    ],
+    "workbench": "Weapon Assembly Line",
+    "goldCost": 400000
+  },
+  {
+    "id": "r_assault_rifle_3",
+    "outputItemId": "assault_rifle_3",
+    "outputQuantity": 1,
+    "ingredients": [
+      {
+        "itemId": "refined_ingot",
+        "quantity": 60
+      },
+      {
+        "itemId": "polymer",
+        "quantity": 15
+      },
+      {
+        "itemId": "carbon_fiber",
+        "quantity": 15
+      },
+      {
+        "itemId": "ancient_civilization_parts",
+        "quantity": 2
+      }
+    ],
+    "workbench": "Weapon Assembly Line",
+    "goldCost": 800000
+  },
+  {
+    "id": "r_assault_rifle_4",
+    "outputItemId": "assault_rifle_4",
+    "outputQuantity": 1,
+    "ingredients": [
+      {
+        "itemId": "refined_ingot",
+        "quantity": 70
+      },
+      {
+        "itemId": "polymer",
+        "quantity": 17
+      },
+      {
+        "itemId": "carbon_fiber",
+        "quantity": 17
+      },
+      {
+        "itemId": "ancient_civilization_parts",
+        "quantity": 3
+      }
+    ],
+    "workbench": "Weapon Assembly Line",
+    "goldCost": 1600000
+  },
+  {
+    "id": "r_assault_rifle_5",
+    "outputItemId": "assault_rifle_5",
+    "outputQuantity": 1,
+    "ingredients": [
+      {
+        "itemId": "refined_ingot",
+        "quantity": 80
+      },
+      {
+        "itemId": "polymer",
+        "quantity": 20
+      },
+      {
+        "itemId": "carbon_fiber",
+        "quantity": 20
+      },
+      {
+        "itemId": "ancient_civilization_parts",
+        "quantity": 4
+      }
+    ],
+    "workbench": "Weapon Assembly Line",
+    "goldCost": 3200000
+  },
+  {
+    "id": "r_bio_battery",
+    "outputItemId": "bio_battery",
+    "outputQuantity": 1,
+    "ingredients": [
+      {
+        "itemId": "electric_organ",
+        "quantity": 1
+      },
+      {
+        "itemId": "refined_ingot",
+        "quantity": 1
+      },
+      {
+        "itemId": "carbon_fiber",
+        "quantity": 1
+      }
+    ],
+    "workbench": "Production Assembly Line II",
+    "goldCost": 20000
+  },
+  {
+    "id": "r_carbon_fiber",
+    "outputItemId": "carbon_fiber",
+    "outputQuantity": 1,
+    "ingredients": [
+      {
+        "itemId": "coal",
+        "quantity": 2
+      },
+      {
+        "itemId": "flame_organ",
+        "quantity": 1
+      }
+    ],
+    "workbench": "Production Assembly Line",
+    "goldCost": 10000
+  },
+  {
+    "id": "r_circuit_board",
+    "outputItemId": "circuit_board",
+    "outputQuantity": 1,
+    "ingredients": [
+      {
+        "itemId": "pure_quartz",
+        "quantity": 2
+      },
+      {
+        "itemId": "polymer",
+        "quantity": 1
+      }
+    ],
+    "workbench": "Production Assembly Line",
+    "goldCost": 30000
+  },
+  {
+    "id": "r_computer",
+    "outputItemId": "computer",
+    "outputQuantity": 1,
+    "ingredients": [
+      {
+        "itemId": "circuit_board",
+        "quantity": 2
+      },
+      {
+        "itemId": "plasteel",
+        "quantity": 3
+      },
+      {
+        "itemId": "bio_battery",
+        "quantity": 2
+      },
+      {
+        "itemId": "carbon_fiber",
+        "quantity": 2
+      }
+    ],
+    "workbench": "Production Assembly Line II",
+    "goldCost": 250000
+  },
+  {
+    "id": "r_corrosive_solvent",
+    "outputItemId": "corrosive_solvent",
+    "outputQuantity": 1,
+    "ingredients": [
+      {
+        "itemId": "venom_gland",
+        "quantity": 1
+      },
+      {
+        "itemId": "sulfur",
+        "quantity": 1
+      }
+    ],
+    "workbench": "Production Assembly Line",
+    "goldCost": 15000
+  },
+  {
+    "id": "r_drone_launcher",
+    "outputItemId": "drone_launcher",
+    "outputQuantity": 1,
+    "ingredients": [
+      {
+        "itemId": "paloxite_ingot",
+        "quantity": 70
+      },
+      {
+        "itemId": "world_tree_holy_water",
+        "quantity": 40
+      },
+      {
+        "itemId": "ai_core",
+        "quantity": 8
+      },
+      {
+        "itemId": "ancient_civilization_core",
+        "quantity": 5
+      }
+    ],
+    "workbench": "Ancient Workbench",
+    "goldCost": 3500000
+  },
+  {
+    "id": "r_drone_launcher_2",
+    "outputItemId": "drone_launcher_2",
+    "outputQuantity": 1,
+    "ingredients": [
+      {
+        "itemId": "paloxite_ingot",
+        "quantity": 87
+      },
+      {
+        "itemId": "world_tree_holy_water",
+        "quantity": 50
+      },
+      {
+        "itemId": "ai_core",
+        "quantity": 10
+      },
+      {
+        "itemId": "ancient_civilization_core",
+        "quantity": 6
+      },
+      {
+        "itemId": "ancient_civilization_parts",
+        "quantity": 7
+      }
+    ],
+    "workbench": "Ancient Workbench",
+    "goldCost": 14000000
+  },
+  {
+    "id": "r_drone_launcher_3",
+    "outputItemId": "drone_launcher_3",
+    "outputQuantity": 1,
+    "ingredients": [
+      {
+        "itemId": "paloxite_ingot",
+        "quantity": 105
+      },
+      {
+        "itemId": "world_tree_holy_water",
+        "quantity": 60
+      },
+      {
+        "itemId": "ai_core",
+        "quantity": 12
+      },
+      {
+        "itemId": "ancient_civilization_core",
+        "quantity": 7
+      },
+      {
+        "itemId": "ancient_civilization_parts",
+        "quantity": 8
+      }
+    ],
+    "workbench": "Ancient Workbench",
+    "goldCost": 28000000
+  },
+  {
+    "id": "r_drone_launcher_4",
+    "outputItemId": "drone_launcher_4",
+    "outputQuantity": 1,
+    "ingredients": [
+      {
+        "itemId": "paloxite_ingot",
+        "quantity": 122
+      },
+      {
+        "itemId": "world_tree_holy_water",
+        "quantity": 70
+      },
+      {
+        "itemId": "ai_core",
+        "quantity": 14
+      },
+      {
+        "itemId": "ancient_civilization_core",
+        "quantity": 8
+      },
+      {
+        "itemId": "ancient_civilization_parts",
+        "quantity": 9
+      }
+    ],
+    "workbench": "Ancient Workbench",
+    "goldCost": 56000000
+  },
+  {
+    "id": "r_drone_launcher_5",
+    "outputItemId": "drone_launcher_5",
+    "outputQuantity": 1,
+    "ingredients": [
+      {
+        "itemId": "paloxite_ingot",
+        "quantity": 140
+      },
+      {
+        "itemId": "world_tree_holy_water",
+        "quantity": 80
+      },
+      {
+        "itemId": "ai_core",
+        "quantity": 16
+      },
+      {
+        "itemId": "ancient_civilization_core",
+        "quantity": 10
+      },
+      {
+        "itemId": "ancient_civilization_parts",
+        "quantity": 10
+      }
+    ],
+    "workbench": "Ancient Workbench",
+    "goldCost": 112000000
+  },
+  {
+    "id": "r_fiber",
+    "outputItemId": "fiber",
+    "outputQuantity": 2,
+    "ingredients": [
+      {
+        "itemId": "wood",
+        "quantity": 1
+      }
+    ],
+    "workbench": "Crusher",
+    "goldCost": 500
+  },
+  {
+    "id": "r_handgun",
+    "outputItemId": "handgun",
+    "outputQuantity": 1,
+    "ingredients": [
+      {
+        "itemId": "ingot",
+        "quantity": 50
+      },
+      {
+        "itemId": "high_quality_pal_oil",
+        "quantity": 15
+      }
+    ],
+    "workbench": "Weapon Workbench",
+    "goldCost": 50000
+  },
+  {
+    "id": "r_handgun_2",
+    "outputItemId": "handgun_2",
+    "outputQuantity": 1,
+    "ingredients": [
+      {
+        "itemId": "ingot",
+        "quantity": 62
+      },
+      {
+        "itemId": "high_quality_pal_oil",
+        "quantity": 18
+      }
+    ],
+    "workbench": "Weapon Workbench",
+    "goldCost": 200000
+  },
+  {
+    "id": "r_handgun_3",
+    "outputItemId": "handgun_3",
+    "outputQuantity": 1,
+    "ingredients": [
+      {
+        "itemId": "ingot",
+        "quantity": 75
+      },
+      {
+        "itemId": "high_quality_pal_oil",
+        "quantity": 22
+      }
+    ],
+    "workbench": "Weapon Workbench",
+    "goldCost": 400000
+  },
+  {
+    "id": "r_handgun_4",
+    "outputItemId": "handgun_4",
+    "outputQuantity": 1,
+    "ingredients": [
+      {
+        "itemId": "ingot",
+        "quantity": 87
+      },
+      {
+        "itemId": "high_quality_pal_oil",
+        "quantity": 26
+      },
+      {
+        "itemId": "ancient_civilization_parts",
+        "quantity": 1
+      }
+    ],
+    "workbench": "Weapon Workbench",
+    "goldCost": 800000
+  },
+  {
+    "id": "r_handgun_5",
+    "outputItemId": "handgun_5",
+    "outputQuantity": 1,
+    "ingredients": [
+      {
+        "itemId": "ingot",
+        "quantity": 100
+      },
+      {
+        "itemId": "high_quality_pal_oil",
+        "quantity": 30
+      },
+      {
+        "itemId": "ancient_civilization_parts",
+        "quantity": 2
+      }
+    ],
+    "workbench": "Weapon Workbench",
+    "goldCost": 1600000
+  },
+  {
+    "id": "r_hexolite",
+    "outputItemId": "hexolite",
+    "outputQuantity": 1,
+    "ingredients": [
+      {
+        "itemId": "chromite",
+        "quantity": 1
+      },
+      {
+        "itemId": "hexolite_quartz",
+        "quantity": 1
+      }
+    ],
+    "workbench": "Gigantic Furnace",
+    "goldCost": 500000
+  },
+  {
+    "id": "r_ingot",
+    "outputItemId": "ingot",
+    "outputQuantity": 1,
+    "ingredients": [
+      {
+        "itemId": "ore",
+        "quantity": 2
+      }
+    ],
+    "workbench": "Primitive Furnace",
+    "goldCost": 1000
+  },
+  {
+    "id": "r_musket",
+    "outputItemId": "musket",
+    "outputQuantity": 1,
+    "ingredients": [
+      {
+        "itemId": "ingot",
+        "quantity": 25
+      },
+      {
+        "itemId": "high_quality_pal_oil",
+        "quantity": 5
+      },
+      {
+        "itemId": "wooden_board",
+        "quantity": 3
+      }
+    ],
+    "workbench": "Weapon Workbench",
+    "goldCost": 35000
+  },
+  {
+    "id": "r_musket_2",
+    "outputItemId": "musket_2",
+    "outputQuantity": 1,
+    "ingredients": [
+      {
+        "itemId": "ingot",
+        "quantity": 31
+      },
+      {
+        "itemId": "high_quality_pal_oil",
+        "quantity": 6
+      },
+      {
+        "itemId": "wooden_board",
+        "quantity": 3
+      }
+    ],
+    "workbench": "Weapon Workbench",
+    "goldCost": 140000
+  },
+  {
+    "id": "r_musket_3",
+    "outputItemId": "musket_3",
+    "outputQuantity": 1,
+    "ingredients": [
+      {
+        "itemId": "ingot",
+        "quantity": 37
+      },
+      {
+        "itemId": "high_quality_pal_oil",
+        "quantity": 7
+      },
+      {
+        "itemId": "wooden_board",
+        "quantity": 4
+      }
+    ],
+    "workbench": "Weapon Workbench",
+    "goldCost": 280000
+  },
+  {
+    "id": "r_musket_4",
+    "outputItemId": "musket_4",
+    "outputQuantity": 1,
+    "ingredients": [
+      {
+        "itemId": "ingot",
+        "quantity": 43
+      },
+      {
+        "itemId": "high_quality_pal_oil",
+        "quantity": 8
+      },
+      {
+        "itemId": "wooden_board",
+        "quantity": 5
+      },
+      {
+        "itemId": "ancient_civilization_parts",
+        "quantity": 1
+      }
+    ],
+    "workbench": "Weapon Workbench",
+    "goldCost": 560000
+  },
+  {
+    "id": "r_musket_5",
+    "outputItemId": "musket_5",
+    "outputQuantity": 1,
+    "ingredients": [
+      {
+        "itemId": "ingot",
+        "quantity": 50
+      },
+      {
+        "itemId": "high_quality_pal_oil",
+        "quantity": 10
+      },
+      {
+        "itemId": "wooden_board",
+        "quantity": 6
+      },
+      {
+        "itemId": "ancient_civilization_parts",
+        "quantity": 2
+      }
+    ],
+    "workbench": "Weapon Workbench",
+    "goldCost": 1120000
+  },
+  {
+    "id": "r_nail",
+    "outputItemId": "nail",
+    "outputQuantity": 5,
+    "ingredients": [
+      {
+        "itemId": "ingot",
+        "quantity": 1
+      }
+    ],
+    "workbench": "High Quality Workbench",
+    "goldCost": 1500
+  },
+  {
+    "id": "r_paloxite_ingot",
+    "outputItemId": "paloxite_ingot",
+    "outputQuantity": 1,
+    "ingredients": [
+      {
+        "itemId": "soralite",
+        "quantity": 1
+      },
+      {
+        "itemId": "paloxite",
+        "quantity": 2
+      },
+      {
+        "itemId": "world_tree_holy_water",
+        "quantity": 1
+      }
+    ],
+    "workbench": "Ancient Furnace",
+    "goldCost": 1000000
+  },
+  {
+    "id": "r_plasteel",
+    "outputItemId": "plasteel",
+    "outputQuantity": 1,
+    "ingredients": [
+      {
+        "itemId": "crude_oil",
+        "quantity": 2
+      },
+      {
+        "itemId": "ore",
+        "quantity": 5
+      }
+    ],
+    "workbench": "Electric Furnace",
+    "goldCost": 200000
+  },
+  {
+    "id": "r_polymer",
+    "outputItemId": "polymer",
+    "outputQuantity": 1,
+    "ingredients": [
+      {
+        "itemId": "high_quality_pal_oil",
+        "quantity": 2
+      },
+      {
+        "itemId": "sulfur",
+        "quantity": 1
+      }
+    ],
+    "workbench": "Production Assembly Line",
+    "goldCost": 10000
+  },
+  {
+    "id": "r_refined_ingot",
+    "outputItemId": "refined_ingot",
+    "outputQuantity": 1,
+    "ingredients": [
+      {
+        "itemId": "ore",
+        "quantity": 2
+      },
+      {
+        "itemId": "coal",
+        "quantity": 2
+      }
+    ],
+    "workbench": "Improved Furnace",
+    "goldCost": 7000
+  },
+  {
+    "id": "r_soralite_ingot",
+    "outputItemId": "soralite_ingot",
+    "outputQuantity": 1,
+    "ingredients": [
+      {
+        "itemId": "soralite",
+        "quantity": 2
+      },
+      {
+        "itemId": "pure_quartz",
+        "quantity": 2
+      }
+    ],
+    "workbench": "Ancient Furnace",
+    "goldCost": 700000
+  },
+  {
+    "id": "r_thermal_core",
+    "outputItemId": "thermal_core",
+    "outputQuantity": 1,
+    "ingredients": [
+      {
+        "itemId": "flame_organ",
+        "quantity": 4
+      },
+      {
+        "itemId": "coal",
+        "quantity": 8
+      },
+      {
+        "itemId": "corrosive_solvent",
+        "quantity": 2
+      },
+      {
+        "itemId": "hexolite",
+        "quantity": 2
+      }
+    ],
+    "workbench": "Production Assembly Line II",
+    "goldCost": 500000
+  },
+  {
+    "id": "r_wooden_board",
+    "outputItemId": "wooden_board",
+    "outputQuantity": 1,
+    "ingredients": [
+      {
+        "itemId": "wood",
+        "quantity": 10
+      },
+      {
+        "itemId": "fiber",
+        "quantity": 5
+      },
+      {
+        "itemId": "nail",
+        "quantity": 1
+      }
+    ],
+    "workbench": "High Quality Workbench",
+    "goldCost": 1000
+  }
+]

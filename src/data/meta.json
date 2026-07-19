@@ -1,0 +1,11 @@
+{
+  "source": "paldb.cc",
+  "gameVersion": "1.0",
+  "generatedAt": "2026-07-19T10:53:34.112Z",
+  "roots": [
+    "Drone_Launcher",
+    "Assault_Rifle",
+    "Handgun",
+    "Musket"
+  ]
+}

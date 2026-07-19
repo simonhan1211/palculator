@@ -1,0 +1,504 @@
+[
+  {
+    "id": "ai_core",
+    "name": "AI Core",
+    "category": "component",
+    "isBaseMaterial": false,
+    "code": "AIcore",
+    "iconUrl": "/icons/ai_core.webp",
+    "rarity": 0
+  },
+  {
+    "id": "ancient_civilization_core",
+    "name": "Ancient Civilization Core",
+    "category": "raw",
+    "isBaseMaterial": true,
+    "code": "AncientParts2",
+    "iconUrl": "/icons/ancient_civilization_core.webp",
+    "rarity": 4
+  },
+  {
+    "id": "ancient_civilization_parts",
+    "name": "Ancient Civilization Parts",
+    "category": "raw",
+    "isBaseMaterial": true,
+    "code": "PalCrystal_Ex",
+    "iconUrl": "/icons/ancient_civilization_parts.webp",
+    "rarity": 2
+  },
+  {
+    "id": "assault_rifle",
+    "name": "Assault Rifle",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "AssaultRifle_Default1",
+    "iconUrl": "/icons/assault_rifle.webp",
+    "rarity": 0
+  },
+  {
+    "id": "assault_rifle_2",
+    "name": "Assault Rifle (Uncommon)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "AssaultRifle_Default2",
+    "rarity": 1,
+    "variantOf": "assault_rifle",
+    "iconUrl": "/icons/assault_rifle.webp"
+  },
+  {
+    "id": "assault_rifle_3",
+    "name": "Assault Rifle (Rare)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "AssaultRifle_Default3",
+    "rarity": 2,
+    "variantOf": "assault_rifle",
+    "iconUrl": "/icons/assault_rifle.webp"
+  },
+  {
+    "id": "assault_rifle_4",
+    "name": "Assault Rifle (Epic)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "AssaultRifle_Default4",
+    "rarity": 3,
+    "variantOf": "assault_rifle",
+    "iconUrl": "/icons/assault_rifle.webp"
+  },
+  {
+    "id": "assault_rifle_5",
+    "name": "Assault Rifle (Legendary)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "AssaultRifle_Default5",
+    "rarity": 4,
+    "variantOf": "assault_rifle",
+    "iconUrl": "/icons/assault_rifle.webp"
+  },
+  {
+    "id": "bio_battery",
+    "name": "Bio Battery",
+    "category": "component",
+    "isBaseMaterial": false,
+    "code": "Bio_Battery",
+    "iconUrl": "/icons/bio_battery.webp",
+    "rarity": 0
+  },
+  {
+    "id": "carbon_fiber",
+    "name": "Carbon Fiber",
+    "category": "component",
+    "isBaseMaterial": false,
+    "code": "CarbonFiber",
+    "iconUrl": "/icons/carbon_fiber.webp",
+    "rarity": 0
+  },
+  {
+    "id": "chromite",
+    "name": "Chromite",
+    "category": "raw",
+    "isBaseMaterial": true,
+    "code": "Chromium",
+    "iconUrl": "/icons/chromite.webp",
+    "rarity": 0
+  },
+  {
+    "id": "circuit_board",
+    "name": "Circuit Board",
+    "category": "component",
+    "isBaseMaterial": false,
+    "code": "MachineParts2",
+    "iconUrl": "/icons/circuit_board.webp",
+    "rarity": 1
+  },
+  {
+    "id": "coal",
+    "name": "Coal",
+    "category": "raw",
+    "isBaseMaterial": true,
+    "code": "Coal",
+    "iconUrl": "/icons/coal.webp",
+    "rarity": 0
+  },
+  {
+    "id": "computer",
+    "name": "Computer",
+    "category": "component",
+    "isBaseMaterial": false,
+    "code": "Computer",
+    "iconUrl": "/icons/computer.webp",
+    "rarity": 0
+  },
+  {
+    "id": "corrosive_solvent",
+    "name": "Corrosive Solvent",
+    "category": "component",
+    "isBaseMaterial": false,
+    "code": "Corrosive_Solvent",
+    "iconUrl": "/icons/corrosive_solvent.webp",
+    "rarity": 0
+  },
+  {
+    "id": "crude_oil",
+    "name": "Crude Oil",
+    "category": "raw",
+    "isBaseMaterial": true,
+    "code": "CrudeOil",
+    "iconUrl": "/icons/crude_oil.webp",
+    "rarity": 0
+  },
+  {
+    "id": "drone_launcher",
+    "name": "Drone Launcher",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "DroneLauncher",
+    "iconUrl": "/icons/drone_launcher.webp",
+    "rarity": 0
+  },
+  {
+    "id": "drone_launcher_2",
+    "name": "Drone Launcher (Uncommon)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "DroneLauncher_2",
+    "rarity": 1,
+    "variantOf": "drone_launcher",
+    "iconUrl": "/icons/drone_launcher.webp"
+  },
+  {
+    "id": "drone_launcher_3",
+    "name": "Drone Launcher (Rare)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "DroneLauncher_3",
+    "rarity": 2,
+    "variantOf": "drone_launcher",
+    "iconUrl": "/icons/drone_launcher.webp"
+  },
+  {
+    "id": "drone_launcher_4",
+    "name": "Drone Launcher (Epic)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "DroneLauncher_4",
+    "rarity": 3,
+    "variantOf": "drone_launcher",
+    "iconUrl": "/icons/drone_launcher.webp"
+  },
+  {
+    "id": "drone_launcher_5",
+    "name": "Drone Launcher (Legendary)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "DroneLauncher_5",
+    "rarity": 4,
+    "variantOf": "drone_launcher",
+    "iconUrl": "/icons/drone_launcher.webp"
+  },
+  {
+    "id": "electric_organ",
+    "name": "Electric Organ",
+    "category": "raw",
+    "isBaseMaterial": true,
+    "code": "ElectricOrgan",
+    "iconUrl": "/icons/electric_organ.webp",
+    "rarity": 0
+  },
+  {
+    "id": "fiber",
+    "name": "Fiber",
+    "category": "component",
+    "isBaseMaterial": false,
+    "code": "Fiber",
+    "iconUrl": "/icons/fiber.webp",
+    "rarity": 0
+  },
+  {
+    "id": "flame_organ",
+    "name": "Flame Organ",
+    "category": "raw",
+    "isBaseMaterial": true,
+    "code": "FireOrgan",
+    "iconUrl": "/icons/flame_organ.webp",
+    "rarity": 0
+  },
+  {
+    "id": "handgun",
+    "name": "Handgun",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "HandGun_Default",
+    "iconUrl": "/icons/handgun.webp",
+    "rarity": 0
+  },
+  {
+    "id": "handgun_2",
+    "name": "Handgun (Uncommon)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "HandGun_Default_2",
+    "rarity": 1,
+    "variantOf": "handgun",
+    "iconUrl": "/icons/handgun.webp"
+  },
+  {
+    "id": "handgun_3",
+    "name": "Handgun (Rare)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "HandGun_Default_3",
+    "rarity": 2,
+    "variantOf": "handgun",
+    "iconUrl": "/icons/handgun.webp"
+  },
+  {
+    "id": "handgun_4",
+    "name": "Handgun (Epic)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "HandGun_Default_4",
+    "rarity": 3,
+    "variantOf": "handgun",
+    "iconUrl": "/icons/handgun.webp"
+  },
+  {
+    "id": "handgun_5",
+    "name": "Handgun (Legendary)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "HandGun_Default_5",
+    "rarity": 4,
+    "variantOf": "handgun",
+    "iconUrl": "/icons/handgun.webp"
+  },
+  {
+    "id": "hexolite",
+    "name": "Hexolite",
+    "category": "component",
+    "isBaseMaterial": false,
+    "code": "StainlessSteel",
+    "iconUrl": "/icons/hexolite.webp",
+    "rarity": 0
+  },
+  {
+    "id": "hexolite_quartz",
+    "name": "Hexolite Quartz",
+    "category": "raw",
+    "isBaseMaterial": true,
+    "code": "RainbowCrystal",
+    "iconUrl": "/icons/hexolite_quartz.webp",
+    "rarity": 0
+  },
+  {
+    "id": "high_quality_pal_oil",
+    "name": "High Quality Pal Oil",
+    "category": "raw",
+    "isBaseMaterial": true,
+    "code": "PalOil",
+    "iconUrl": "/icons/high_quality_pal_oil.webp",
+    "rarity": 0
+  },
+  {
+    "id": "ingot",
+    "name": "Ingot",
+    "category": "component",
+    "isBaseMaterial": false,
+    "code": "CopperIngot",
+    "iconUrl": "/icons/ingot.webp",
+    "rarity": 0
+  },
+  {
+    "id": "musket",
+    "name": "Musket",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "Musket",
+    "iconUrl": "/icons/musket.webp",
+    "rarity": 0
+  },
+  {
+    "id": "musket_2",
+    "name": "Musket (Uncommon)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "Musket_2",
+    "rarity": 1,
+    "variantOf": "musket",
+    "iconUrl": "/icons/musket.webp"
+  },
+  {
+    "id": "musket_3",
+    "name": "Musket (Rare)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "Musket_3",
+    "rarity": 2,
+    "variantOf": "musket",
+    "iconUrl": "/icons/musket.webp"
+  },
+  {
+    "id": "musket_4",
+    "name": "Musket (Epic)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "Musket_4",
+    "rarity": 3,
+    "variantOf": "musket",
+    "iconUrl": "/icons/musket.webp"
+  },
+  {
+    "id": "musket_5",
+    "name": "Musket (Legendary)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "Musket_5",
+    "rarity": 4,
+    "variantOf": "musket",
+    "iconUrl": "/icons/musket.webp"
+  },
+  {
+    "id": "nail",
+    "name": "Nail",
+    "category": "component",
+    "isBaseMaterial": false,
+    "code": "MachineParts",
+    "iconUrl": "/icons/nail.webp",
+    "rarity": 0
+  },
+  {
+    "id": "ore",
+    "name": "Ore",
+    "category": "raw",
+    "isBaseMaterial": true,
+    "code": "CopperOre",
+    "iconUrl": "/icons/ore.webp",
+    "rarity": 0
+  },
+  {
+    "id": "paloxite",
+    "name": "Paloxite",
+    "category": "raw",
+    "isBaseMaterial": true,
+    "code": "WorldTreeOre",
+    "iconUrl": "/icons/paloxite.webp",
+    "rarity": 0
+  },
+  {
+    "id": "paloxite_ingot",
+    "name": "Paloxite Ingot",
+    "category": "component",
+    "isBaseMaterial": false,
+    "code": "WorldTreeIngot",
+    "iconUrl": "/icons/paloxite_ingot.webp",
+    "rarity": 0
+  },
+  {
+    "id": "plasteel",
+    "name": "Plasteel",
+    "category": "component",
+    "isBaseMaterial": false,
+    "code": "Plastic",
+    "iconUrl": "/icons/plasteel.webp",
+    "rarity": 0
+  },
+  {
+    "id": "polymer",
+    "name": "Polymer",
+    "category": "component",
+    "isBaseMaterial": false,
+    "code": "Polymer",
+    "iconUrl": "/icons/polymer.webp",
+    "rarity": 0
+  },
+  {
+    "id": "pure_quartz",
+    "name": "Pure Quartz",
+    "category": "raw",
+    "isBaseMaterial": true,
+    "code": "Quartz",
+    "iconUrl": "/icons/pure_quartz.webp",
+    "rarity": 0
+  },
+  {
+    "id": "refined_ingot",
+    "name": "Refined Ingot",
+    "category": "component",
+    "isBaseMaterial": false,
+    "code": "IronIngot",
+    "iconUrl": "/icons/refined_ingot.webp",
+    "rarity": 0
+  },
+  {
+    "id": "soralite",
+    "name": "Soralite",
+    "category": "raw",
+    "isBaseMaterial": true,
+    "code": "SkyIslandOre",
+    "iconUrl": "/icons/soralite.webp",
+    "rarity": 0
+  },
+  {
+    "id": "soralite_ingot",
+    "name": "Soralite Ingot",
+    "category": "component",
+    "isBaseMaterial": false,
+    "code": "SkyislandIngot",
+    "iconUrl": "/icons/soralite_ingot.webp",
+    "rarity": 0
+  },
+  {
+    "id": "sulfur",
+    "name": "Sulfur",
+    "category": "raw",
+    "isBaseMaterial": true,
+    "code": "Sulfur",
+    "iconUrl": "/icons/sulfur.webp",
+    "rarity": 0
+  },
+  {
+    "id": "thermal_core",
+    "name": "Thermal Core",
+    "category": "component",
+    "isBaseMaterial": false,
+    "code": "Thermal_Core",
+    "iconUrl": "/icons/thermal_core.webp",
+    "rarity": 0
+  },
+  {
+    "id": "venom_gland",
+    "name": "Venom Gland",
+    "category": "raw",
+    "isBaseMaterial": true,
+    "code": "Venom",
+    "iconUrl": "/icons/venom_gland.webp",
+    "rarity": 0
+  },
+  {
+    "id": "wood",
+    "name": "Wood",
+    "category": "raw",
+    "isBaseMaterial": true,
+    "code": "Wood",
+    "iconUrl": "/icons/wood.webp",
+    "rarity": 0
+  },
+  {
+    "id": "wooden_board",
+    "name": "Wooden Board",
+    "category": "component",
+    "isBaseMaterial": false,
+    "code": "Processed_Wood",
+    "iconUrl": "/icons/wooden_board.webp",
+    "rarity": 0
+  },
+  {
+    "id": "world_tree_holy_water",
+    "name": "World Tree Holy Water",
+    "category": "misc",
+    "isBaseMaterial": true,
+    "code": "WorldTreeHolyWater",
+    "iconUrl": "/icons/world_tree_holy_water.webp",
+    "rarity": 2
+  }
+]

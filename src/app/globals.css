@@ -1,0 +1,160 @@
+@import "tailwindcss";
+
+/* ---------------------------------------------------------------------------
+   Palworld Calculator — design tokens
+   Cold "schematic" base + Paldium teal primary + forge amber secondary.
+   --------------------------------------------------------------------------- */
+:root {
+  --bg: #0a0e13;
+  --bg-panel: #111821;
+  --bg-panel-2: #0d141c;
+  --border: #1d2a37;
+  --border-strong: #2b3d4e;
+
+  --fg: #dbe4ec;
+  --fg-muted: #8695a6;
+  --fg-faint: #566575;
+
+  --primary: #3fe0cd; /* paldium teal */
+  --primary-dim: #1f9d8f;
+  --secondary: #f6a828; /* forge amber */
+  --secondary-dim: #b87814;
+  --danger: #ff6b6b;
+
+  --raw: #f6a828;      /* raw materials read as forge amber */
+  --refined: #7fb2ff;  /* intermediates read as blueprint blue */
+  --component: #b98cff;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-panel: var(--bg-panel);
+  --color-panel-2: var(--bg-panel-2);
+  --color-border: var(--border);
+  --color-border-strong: var(--border-strong);
+  --color-fg: var(--fg);
+  --color-fg-muted: var(--fg-muted);
+  --color-fg-faint: var(--fg-faint);
+  --color-primary: var(--primary);
+  --color-primary-dim: var(--primary-dim);
+  --color-secondary: var(--secondary);
+  --color-secondary-dim: var(--secondary-dim);
+  --color-danger: var(--danger);
+
+  --font-display: var(--font-chakra), system-ui, sans-serif;
+  --font-sans: var(--font-inter), system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains), ui-monospace, monospace;
+}
+
+* {
+  border-color: var(--border);
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  background-image:
+    linear-gradient(to right, rgba(63, 224, 205, 0.025) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(63, 224, 205, 0.025) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+.font-display { font-family: var(--font-display); letter-spacing: -0.01em; }
+.font-mono { font-family: var(--font-mono); }
+
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--fg-faint);
+}
+
+.panel {
+  background: var(--bg-panel);
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+}
+
+:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
+
+/* ---------------------------------------------------------------------------
+   Production tree — top-down node graph with connector lines (paldb-style).
+   Each node is an <li>; its children sit in a nested <ul> flex row.
+   --------------------------------------------------------------------------- */
+.ptree ul {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  padding-top: 1.1rem;
+}
+.ptree li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding: 1.1rem 0.3rem 0;
+}
+/* Horizontal rail above each child, split into left/right halves. */
+.ptree li::before,
+.ptree li::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 50%;
+  width: 50%;
+  height: 1.1rem;
+  border-top: 1px solid var(--border-strong);
+}
+.ptree li::after {
+  right: auto;
+  left: 50%;
+  border-left: 1px solid var(--border-strong);
+}
+.ptree li:first-child::before {
+  border-top: 0;
+}
+.ptree li:last-child::after {
+  border: 0;
+}
+.ptree li:last-child::before {
+  border-right: 1px solid var(--border-strong);
+  border-top-right-radius: 4px;
+}
+/* A lone child needs no rail, just the vertical continuing to the node. */
+.ptree li:only-child::before {
+  border: 0;
+}
+.ptree li:only-child::after {
+  border: 0;
+  border-left: 1px solid var(--border-strong);
+}
+/* Vertical drop from a parent node into its children row. */
+.ptree ul ul::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  height: 1.1rem;
+  border-left: 1px solid var(--border-strong);
+}
+/* The root list has no parent rail. */
+.ptree > ul {
+  padding-top: 0;
+}
+.ptree > ul > li {
+  padding-top: 0;
+}
+.ptree > ul > li::before,
+.ptree > ul > li::after {
+  border: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}

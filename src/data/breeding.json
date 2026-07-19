@@ -1,0 +1,4 @@
+[
+  { "parentAId": "relaxaurus", "parentBId": "sparkit", "childId": "relaxaurus_lux" },
+  { "parentAId": "mau", "parentBId": "pengullet", "childId": "mau_cryst" }
+]

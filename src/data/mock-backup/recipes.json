@@ -1,0 +1,110 @@
+[
+  {
+    "id": "r_ingot",
+    "outputItemId": "ingot",
+    "outputQuantity": 1,
+    "workbench": "Primitive Furnace",
+    "ingredients": [{ "itemId": "ore", "quantity": 2 }]
+  },
+  {
+    "id": "r_charcoal",
+    "outputItemId": "charcoal",
+    "outputQuantity": 1,
+    "workbench": "Primitive Furnace",
+    "ingredients": [{ "itemId": "wood", "quantity": 2 }]
+  },
+  {
+    "id": "r_refined_ingot",
+    "outputItemId": "refined_ingot",
+    "outputQuantity": 1,
+    "workbench": "Improved Furnace",
+    "ingredients": [
+      { "itemId": "ingot", "quantity": 2 },
+      { "itemId": "coal", "quantity": 1 }
+    ]
+  },
+  {
+    "id": "r_pal_metal_ingot",
+    "outputItemId": "pal_metal_ingot",
+    "outputQuantity": 1,
+    "workbench": "Improved Furnace",
+    "ingredients": [
+      { "itemId": "ore", "quantity": 2 },
+      { "itemId": "coal", "quantity": 1 }
+    ]
+  },
+  {
+    "id": "r_cloth",
+    "outputItemId": "cloth",
+    "outputQuantity": 1,
+    "workbench": "Primitive Loom",
+    "ingredients": [{ "itemId": "wool", "quantity": 2 }]
+  },
+  {
+    "id": "r_carbon_fiber",
+    "outputItemId": "carbon_fiber",
+    "outputQuantity": 1,
+    "workbench": "Electric Furnace",
+    "ingredients": [{ "itemId": "charcoal", "quantity": 3 }]
+  },
+  {
+    "id": "r_circuit_board",
+    "outputItemId": "circuit_board",
+    "outputQuantity": 1,
+    "workbench": "Assembly Line",
+    "ingredients": [
+      { "itemId": "ingot", "quantity": 1 },
+      { "itemId": "cloth", "quantity": 2 }
+    ]
+  },
+  {
+    "id": "r_nail",
+    "outputItemId": "nail",
+    "outputQuantity": 4,
+    "workbench": "Primitive Furnace",
+    "ingredients": [{ "itemId": "ingot", "quantity": 1 }]
+  },
+  {
+    "id": "r_gunpowder",
+    "outputItemId": "gunpowder",
+    "outputQuantity": 2,
+    "workbench": "Primitive Workbench",
+    "ingredients": [
+      { "itemId": "sulfur", "quantity": 2 },
+      { "itemId": "charcoal", "quantity": 1 }
+    ]
+  },
+  {
+    "id": "r_assault_rifle",
+    "outputItemId": "assault_rifle",
+    "outputQuantity": 1,
+    "workbench": "Weapon Workbench",
+    "ingredients": [
+      { "itemId": "refined_ingot", "quantity": 20 },
+      { "itemId": "carbon_fiber", "quantity": 8 },
+      { "itemId": "circuit_board", "quantity": 5 },
+      { "itemId": "nail", "quantity": 10 }
+    ]
+  },
+  {
+    "id": "r_handgun",
+    "outputItemId": "handgun",
+    "outputQuantity": 1,
+    "workbench": "Weapon Workbench",
+    "ingredients": [
+      { "itemId": "ingot", "quantity": 10 },
+      { "itemId": "nail", "quantity": 6 }
+    ]
+  },
+  {
+    "id": "r_musket",
+    "outputItemId": "musket",
+    "outputQuantity": 1,
+    "workbench": "Primitive Workbench",
+    "ingredients": [
+      { "itemId": "ingot", "quantity": 8 },
+      { "itemId": "wood", "quantity": 10 },
+      { "itemId": "gunpowder", "quantity": 4 }
+    ]
+  }
+]

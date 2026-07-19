@@ -1,0 +1,14 @@
+[
+  { "id": "lamball", "paldeckNumber": 1, "name": "Lamball", "elements": ["neutral"], "breedPower": 1350 },
+  { "id": "cattiva", "paldeckNumber": 2, "name": "Cattiva", "elements": ["neutral"], "breedPower": 1330 },
+  { "id": "chikipi", "paldeckNumber": 3, "name": "Chikipi", "elements": ["neutral"], "breedPower": 1400 },
+  { "id": "lifmunk", "paldeckNumber": 4, "name": "Lifmunk", "elements": ["grass"], "breedPower": 1315 },
+  { "id": "foxparks", "paldeckNumber": 5, "name": "Foxparks", "elements": ["fire"], "breedPower": 1290 },
+  { "id": "fuack", "paldeckNumber": 6, "name": "Fuack", "elements": ["water"], "breedPower": 1270 },
+  { "id": "sparkit", "paldeckNumber": 7, "name": "Sparkit", "elements": ["electric"], "breedPower": 1260 },
+  { "id": "pengullet", "paldeckNumber": 21, "name": "Pengullet", "elements": ["water", "ice"], "breedPower": 1240 },
+  { "id": "mau", "paldeckNumber": 22, "name": "Mau", "elements": ["dark"], "breedPower": 1220 },
+  { "id": "mau_cryst", "paldeckNumber": 23, "name": "Mau Cryst", "elements": ["ice"], "breedPower": 1210 },
+  { "id": "relaxaurus", "paldeckNumber": 84, "name": "Relaxaurus", "elements": ["dragon", "water"], "breedPower": 460 },
+  { "id": "relaxaurus_lux", "paldeckNumber": 85, "name": "Relaxaurus Lux", "elements": ["dragon", "electric"], "breedPower": 450 }
+]

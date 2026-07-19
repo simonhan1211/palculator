@@ -1,0 +1,25 @@
+[
+  { "id": "ore", "name": "Ore", "category": "raw", "isBaseMaterial": true, "stackSize": 999, "sources": ["mining"] },
+  { "id": "coal", "name": "Coal", "category": "raw", "isBaseMaterial": true, "stackSize": 999, "sources": ["mining"] },
+  { "id": "wood", "name": "Wood", "category": "raw", "isBaseMaterial": true, "stackSize": 999, "sources": ["logging"] },
+  { "id": "stone", "name": "Stone", "category": "raw", "isBaseMaterial": true, "stackSize": 999, "sources": ["mining"] },
+  { "id": "paldium_fragment", "name": "Paldium Fragment", "category": "raw", "isBaseMaterial": true, "stackSize": 999, "sources": ["mining", "gathering"] },
+  { "id": "sulfur", "name": "Sulfur", "category": "raw", "isBaseMaterial": true, "stackSize": 999, "sources": ["mining"] },
+  { "id": "quartz", "name": "Quartz", "category": "raw", "isBaseMaterial": true, "stackSize": 999, "sources": ["mining"] },
+  { "id": "wool", "name": "Wool", "category": "raw", "isBaseMaterial": true, "stackSize": 999, "sources": ["pal_drop:lamball"] },
+
+  { "id": "ingot", "name": "Ingot", "category": "refined", "isBaseMaterial": false, "stackSize": 999 },
+  { "id": "refined_ingot", "name": "Refined Ingot", "category": "refined", "isBaseMaterial": false, "stackSize": 999 },
+  { "id": "pal_metal_ingot", "name": "Pal Metal Ingot", "category": "refined", "isBaseMaterial": false, "stackSize": 999 },
+  { "id": "charcoal", "name": "Charcoal", "category": "refined", "isBaseMaterial": false, "stackSize": 999 },
+
+  { "id": "cloth", "name": "Cloth", "category": "component", "isBaseMaterial": false, "stackSize": 999 },
+  { "id": "carbon_fiber", "name": "Carbon Fiber", "category": "component", "isBaseMaterial": false, "stackSize": 999 },
+  { "id": "circuit_board", "name": "Circuit Board", "category": "component", "isBaseMaterial": false, "stackSize": 999 },
+  { "id": "nail", "name": "Nail", "category": "component", "isBaseMaterial": false, "stackSize": 999 },
+  { "id": "gunpowder", "name": "Gunpowder", "category": "component", "isBaseMaterial": false, "stackSize": 999 },
+
+  { "id": "assault_rifle", "name": "Assault Rifle", "category": "weapon", "isBaseMaterial": false, "stackSize": 1 },
+  { "id": "handgun", "name": "Handgun", "category": "weapon", "isBaseMaterial": false, "stackSize": 1 },
+  { "id": "musket", "name": "Old Musket", "category": "weapon", "isBaseMaterial": false, "stackSize": 1 }
+]
