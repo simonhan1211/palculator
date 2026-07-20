@@ -22,7 +22,22 @@ the placeholder mock set.
   items, validation, icon download — done
 - Rarity tiers (Common → Legendary) scraped as variant items with their own
   recipes, selectable in the crafting UI — done
+- Research reductions: per-category (Weapon / Armor / Pal Gear) technology
+  levels (−5% / −15%) that cut a gear item's direct material cost, applied at
+  the production step only (sub-recipes stay full price), persisted per player
+  in localStorage — done
 - Pal + breeding-combo ingestion from paldb.cc — pending
+
+### Research reductions
+
+Palworld's technology tree reduces "materials required for producing" a gear
+class. Level 1 is −5%, level 2 adds another −10% (−15% total). In the crafting
+UI, pick your level for Weapon / Armor / Pal Gear; the reduction applies only
+when the target item is that category, floored per-craft, never below 1, and
+never to the sub-materials it consumes (so you craft fewer AI Cores, but each
+AI Core still costs full price). Weapon and Armor items classify cleanly from
+paldb; pal gear is detected via the Pal Gear Workbench and glider tag — verify
+when you first scrape those categories.
 
 ## Run
 

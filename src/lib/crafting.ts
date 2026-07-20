@@ -3,6 +3,7 @@ import type {
   CraftingResult,
   CraftNode,
   Item,
+  ItemCategory,
   ShoppingListEntry,
 } from "./types";
 import { getItem, getRecipe } from "./data";
@@ -30,18 +31,43 @@ export interface CraftingDataSource {
   getRecipe: (itemId: string) => CraftingRecipe | undefined;
 }
 
+/**
+ * Palworld research reduces "materials required for producing" a whole gear
+ * class by a percentage (as a fraction, e.g. 0.15 for -15%). Each category has
+ * its own research track. The reduction applies only at the step that produces
+ * a weapon/armor/pal-gear item — never to the sub-recipes of its ingredients
+ * (a production good like AI Core is still crafted at full cost).
+ */
+export interface ResearchReductions {
+  weapon?: number;
+  armor?: number;
+  pal_gear?: number;
+}
+
+/** The research reduction that applies when producing `category`, else 0. */
+function reductionFor(
+  category: ItemCategory,
+  reductions: ResearchReductions,
+): number {
+  if (category === "weapon" || category === "armor" || category === "pal_gear") {
+    return reductions[category] ?? 0;
+  }
+  return 0;
+}
+
 const appData: CraftingDataSource = { getItem, getRecipe };
 
 export function solveCrafting(
   itemId: string,
   quantity: number,
   source: CraftingDataSource = appData,
+  reductions: ResearchReductions = {},
 ): CraftingResult {
   if (!Number.isFinite(quantity) || quantity <= 0) {
     throw new Error(`Quantity must be a positive number, got ${quantity}.`);
   }
 
-  const tree = expand(itemId, quantity, source, new Set());
+  const tree = expand(itemId, quantity, source, new Set(), reductions);
 
   const intermediates: ShoppingListEntry[] = [];
   const rawMaterials: ShoppingListEntry[] = [];
@@ -74,7 +100,7 @@ export function consolidate(
 
 /** Expand a single item into its full CraftNode tree (helper for solveCrafting). */
 export function buildCraftTree(itemId: string, quantity: number): CraftNode {
-  return expand(itemId, quantity, appData, new Set());
+  return expand(itemId, quantity, appData, new Set(), {});
 }
 
 function expand(
@@ -82,6 +108,7 @@ function expand(
   quantity: number,
   source: CraftingDataSource,
   path: Set<string>,
+  reductions: ResearchReductions,
 ): CraftNode {
   const item = source.getItem(itemId);
   if (!item) {
@@ -107,9 +134,16 @@ function expand(
   path.add(itemId);
 
   const crafts = Math.ceil(quantity / recipe.outputQuantity);
-  const children = recipe.ingredients.map((ingredient) =>
-    expand(ingredient.itemId, crafts * ingredient.quantity, source, path),
-  );
+  const reduction = reductionFor(item.category, reductions);
+  const children = recipe.ingredients.map((ingredient) => {
+    // Research reduces the per-craft ingredient cost (what the crafting menu
+    // shows), floored, but never below 1 for a required ingredient.
+    const perCraft =
+      reduction > 0
+        ? Math.max(1, Math.floor(ingredient.quantity * (1 - reduction)))
+        : ingredient.quantity;
+    return expand(ingredient.itemId, crafts * perCraft, source, path, reductions);
+  });
 
   path.delete(itemId);
 

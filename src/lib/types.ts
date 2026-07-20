@@ -20,6 +20,8 @@ export type ItemCategory =
   | "refined" // smelted/processed intermediate (ingot, refined ingot)
   | "component" // crafted sub-part (circuit board, nail, carbon fiber)
   | "weapon"
+  | "armor"
+  | "pal_gear" // gliders, harnesses, saddles, grappling gear
   | "ammo"
   | "structure"
   | "consumable"

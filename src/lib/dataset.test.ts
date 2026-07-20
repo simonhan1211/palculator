@@ -96,4 +96,47 @@ describe("scraped dataset", () => {
       expect(isBaseMaterial(id), id).toBe(true);
     }
   });
+
+  test("-15% weapon research matches the in-game reduced Legendary recipe", () => {
+    // User's own numbers with both weapon research levels (5% + 10% = 15%):
+    //   Paloxite Ingot 140->119, World Tree Holy Water 80->68, AI Core 16->13,
+    //   Ancient Civ Core 10->8, Ancient Civ Parts 10->8.
+    const result = solveCrafting("drone_launcher_5", 1, undefined, {
+      weapon: 0.15,
+    });
+    const reduced = Object.fromEntries(
+      result.tree.children.map((c) => [c.itemId, c.quantity]),
+    );
+    expect(reduced).toEqual({
+      paloxite_ingot: 119,
+      world_tree_holy_water: 68,
+      ai_core: 13,
+      ancient_civilization_core: 8,
+      ancient_civilization_parts: 8,
+    });
+  });
+
+  test("AI cores needed are reduced, but each is still crafted at full cost", () => {
+    // We only need 13 AI cores (not 16), and each AI core's own recipe is
+    // untouched by weapon research.
+    const withResearch = solveCrafting("drone_launcher_5", 1, undefined, {
+      weapon: 0.15,
+    });
+    const aiCoreNode = withResearch.tree.children.find(
+      (c) => c.itemId === "ai_core",
+    )!;
+    expect(aiCoreNode.quantity).toBe(13);
+
+    // One AI core's raw cost, un-reduced, times 13 should equal the AI-core
+    // contribution — i.e. the sub-recipe saw no discount.
+    const oneAiCore = solveCrafting("ai_core", 13);
+    for (const raw of oneAiCore.rawMaterials) {
+      // every AI-core raw should appear in the drone total at >= this amount
+      const inTotal = withResearch.rawMaterials.find(
+        (r) => r.itemId === raw.itemId,
+      );
+      expect(inTotal, raw.itemId).toBeDefined();
+      expect(inTotal!.quantity).toBeGreaterThanOrEqual(raw.quantity);
+    }
+  });
 });

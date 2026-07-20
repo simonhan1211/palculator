@@ -171,6 +171,71 @@ describe("solveCrafting", () => {
   });
 });
 
+describe("research reductions", () => {
+  // assault_rifle (a weapon) direct recipe:
+  //   refined_ingot 20, carbon_fiber 8, circuit_board 5, nail 10
+  test("reduces a weapon's direct ingredients by the weapon research %", () => {
+    const result = solveCrafting("assault_rifle", 1, fixture, { weapon: 0.15 });
+    // floor(20*.85)=17, floor(8*.85)=6, floor(5*.85)=4, floor(10*.85)=8
+    expect(result.tree.children.map((c) => c.quantity)).toEqual([17, 6, 4, 8]);
+  });
+
+  test("floors per-craft, then scales by quantity", () => {
+    const result = solveCrafting("assault_rifle", 2, fixture, { weapon: 0.15 });
+    // per-craft floor(20*.85)=17, x2 crafts = 34 (NOT floor(40*.85)=34 here,
+    // but carbon_fiber: floor(8*.85)=6 x2=12, not floor(16*.85)=13)
+    expect(result.tree.children[0].quantity).toBe(34);
+    expect(result.tree.children[1].quantity).toBe(12);
+  });
+
+  test("cascades reduced amounts downstream at full (un-reduced) cost", () => {
+    // With -15%, nail drops 10->8 (2 crafts not 3), so ore falls 96 -> 80.
+    const result = solveCrafting("assault_rifle", 1, fixture, { weapon: 0.15 });
+    expect(entry(result.rawMaterials, "ore").quantity).toBe(80);
+  });
+
+  test("does not reduce a component's own recipe (AI-core rule)", () => {
+    // refined_ingot is category 'refined', not a weapon — weapon research
+    // must leave its ingredients (ingot 2, coal 1 per craft) untouched.
+    const result = solveCrafting("refined_ingot", 10, fixture, { weapon: 0.15 });
+    expect(result.tree.children.map((c) => c.quantity)).toEqual([20, 10]);
+  });
+
+  test("only the matching category's research applies", () => {
+    // Armor research must not touch a weapon.
+    const result = solveCrafting("assault_rifle", 1, fixture, { armor: 0.15 });
+    expect(result.tree.children.map((c) => c.quantity)).toEqual([20, 8, 5, 10]);
+  });
+
+  test("no reductions object leaves quantities at full", () => {
+    const result = solveCrafting("assault_rifle", 1, fixture);
+    expect(result.tree.children.map((c) => c.quantity)).toEqual([20, 8, 5, 10]);
+  });
+
+  test("never reduces a required ingredient below 1", () => {
+    const source: CraftingDataSource = {
+      getItem: (id) => ({
+        id,
+        name: id,
+        category: id === "gun" ? "weapon" : "raw",
+        isBaseMaterial: id !== "gun",
+      }),
+      getRecipe: (id) =>
+        id === "gun"
+          ? {
+              id: "r_gun",
+              outputItemId: "gun",
+              outputQuantity: 1,
+              ingredients: [{ itemId: "screw", quantity: 1 }],
+            }
+          : undefined,
+    };
+    // floor(1 * 0.85) = 0, but a required ingredient must stay >= 1.
+    const result = solveCrafting("gun", 1, source, { weapon: 0.15 });
+    expect(result.tree.children[0].quantity).toBe(1);
+  });
+});
+
 describe("consolidate", () => {
   test("merges duplicate item ids by summing quantities", () => {
     const merged = consolidate([

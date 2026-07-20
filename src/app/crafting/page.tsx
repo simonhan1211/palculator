@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { craftableItems, getItem, getRecipe } from "@/lib/data";
 import { solveCrafting } from "@/lib/crafting";
 import type { CraftNode } from "@/lib/types";
@@ -8,6 +8,18 @@ import type { CraftNode } from "@/lib/types";
 /** Rarity tint per tier: common, uncommon, rare, epic, legendary. */
 const RARITY_COLORS = ["#2b3d4e", "#59c46b", "#4aa8ff", "#b06bff", "#f2c94c"];
 const TIER_LABELS = ["Common", "Uncommon", "Rare", "Epic", "Legendary"];
+
+/** Research tracks that reduce production cost, keyed by item category. */
+const RESEARCH_TRACKS = [
+  { key: "weapon", label: "Weapon" },
+  { key: "armor", label: "Armor" },
+  { key: "pal_gear", label: "Pal Gear" },
+] as const;
+type ResearchKey = (typeof RESEARCH_TRACKS)[number]["key"];
+/** Cumulative reduction at research level 0/1/2 (−5% then +10%). */
+const LEVEL_REDUCTION = [0, 0.05, 0.15];
+const LEVEL_LABELS = ["None", "Lv 1  −5%", "Lv 2  −15%"];
+const RESEARCH_STORAGE_KEY = "palbook.research";
 
 function ItemIcon({
   itemId,
@@ -77,6 +89,29 @@ export default function CraftingPage() {
   const [baseId, setBaseId] = useState("drone_launcher");
   const [tier, setTier] = useState(0);
   const [quantity, setQuantity] = useState(1);
+  const [research, setResearch] = useState<Record<ResearchKey, number>>({
+    weapon: 0,
+    armor: 0,
+    pal_gear: 0,
+  });
+
+  // Research level is the player's account state, so persist it across visits.
+  // Loaded after mount to keep the static-export first render deterministic.
+  useEffect(() => {
+    try {
+      const saved = localStorage.getItem(RESEARCH_STORAGE_KEY);
+      if (saved) setResearch((r) => ({ ...r, ...JSON.parse(saved) }));
+    } catch {
+      // ignore unreadable/corrupt storage
+    }
+  }, []);
+  useEffect(() => {
+    try {
+      localStorage.setItem(RESEARCH_STORAGE_KEY, JSON.stringify(research));
+    } catch {
+      // ignore storage failures (private mode, etc.)
+    }
+  }, [research]);
 
   // The selected base item plus its rarity-tier variants, lowest tier first.
   const tiers = useMemo(
@@ -92,13 +127,33 @@ export default function CraftingPage() {
 
   const recipe = getRecipe(itemId);
   const item = getItem(itemId);
+
+  const reductions = useMemo(
+    () => ({
+      weapon: LEVEL_REDUCTION[research.weapon] ?? 0,
+      armor: LEVEL_REDUCTION[research.armor] ?? 0,
+      pal_gear: LEVEL_REDUCTION[research.pal_gear] ?? 0,
+    }),
+    [research],
+  );
+
+  // Which research track (if any) actually affects the selected item.
+  const activeTrack: ResearchKey | null =
+    item?.category === "weapon" ||
+    item?.category === "armor" ||
+    item?.category === "pal_gear"
+      ? item.category
+      : null;
+  const activeReduction = activeTrack ? reductions[activeTrack] : 0;
+
   const result = useMemo(
-    () => solveCrafting(itemId, Math.max(1, quantity)),
-    [itemId, quantity],
+    () => solveCrafting(itemId, Math.max(1, quantity), undefined, reductions),
+    [itemId, quantity, reductions],
   );
   const rawSorted = [...result.rawMaterials].sort(
     (a, b) => b.quantity - a.quantity,
   );
+  const crafts = Math.ceil(Math.max(1, quantity) / (recipe?.outputQuantity ?? 1));
 
   return (
     <div className="space-y-8">
@@ -171,10 +226,67 @@ export default function CraftingPage() {
         </div>
       )}
 
+      {/* Research reductions — the player's technology levels per gear class */}
+      <div className="panel flex flex-wrap items-start gap-x-8 gap-y-4 p-4">
+        <div className="flex flex-col">
+          <span className="eyebrow text-primary">Research reductions</span>
+          <span className="mt-1 max-w-[16rem] text-xs text-fg-faint">
+            Cuts materials for producing the matching gear class. Doesn&apos;t
+            apply to sub-materials.
+          </span>
+        </div>
+        {RESEARCH_TRACKS.map((track) => {
+          const isActive = activeTrack === track.key;
+          return (
+            <div key={track.key} className="flex flex-col gap-1.5">
+              <span
+                className={`text-xs font-medium ${
+                  isActive ? "text-primary" : "text-fg-muted"
+                }`}
+              >
+                {track.label}
+                {isActive && (
+                  <span className="ml-1 text-fg-faint">• applies here</span>
+                )}
+              </span>
+              <div className="flex gap-1">
+                {LEVEL_LABELS.map((lbl, lvl) => {
+                  const on = research[track.key] === lvl;
+                  return (
+                    <button
+                      key={lvl}
+                      onClick={() =>
+                        setResearch((r) => ({ ...r, [track.key]: lvl }))
+                      }
+                      className={`h-8 whitespace-nowrap rounded border px-2 font-mono text-[11px] transition-colors ${
+                        on
+                          ? "border-primary bg-panel text-primary"
+                          : "border-border bg-panel-2 text-fg-muted hover:text-fg"
+                      }`}
+                    >
+                      {lbl}
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          );
+        })}
+      </div>
+
       <div className="grid gap-5 lg:grid-cols-2">
         {/* Card 1 — direct top-level recipe as shown in-game */}
         <section className="panel p-5">
-          <p className="eyebrow mb-3 text-primary">Direct recipe</p>
+          <div className="mb-3 flex items-center justify-between">
+            <p className="eyebrow text-primary">Direct recipe</p>
+            {activeReduction > 0 && (
+              <span className="rounded border border-primary/40 px-2 py-0.5 font-mono text-[11px] text-primary">
+                −{Math.round(activeReduction * 100)}%{" "}
+                {RESEARCH_TRACKS.find((t) => t.key === activeTrack)?.label}{" "}
+                research
+              </span>
+            )}
+          </div>
           <div className="flex items-center gap-3">
             <ItemIcon itemId={itemId} size={48} />
             <div>
@@ -185,17 +297,32 @@ export default function CraftingPage() {
             </div>
           </div>
           <ul className="mt-4 divide-y divide-border">
-            {recipe?.ingredients.map((ing) => (
-              <li key={ing.itemId} className="flex items-center gap-3 py-2">
-                <ItemIcon itemId={ing.itemId} />
-                <span className="text-sm text-fg">
-                  {getItem(ing.itemId)?.name ?? ing.itemId}
-                </span>
-                <span className="ml-auto font-mono text-sm text-fg-muted">
-                  ×{ing.quantity * Math.max(1, quantity)}
-                </span>
-              </li>
-            ))}
+            {result.tree.children.map((child, i) => {
+              const base = recipe?.ingredients[i];
+              const full = base ? base.quantity * crafts : child.quantity;
+              const reduced = full !== child.quantity;
+              return (
+                <li
+                  key={child.itemId}
+                  className="flex items-center gap-3 py-2"
+                >
+                  <ItemIcon itemId={child.itemId} />
+                  <span className="text-sm text-fg">{child.itemName}</span>
+                  <span className="ml-auto font-mono text-sm">
+                    {reduced && (
+                      <span className="mr-2 text-fg-faint line-through">
+                        ×{full}
+                      </span>
+                    )}
+                    <span
+                      className={reduced ? "text-primary" : "text-fg-muted"}
+                    >
+                      ×{child.quantity}
+                    </span>
+                  </span>
+                </li>
+              );
+            })}
             {recipe?.goldCost != null && (
               <li className="flex items-center gap-3 py-2">
                 <span className="flex h-8 w-8 items-center justify-center rounded border border-border bg-panel-2 text-secondary">

@@ -98,6 +98,9 @@ async function fetchIndex() {
 function categoryFor(desc, isLeaf) {
   const d = (desc ?? "").toLowerCase();
   if (d.includes("weapon")) return "weapon";
+  // paldb tags helmets/body armor as "Armor"; gliders as "Glider" (a pal gear).
+  if (d.includes("armor") || d.includes("shield")) return "armor";
+  if (d.includes("glider")) return "pal_gear";
   if (d.includes("ammo")) return "ammo";
   if (d.includes("food") || d.includes("ingredient")) return "consumable";
   if (d.includes("material")) return isLeaf ? "raw" : "component";
@@ -363,8 +366,13 @@ async function main() {
     const fromLink = linkMeta.get(slug);
     const isLeaf = page.variants.length === 0;
     const name = meta?.label ?? fromLink?.name ?? slug.replaceAll("_", " ");
-    const category = categoryFor(meta?.desc, isLeaf);
     const base = page.variants.find((v) => v.tier === 0);
+    // Saddles/harnesses/grappling gear are tagged inconsistently on paldb, but
+    // they are all crafted at the Pal Gear Workbench — a reliable signal.
+    let category = categoryFor(meta?.desc, isLeaf);
+    if (base?.workbench && /pal gear/i.test(base.workbench)) {
+      category = "pal_gear";
+    }
 
     items.push({
       id,
