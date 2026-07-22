@@ -1,5 +1,80 @@
 [
   {
+    "id": "advanced_bow",
+    "name": "Advanced Bow",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "SFBow",
+    "iconUrl": "/icons/advanced_bow.webp",
+    "rarity": 0
+  },
+  {
+    "id": "advanced_bow_2",
+    "name": "Advanced Bow (Uncommon)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "SFBow_2",
+    "rarity": 1,
+    "variantOf": "advanced_bow",
+    "iconUrl": "/icons/advanced_bow.webp"
+  },
+  {
+    "id": "advanced_bow_3",
+    "name": "Advanced Bow (Rare)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "SFBow_3",
+    "rarity": 2,
+    "variantOf": "advanced_bow",
+    "iconUrl": "/icons/advanced_bow.webp"
+  },
+  {
+    "id": "advanced_bow_4",
+    "name": "Advanced Bow (Epic)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "SFBow_4",
+    "rarity": 3,
+    "variantOf": "advanced_bow",
+    "iconUrl": "/icons/advanced_bow.webp"
+  },
+  {
+    "id": "advanced_bow_5",
+    "name": "Advanced Bow (Legendary)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "rarity": 4,
+    "variantOf": "advanced_bow",
+    "iconUrl": "/icons/advanced_bow.webp"
+  },
+  {
+    "id": "advanced_fishing_rod_(depresso)",
+    "name": "Advanced Fishing Rod (Depresso)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "FishingRod_03_2",
+    "iconUrl": "/icons/advanced_fishing_rod_(depresso).webp",
+    "rarity": 4
+  },
+  {
+    "id": "advanced_fishing_rod_(pengullet)",
+    "name": "Advanced Fishing Rod (Pengullet)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "FishingRod_03_1",
+    "iconUrl": "/icons/advanced_fishing_rod_(pengullet).webp",
+    "rarity": 3
+  },
+  {
+    "id": "advanced_shield",
+    "name": "Advanced Shield",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "Shield_SF",
+    "iconUrl": "/icons/advanced_shield.webp",
+    "rarity": 3
+  },
+  {
     "id": "ai_core",
     "name": "AI Core",
     "category": "component",
@@ -7,6 +82,55 @@
     "code": "AIcore",
     "iconUrl": "/icons/ai_core.webp",
     "rarity": 0
+  },
+  {
+    "id": "ancient_armor",
+    "name": "Ancient Armor",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "AncientArmor",
+    "iconUrl": "/icons/ancient_armor.webp",
+    "rarity": 0
+  },
+  {
+    "id": "ancient_armor_2",
+    "name": "Ancient Armor (Uncommon)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "AncientArmor_2",
+    "rarity": 1,
+    "variantOf": "ancient_armor",
+    "iconUrl": "/icons/ancient_armor.webp"
+  },
+  {
+    "id": "ancient_armor_3",
+    "name": "Ancient Armor (Rare)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "AncientArmor_3",
+    "rarity": 2,
+    "variantOf": "ancient_armor",
+    "iconUrl": "/icons/ancient_armor.webp"
+  },
+  {
+    "id": "ancient_armor_4",
+    "name": "Ancient Armor (Epic)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "AncientArmor_4",
+    "rarity": 3,
+    "variantOf": "ancient_armor",
+    "iconUrl": "/icons/ancient_armor.webp"
+  },
+  {
+    "id": "ancient_armor_5",
+    "name": "Ancient Armor (Legendary)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "AncientArmor_5",
+    "rarity": 4,
+    "variantOf": "ancient_armor",
+    "iconUrl": "/icons/ancient_armor.webp"
   },
   {
     "id": "ancient_civilization_core",
@@ -25,6 +149,72 @@
     "code": "PalCrystal_Ex",
     "iconUrl": "/icons/ancient_civilization_parts.webp",
     "rarity": 2
+  },
+  {
+    "id": "ancient_helm",
+    "name": "Ancient Helm",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "AncientHelmet",
+    "iconUrl": "/icons/ancient_helm.webp",
+    "rarity": 0
+  },
+  {
+    "id": "ancient_helm_2",
+    "name": "Ancient Helm (Uncommon)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "AncientHelmet_2",
+    "rarity": 1,
+    "variantOf": "ancient_helm",
+    "iconUrl": "/icons/ancient_helm.webp"
+  },
+  {
+    "id": "ancient_helm_3",
+    "name": "Ancient Helm (Rare)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "AncientHelmet_3",
+    "rarity": 2,
+    "variantOf": "ancient_helm",
+    "iconUrl": "/icons/ancient_helm.webp"
+  },
+  {
+    "id": "ancient_helm_4",
+    "name": "Ancient Helm (Epic)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "AncientHelmet_4",
+    "rarity": 3,
+    "variantOf": "ancient_helm",
+    "iconUrl": "/icons/ancient_helm.webp"
+  },
+  {
+    "id": "ancient_helm_5",
+    "name": "Ancient Helm (Legendary)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 4,
+    "variantOf": "ancient_helm",
+    "iconUrl": "/icons/ancient_helm.webp"
+  },
+  {
+    "id": "ancient_shield",
+    "name": "Ancient Shield",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "Shield_07",
+    "iconUrl": "/icons/ancient_shield.webp",
+    "rarity": 4
+  },
+  {
+    "id": "aquatic_pal_fluids",
+    "name": "Aquatic Pal Fluids",
+    "category": "raw",
+    "isBaseMaterial": true,
+    "code": "PalFluid",
+    "iconUrl": "/icons/aquatic_pal_fluids.webp",
+    "rarity": 0
   },
   {
     "id": "assault_rifle",
@@ -76,6 +266,207 @@
     "iconUrl": "/icons/assault_rifle.webp"
   },
   {
+    "id": "auri_hat",
+    "name": "Auri Hat",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "HeadEquip048",
+    "iconUrl": "/icons/auri_hat.webp",
+    "rarity": 4
+  },
+  {
+    "id": "axel_hat",
+    "name": "Axel Hat",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "GYM_Head_Electric",
+    "iconUrl": "/icons/axel_hat.webp",
+    "rarity": 4
+  },
+  {
+    "id": "bat",
+    "name": "Bat",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "Bat2",
+    "iconUrl": "/icons/bat.webp",
+    "rarity": 0
+  },
+  {
+    "id": "beam_launcher",
+    "name": "Beam Launcher",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "BeamLauncher",
+    "iconUrl": "/icons/beam_launcher.webp",
+    "rarity": 0
+  },
+  {
+    "id": "beam_launcher_2",
+    "name": "Beam Launcher (Uncommon)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "BeamLauncher_2",
+    "rarity": 1,
+    "variantOf": "beam_launcher",
+    "iconUrl": "/icons/beam_launcher.webp"
+  },
+  {
+    "id": "beam_launcher_3",
+    "name": "Beam Launcher (Rare)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "BeamLauncher_3",
+    "rarity": 2,
+    "variantOf": "beam_launcher",
+    "iconUrl": "/icons/beam_launcher.webp"
+  },
+  {
+    "id": "beam_launcher_4",
+    "name": "Beam Launcher (Epic)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "BeamLauncher_4",
+    "rarity": 3,
+    "variantOf": "beam_launcher",
+    "iconUrl": "/icons/beam_launcher.webp"
+  },
+  {
+    "id": "beam_launcher_5",
+    "name": "Beam Launcher (Legendary)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "BeamLauncher_5",
+    "rarity": 4,
+    "variantOf": "beam_launcher",
+    "iconUrl": "/icons/beam_launcher.webp"
+  },
+  {
+    "id": "beam_scatter",
+    "name": "Beam Scatter",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "WidePenetrateShotgun",
+    "iconUrl": "/icons/beam_scatter.webp",
+    "rarity": 0
+  },
+  {
+    "id": "beam_scatter_2",
+    "name": "Beam Scatter (Uncommon)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "WidePenetrateShotgun_2",
+    "rarity": 1,
+    "variantOf": "beam_scatter",
+    "iconUrl": "/icons/beam_scatter.webp"
+  },
+  {
+    "id": "beam_scatter_3",
+    "name": "Beam Scatter (Rare)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "WidePenetrateShotgun_3",
+    "rarity": 2,
+    "variantOf": "beam_scatter",
+    "iconUrl": "/icons/beam_scatter.webp"
+  },
+  {
+    "id": "beam_scatter_4",
+    "name": "Beam Scatter (Epic)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "WidePenetrateShotgun_4",
+    "rarity": 3,
+    "variantOf": "beam_scatter",
+    "iconUrl": "/icons/beam_scatter.webp"
+  },
+  {
+    "id": "beam_scatter_5",
+    "name": "Beam Scatter (Legendary)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "WidePenetrateShotgun_5",
+    "rarity": 4,
+    "variantOf": "beam_scatter",
+    "iconUrl": "/icons/beam_scatter.webp"
+  },
+  {
+    "id": "beam_sword",
+    "name": "Beam Sword",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "BeamSword",
+    "iconUrl": "/icons/beam_sword.webp",
+    "rarity": 0
+  },
+  {
+    "id": "beam_sword_2",
+    "name": "Beam Sword (Uncommon)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "BeamSword_2",
+    "rarity": 1,
+    "variantOf": "beam_sword",
+    "iconUrl": "/icons/beam_sword.webp"
+  },
+  {
+    "id": "beam_sword_3",
+    "name": "Beam Sword (Rare)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "BeamSword_3",
+    "rarity": 2,
+    "variantOf": "beam_sword",
+    "iconUrl": "/icons/beam_sword.webp"
+  },
+  {
+    "id": "beam_sword_4",
+    "name": "Beam Sword (Epic)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "BeamSword_4",
+    "rarity": 3,
+    "variantOf": "beam_sword",
+    "iconUrl": "/icons/beam_sword.webp"
+  },
+  {
+    "id": "beam_sword_5",
+    "name": "Beam Sword (Legendary)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "BeamSword_5",
+    "rarity": 4,
+    "variantOf": "beam_sword",
+    "iconUrl": "/icons/beam_sword.webp"
+  },
+  {
+    "id": "beegardes_spear",
+    "name": "Beegarde's Spear",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "Spear_SoldierBee",
+    "iconUrl": "/icons/beegardes_spear.webp",
+    "rarity": 1
+  },
+  {
+    "id": "beginner_fishing_rod_(chillet)",
+    "name": "Beginner Fishing Rod (Chillet)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "FishingRod_01_1",
+    "iconUrl": "/icons/beginner_fishing_rod_(chillet).webp",
+    "rarity": 0
+  },
+  {
+    "id": "beginner_fishing_rod_(gumoss)",
+    "name": "Beginner Fishing Rod (Gumoss)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "FishingRod_01_2",
+    "iconUrl": "/icons/beginner_fishing_rod_(gumoss).webp",
+    "rarity": 0
+  },
+  {
     "id": "bio_battery",
     "name": "Bio Battery",
     "category": "component",
@@ -85,6 +476,82 @@
     "rarity": 0
   },
   {
+    "id": "bjorn_hat",
+    "name": "Bjorn Hat",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "GYM_Head_Viking",
+    "iconUrl": "/icons/bjorn_hat.webp",
+    "rarity": 4
+  },
+  {
+    "id": "bone",
+    "name": "Bone",
+    "category": "raw",
+    "isBaseMaterial": true,
+    "code": "Bone",
+    "iconUrl": "/icons/bone.webp",
+    "rarity": 0
+  },
+  {
+    "id": "boost_gun",
+    "name": "Boost Gun",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "PalDopingShot",
+    "iconUrl": "/icons/boost_gun.webp",
+    "rarity": 0
+  },
+  {
+    "id": "bowler_hat",
+    "name": "Bowler Hat",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "Head012",
+    "iconUrl": "/icons/bowler_hat.webp",
+    "rarity": 0
+  },
+  {
+    "id": "bowler_hat_2",
+    "name": "Bowler Hat (Uncommon)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "Head012_2",
+    "rarity": 1,
+    "variantOf": "bowler_hat",
+    "iconUrl": "/icons/bowler_hat.webp"
+  },
+  {
+    "id": "bowler_hat_3",
+    "name": "Bowler Hat (Rare)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "Head012_3",
+    "rarity": 2,
+    "variantOf": "bowler_hat",
+    "iconUrl": "/icons/bowler_hat.webp"
+  },
+  {
+    "id": "bowler_hat_4",
+    "name": "Bowler Hat (Epic)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "Head012_4",
+    "rarity": 3,
+    "variantOf": "bowler_hat",
+    "iconUrl": "/icons/bowler_hat.webp"
+  },
+  {
+    "id": "bowler_hat_5",
+    "name": "Bowler Hat (Legendary)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "Head012_5",
+    "rarity": 4,
+    "variantOf": "bowler_hat",
+    "iconUrl": "/icons/bowler_hat.webp"
+  },
+  {
     "id": "carbon_fiber",
     "name": "Carbon Fiber",
     "category": "component",
@@ -92,6 +559,108 @@
     "code": "CarbonFiber",
     "iconUrl": "/icons/carbon_fiber.webp",
     "rarity": 0
+  },
+  {
+    "id": "cattiva_hat",
+    "name": "Cattiva Hat",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "HeadEquip033",
+    "iconUrl": "/icons/cattiva_hat.webp",
+    "rarity": 0
+  },
+  {
+    "id": "cavern_mushroom",
+    "name": "Cavern Mushroom",
+    "category": "consumable",
+    "isBaseMaterial": true,
+    "code": "CaveMushroom",
+    "iconUrl": "/icons/cavern_mushroom.webp",
+    "rarity": 0
+  },
+  {
+    "id": "cawgnito_hat",
+    "name": "Cawgnito Hat",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "HeadEquip027",
+    "iconUrl": "/icons/cawgnito_hat.webp",
+    "rarity": 0
+  },
+  {
+    "id": "cement",
+    "name": "Cement",
+    "category": "component",
+    "isBaseMaterial": false,
+    "code": "Cement",
+    "iconUrl": "/icons/cement.webp",
+    "rarity": 0
+  },
+  {
+    "id": "charcoal",
+    "name": "Charcoal",
+    "category": "component",
+    "isBaseMaterial": false,
+    "code": "Charcoal",
+    "iconUrl": "/icons/charcoal.webp",
+    "rarity": 0
+  },
+  {
+    "id": "charge_rifle",
+    "name": "Charge Rifle",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "ChargeLaserRifle",
+    "iconUrl": "/icons/charge_rifle.webp",
+    "rarity": 0
+  },
+  {
+    "id": "charge_rifle_2",
+    "name": "Charge Rifle (Uncommon)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "ChargeLaserRifle_2",
+    "rarity": 1,
+    "variantOf": "charge_rifle",
+    "iconUrl": "/icons/charge_rifle.webp"
+  },
+  {
+    "id": "charge_rifle_3",
+    "name": "Charge Rifle (Rare)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "ChargeLaserRifle_3",
+    "rarity": 2,
+    "variantOf": "charge_rifle",
+    "iconUrl": "/icons/charge_rifle.webp"
+  },
+  {
+    "id": "charge_rifle_4",
+    "name": "Charge Rifle (Epic)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "ChargeLaserRifle_4",
+    "rarity": 3,
+    "variantOf": "charge_rifle",
+    "iconUrl": "/icons/charge_rifle.webp"
+  },
+  {
+    "id": "charge_rifle_5",
+    "name": "Charge Rifle (Legendary)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "ChargeLaserRifle_5",
+    "rarity": 4,
+    "variantOf": "charge_rifle",
+    "iconUrl": "/icons/charge_rifle.webp"
+  },
+  {
+    "id": "chikipi_cap",
+    "name": "Chikipi Cap",
+    "category": "armor",
+    "isBaseMaterial": true,
+    "code": "HeadEquip056",
+    "iconUrl": "/icons/chikipi_cap.webp"
   },
   {
     "id": "chromite",
@@ -112,6 +681,64 @@
     "rarity": 1
   },
   {
+    "id": "cloth",
+    "name": "Cloth",
+    "category": "component",
+    "isBaseMaterial": false,
+    "code": "Cloth",
+    "iconUrl": "/icons/cloth.webp",
+    "rarity": 0
+  },
+  {
+    "id": "cloth_outfit",
+    "name": "Cloth Outfit",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "ClothArmor",
+    "iconUrl": "/icons/cloth_outfit.webp",
+    "rarity": 0
+  },
+  {
+    "id": "cloth_outfit_2",
+    "name": "Cloth Outfit (Uncommon)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "ClothArmor_2",
+    "rarity": 1,
+    "variantOf": "cloth_outfit",
+    "iconUrl": "/icons/cloth_outfit.webp"
+  },
+  {
+    "id": "cloth_outfit_3",
+    "name": "Cloth Outfit (Rare)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "ClothArmor_3",
+    "rarity": 2,
+    "variantOf": "cloth_outfit",
+    "iconUrl": "/icons/cloth_outfit.webp"
+  },
+  {
+    "id": "cloth_outfit_4",
+    "name": "Cloth Outfit (Epic)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "ClothArmor_4",
+    "rarity": 3,
+    "variantOf": "cloth_outfit",
+    "iconUrl": "/icons/cloth_outfit.webp"
+  },
+  {
+    "id": "cloth_outfit_5",
+    "name": "Cloth Outfit (Legendary)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "ClothArmor_5",
+    "rarity": 4,
+    "variantOf": "cloth_outfit",
+    "iconUrl": "/icons/cloth_outfit.webp"
+  },
+  {
     "id": "coal",
     "name": "Coal",
     "category": "raw",
@@ -119,6 +746,443 @@
     "code": "Coal",
     "iconUrl": "/icons/coal.webp",
     "rarity": 0
+  },
+  {
+    "id": "cold_resistant_hexolite_armor",
+    "name": "Cold Resistant Hexolite Armor",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "SFArmorCold",
+    "iconUrl": "/icons/cold_resistant_hexolite_armor.webp",
+    "rarity": 0
+  },
+  {
+    "id": "cold_resistant_hexolite_armor_2",
+    "name": "Cold Resistant Hexolite Armor (Uncommon)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "SFArmorCold_2",
+    "rarity": 1,
+    "variantOf": "cold_resistant_hexolite_armor",
+    "iconUrl": "/icons/cold_resistant_hexolite_armor.webp"
+  },
+  {
+    "id": "cold_resistant_hexolite_armor_3",
+    "name": "Cold Resistant Hexolite Armor (Rare)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 2,
+    "variantOf": "cold_resistant_hexolite_armor",
+    "iconUrl": "/icons/cold_resistant_hexolite_armor.webp"
+  },
+  {
+    "id": "cold_resistant_hexolite_armor_4",
+    "name": "Cold Resistant Hexolite Armor (Epic)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "SFArmorCold_4",
+    "rarity": 3,
+    "variantOf": "cold_resistant_hexolite_armor",
+    "iconUrl": "/icons/cold_resistant_hexolite_armor.webp"
+  },
+  {
+    "id": "cold_resistant_hexolite_armor_5",
+    "name": "Cold Resistant Hexolite Armor (Legendary)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 4,
+    "variantOf": "cold_resistant_hexolite_armor",
+    "iconUrl": "/icons/cold_resistant_hexolite_armor.webp"
+  },
+  {
+    "id": "cold_resistant_metal_armor",
+    "name": "Cold Resistant Metal Armor",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "CopperArmorCold",
+    "iconUrl": "/icons/cold_resistant_metal_armor.webp",
+    "rarity": 0
+  },
+  {
+    "id": "cold_resistant_metal_armor_2",
+    "name": "Cold Resistant Metal Armor (Uncommon)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "CopperArmorCold_2",
+    "rarity": 1,
+    "variantOf": "cold_resistant_metal_armor",
+    "iconUrl": "/icons/cold_resistant_metal_armor.webp"
+  },
+  {
+    "id": "cold_resistant_metal_armor_3",
+    "name": "Cold Resistant Metal Armor (Rare)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 2,
+    "variantOf": "cold_resistant_metal_armor",
+    "iconUrl": "/icons/cold_resistant_metal_armor.webp"
+  },
+  {
+    "id": "cold_resistant_metal_armor_4",
+    "name": "Cold Resistant Metal Armor (Epic)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 3,
+    "variantOf": "cold_resistant_metal_armor",
+    "iconUrl": "/icons/cold_resistant_metal_armor.webp"
+  },
+  {
+    "id": "cold_resistant_metal_armor_5",
+    "name": "Cold Resistant Metal Armor (Legendary)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "CopperArmorCold_5",
+    "rarity": 4,
+    "variantOf": "cold_resistant_metal_armor",
+    "iconUrl": "/icons/cold_resistant_metal_armor.webp"
+  },
+  {
+    "id": "cold_resistant_pal_metal_armor",
+    "name": "Cold Resistant Pal Metal Armor",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "StealArmorCold",
+    "iconUrl": "/icons/cold_resistant_pal_metal_armor.webp",
+    "rarity": 0
+  },
+  {
+    "id": "cold_resistant_pal_metal_armor_2",
+    "name": "Cold Resistant Pal Metal Armor (Uncommon)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 1,
+    "variantOf": "cold_resistant_pal_metal_armor",
+    "iconUrl": "/icons/cold_resistant_pal_metal_armor.webp"
+  },
+  {
+    "id": "cold_resistant_pal_metal_armor_3",
+    "name": "Cold Resistant Pal Metal Armor (Rare)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 2,
+    "variantOf": "cold_resistant_pal_metal_armor",
+    "iconUrl": "/icons/cold_resistant_pal_metal_armor.webp"
+  },
+  {
+    "id": "cold_resistant_pal_metal_armor_4",
+    "name": "Cold Resistant Pal Metal Armor (Epic)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 3,
+    "variantOf": "cold_resistant_pal_metal_armor",
+    "iconUrl": "/icons/cold_resistant_pal_metal_armor.webp"
+  },
+  {
+    "id": "cold_resistant_pal_metal_armor_5",
+    "name": "Cold Resistant Pal Metal Armor (Legendary)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 4,
+    "variantOf": "cold_resistant_pal_metal_armor",
+    "iconUrl": "/icons/cold_resistant_pal_metal_armor.webp"
+  },
+  {
+    "id": "cold_resistant_pelt_armor",
+    "name": "Cold Resistant Pelt Armor",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "FurArmorCold",
+    "iconUrl": "/icons/cold_resistant_pelt_armor.webp",
+    "rarity": 0
+  },
+  {
+    "id": "cold_resistant_pelt_armor_2",
+    "name": "Cold Resistant Pelt Armor (Uncommon)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "FurArmorCold_2",
+    "rarity": 1,
+    "variantOf": "cold_resistant_pelt_armor",
+    "iconUrl": "/icons/cold_resistant_pelt_armor.webp"
+  },
+  {
+    "id": "cold_resistant_pelt_armor_3",
+    "name": "Cold Resistant Pelt Armor (Rare)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 2,
+    "variantOf": "cold_resistant_pelt_armor",
+    "iconUrl": "/icons/cold_resistant_pelt_armor.webp"
+  },
+  {
+    "id": "cold_resistant_pelt_armor_4",
+    "name": "Cold Resistant Pelt Armor (Epic)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "FurArmorCold_4",
+    "rarity": 3,
+    "variantOf": "cold_resistant_pelt_armor",
+    "iconUrl": "/icons/cold_resistant_pelt_armor.webp"
+  },
+  {
+    "id": "cold_resistant_pelt_armor_5",
+    "name": "Cold Resistant Pelt Armor (Legendary)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 4,
+    "variantOf": "cold_resistant_pelt_armor",
+    "iconUrl": "/icons/cold_resistant_pelt_armor.webp"
+  },
+  {
+    "id": "cold_resistant_plasteel_armor",
+    "name": "Cold Resistant Plasteel Armor",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "PlasticArmorCold",
+    "iconUrl": "/icons/cold_resistant_plasteel_armor.webp",
+    "rarity": 0
+  },
+  {
+    "id": "cold_resistant_plasteel_armor_2",
+    "name": "Cold Resistant Plasteel Armor (Uncommon)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 1,
+    "variantOf": "cold_resistant_plasteel_armor",
+    "iconUrl": "/icons/cold_resistant_plasteel_armor.webp"
+  },
+  {
+    "id": "cold_resistant_plasteel_armor_3",
+    "name": "Cold Resistant Plasteel Armor (Rare)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "PlasticArmorCold_3",
+    "rarity": 2,
+    "variantOf": "cold_resistant_plasteel_armor",
+    "iconUrl": "/icons/cold_resistant_plasteel_armor.webp"
+  },
+  {
+    "id": "cold_resistant_plasteel_armor_4",
+    "name": "Cold Resistant Plasteel Armor (Epic)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "PlasticArmorCold_4",
+    "rarity": 3,
+    "variantOf": "cold_resistant_plasteel_armor",
+    "iconUrl": "/icons/cold_resistant_plasteel_armor.webp"
+  },
+  {
+    "id": "cold_resistant_plasteel_armor_5",
+    "name": "Cold Resistant Plasteel Armor (Legendary)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "PlasticArmorCold_5",
+    "rarity": 4,
+    "variantOf": "cold_resistant_plasteel_armor",
+    "iconUrl": "/icons/cold_resistant_plasteel_armor.webp"
+  },
+  {
+    "id": "cold_resistant_refined_metal_armor",
+    "name": "Cold Resistant Refined Metal Armor",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "IronArmorCold",
+    "iconUrl": "/icons/cold_resistant_refined_metal_armor.webp",
+    "rarity": 0
+  },
+  {
+    "id": "cold_resistant_refined_metal_armor_2",
+    "name": "Cold Resistant Refined Metal Armor (Uncommon)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "IronArmorCold_2",
+    "rarity": 1,
+    "variantOf": "cold_resistant_refined_metal_armor",
+    "iconUrl": "/icons/cold_resistant_refined_metal_armor.webp"
+  },
+  {
+    "id": "cold_resistant_refined_metal_armor_3",
+    "name": "Cold Resistant Refined Metal Armor (Rare)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "IronArmorCold_3",
+    "rarity": 2,
+    "variantOf": "cold_resistant_refined_metal_armor",
+    "iconUrl": "/icons/cold_resistant_refined_metal_armor.webp"
+  },
+  {
+    "id": "cold_resistant_refined_metal_armor_4",
+    "name": "Cold Resistant Refined Metal Armor (Epic)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "IronArmorCold_4",
+    "rarity": 3,
+    "variantOf": "cold_resistant_refined_metal_armor",
+    "iconUrl": "/icons/cold_resistant_refined_metal_armor.webp"
+  },
+  {
+    "id": "cold_resistant_refined_metal_armor_5",
+    "name": "Cold Resistant Refined Metal Armor (Legendary)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 4,
+    "variantOf": "cold_resistant_refined_metal_armor",
+    "iconUrl": "/icons/cold_resistant_refined_metal_armor.webp"
+  },
+  {
+    "id": "cold-resistant_ancient_armor",
+    "name": "Cold-Resistant Ancient Armor",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "AncientArmorCold",
+    "iconUrl": "/icons/cold-resistant_ancient_armor.webp",
+    "rarity": 0
+  },
+  {
+    "id": "cold-resistant_ancient_armor_2",
+    "name": "Cold-Resistant Ancient Armor (Uncommon)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "AncientArmorCold_2",
+    "rarity": 1,
+    "variantOf": "cold-resistant_ancient_armor",
+    "iconUrl": "/icons/cold-resistant_ancient_armor.webp"
+  },
+  {
+    "id": "cold-resistant_ancient_armor_3",
+    "name": "Cold-Resistant Ancient Armor (Rare)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "AncientArmorCold_3",
+    "rarity": 2,
+    "variantOf": "cold-resistant_ancient_armor",
+    "iconUrl": "/icons/cold-resistant_ancient_armor.webp"
+  },
+  {
+    "id": "cold-resistant_ancient_armor_4",
+    "name": "Cold-Resistant Ancient Armor (Epic)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "AncientArmorCold_4",
+    "rarity": 3,
+    "variantOf": "cold-resistant_ancient_armor",
+    "iconUrl": "/icons/cold-resistant_ancient_armor.webp"
+  },
+  {
+    "id": "cold-resistant_ancient_armor_5",
+    "name": "Cold-Resistant Ancient Armor (Legendary)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 4,
+    "variantOf": "cold-resistant_ancient_armor",
+    "iconUrl": "/icons/cold-resistant_ancient_armor.webp"
+  },
+  {
+    "id": "combat_smg",
+    "name": "Combat SMG",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "SkySubmachineGun",
+    "iconUrl": "/icons/combat_smg.webp",
+    "rarity": 0
+  },
+  {
+    "id": "combat_smg_2",
+    "name": "Combat SMG (Uncommon)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "SkySubmachineGun_2",
+    "rarity": 1,
+    "variantOf": "combat_smg",
+    "iconUrl": "/icons/combat_smg.webp"
+  },
+  {
+    "id": "combat_smg_3",
+    "name": "Combat SMG (Rare)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "SkySubmachineGun_3",
+    "rarity": 2,
+    "variantOf": "combat_smg",
+    "iconUrl": "/icons/combat_smg.webp"
+  },
+  {
+    "id": "combat_smg_4",
+    "name": "Combat SMG (Epic)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "SkySubmachineGun_4",
+    "rarity": 3,
+    "variantOf": "combat_smg",
+    "iconUrl": "/icons/combat_smg.webp"
+  },
+  {
+    "id": "combat_smg_5",
+    "name": "Combat SMG (Legendary)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "SkySubmachineGun_5",
+    "rarity": 4,
+    "variantOf": "combat_smg",
+    "iconUrl": "/icons/combat_smg.webp"
+  },
+  {
+    "id": "common_shield",
+    "name": "Common Shield",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "Shield_01",
+    "iconUrl": "/icons/common_shield.webp",
+    "rarity": 0
+  },
+  {
+    "id": "compound_bow",
+    "name": "Compound Bow",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "CompoundBow",
+    "iconUrl": "/icons/compound_bow.webp",
+    "rarity": 0
+  },
+  {
+    "id": "compound_bow_2",
+    "name": "Compound Bow (Uncommon)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "CompoundBow_2",
+    "rarity": 1,
+    "variantOf": "compound_bow",
+    "iconUrl": "/icons/compound_bow.webp"
+  },
+  {
+    "id": "compound_bow_3",
+    "name": "Compound Bow (Rare)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "CompoundBow_3",
+    "rarity": 2,
+    "variantOf": "compound_bow",
+    "iconUrl": "/icons/compound_bow.webp"
+  },
+  {
+    "id": "compound_bow_4",
+    "name": "Compound Bow (Epic)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "CompoundBow_4",
+    "rarity": 3,
+    "variantOf": "compound_bow",
+    "iconUrl": "/icons/compound_bow.webp"
+  },
+  {
+    "id": "compound_bow_5",
+    "name": "Compound Bow (Legendary)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "CompoundBow_5",
+    "rarity": 4,
+    "variantOf": "compound_bow",
+    "iconUrl": "/icons/compound_bow.webp"
   },
   {
     "id": "computer",
@@ -130,6 +1194,73 @@
     "rarity": 0
   },
   {
+    "id": "coralum_ingot",
+    "name": "Coralum Ingot",
+    "category": "component",
+    "isBaseMaterial": false,
+    "code": "ManganeseIngot",
+    "iconUrl": "/icons/coralum_ingot.webp",
+    "rarity": 0
+  },
+  {
+    "id": "coralum_ore",
+    "name": "Coralum Ore",
+    "category": "raw",
+    "isBaseMaterial": true,
+    "code": "ManganeseOre",
+    "iconUrl": "/icons/coralum_ore.webp",
+    "rarity": 0
+  },
+  {
+    "id": "core_eject_shotgun",
+    "name": "Core Eject Shotgun",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "OctaviaShotgun",
+    "iconUrl": "/icons/core_eject_shotgun.webp",
+    "rarity": 0
+  },
+  {
+    "id": "core_eject_shotgun_2",
+    "name": "Core Eject Shotgun (Uncommon)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "OctaviaShotgun_2",
+    "rarity": 1,
+    "variantOf": "core_eject_shotgun",
+    "iconUrl": "/icons/core_eject_shotgun.webp"
+  },
+  {
+    "id": "core_eject_shotgun_3",
+    "name": "Core Eject Shotgun (Rare)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "OctaviaShotgun_3",
+    "rarity": 2,
+    "variantOf": "core_eject_shotgun",
+    "iconUrl": "/icons/core_eject_shotgun.webp"
+  },
+  {
+    "id": "core_eject_shotgun_4",
+    "name": "Core Eject Shotgun (Epic)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "OctaviaShotgun_4",
+    "rarity": 3,
+    "variantOf": "core_eject_shotgun",
+    "iconUrl": "/icons/core_eject_shotgun.webp"
+  },
+  {
+    "id": "core_eject_shotgun_5",
+    "name": "Core Eject Shotgun (Legendary)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "OctaviaShotgun_5",
+    "rarity": 4,
+    "variantOf": "core_eject_shotgun",
+    "iconUrl": "/icons/core_eject_shotgun.webp"
+  },
+  {
     "id": "corrosive_solvent",
     "name": "Corrosive Solvent",
     "category": "component",
@@ -139,12 +1270,282 @@
     "rarity": 0
   },
   {
+    "id": "croajiro_cap",
+    "name": "Croajiro Cap",
+    "category": "armor",
+    "isBaseMaterial": true,
+    "code": "HeadEquip055",
+    "iconUrl": "/icons/croajiro_cap.webp"
+  },
+  {
+    "id": "crossbow",
+    "name": "Crossbow",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "BowGun",
+    "iconUrl": "/icons/crossbow.webp",
+    "rarity": 0
+  },
+  {
+    "id": "crossbow_2",
+    "name": "Crossbow (Uncommon)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "BowGun_2",
+    "rarity": 1,
+    "variantOf": "crossbow",
+    "iconUrl": "/icons/crossbow.webp"
+  },
+  {
+    "id": "crossbow_3",
+    "name": "Crossbow (Rare)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "BowGun_3",
+    "rarity": 2,
+    "variantOf": "crossbow",
+    "iconUrl": "/icons/crossbow.webp"
+  },
+  {
+    "id": "crossbow_4",
+    "name": "Crossbow (Epic)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "BowGun_4",
+    "rarity": 3,
+    "variantOf": "crossbow",
+    "iconUrl": "/icons/crossbow.webp"
+  },
+  {
+    "id": "crossbow_5",
+    "name": "Crossbow (Legendary)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "BowGun_5",
+    "rarity": 4,
+    "variantOf": "crossbow",
+    "iconUrl": "/icons/crossbow.webp"
+  },
+  {
+    "id": "crown_of_salvation",
+    "name": "Crown of Salvation",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "HeadEquip046",
+    "iconUrl": "/icons/crown_of_salvation.webp",
+    "rarity": 4
+  },
+  {
     "id": "crude_oil",
     "name": "Crude Oil",
     "category": "raw",
     "isBaseMaterial": true,
     "code": "CrudeOil",
     "iconUrl": "/icons/crude_oil.webp",
+    "rarity": 0
+  },
+  {
+    "id": "cryogenic_coolant",
+    "name": "Cryogenic Coolant",
+    "category": "component",
+    "isBaseMaterial": false,
+    "code": "Bio_Coolant",
+    "iconUrl": "/icons/cryogenic_coolant.webp",
+    "rarity": 0
+  },
+  {
+    "id": "dandilord_hat",
+    "name": "Dandilord Hat",
+    "category": "armor",
+    "isBaseMaterial": true,
+    "code": "HeadEquip057",
+    "iconUrl": "/icons/dandilord_hat.webp"
+  },
+  {
+    "id": "dark_grenade",
+    "name": "Dark Grenade",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "FragGrenade_Dark",
+    "iconUrl": "/icons/dark_grenade.webp",
+    "rarity": 0
+  },
+  {
+    "id": "dazzi_cloud",
+    "name": "Dazzi Cloud",
+    "category": "raw",
+    "isBaseMaterial": true,
+    "code": "PalItem_RaijinDaughter",
+    "iconUrl": "/icons/dazzi_cloud.webp",
+    "rarity": 0
+  },
+  {
+    "id": "dazzi_hat",
+    "name": "Dazzi Hat",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "HeadEquip032",
+    "iconUrl": "/icons/dazzi_hat.webp",
+    "rarity": 0
+  },
+  {
+    "id": "dazzi_hat_2",
+    "name": "Dazzi Hat (Uncommon)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "HeadEquip032_2",
+    "rarity": 1,
+    "variantOf": "dazzi_hat",
+    "iconUrl": "/icons/dazzi_hat.webp"
+  },
+  {
+    "id": "dazzi_hat_3",
+    "name": "Dazzi Hat (Rare)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "HeadEquip032_3",
+    "rarity": 2,
+    "variantOf": "dazzi_hat",
+    "iconUrl": "/icons/dazzi_hat.webp"
+  },
+  {
+    "id": "dazzi_hat_4",
+    "name": "Dazzi Hat (Epic)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "HeadEquip032_4",
+    "rarity": 3,
+    "variantOf": "dazzi_hat",
+    "iconUrl": "/icons/dazzi_hat.webp"
+  },
+  {
+    "id": "dazzi_hat_5",
+    "name": "Dazzi Hat (Legendary)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 4,
+    "variantOf": "dazzi_hat",
+    "iconUrl": "/icons/dazzi_hat.webp"
+  },
+  {
+    "id": "decal_gun_1",
+    "name": "Decal Gun 1",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "DecalGun_1",
+    "iconUrl": "/icons/decal_gun_1.webp",
+    "rarity": 0
+  },
+  {
+    "id": "decal_gun_2",
+    "name": "Decal Gun 2",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "DecalGun_2",
+    "iconUrl": "/icons/decal_gun_2.webp",
+    "rarity": 0
+  },
+  {
+    "id": "decal_gun_3",
+    "name": "Decal Gun 3",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "DecalGun_3",
+    "iconUrl": "/icons/decal_gun_3.webp",
+    "rarity": 0
+  },
+  {
+    "id": "decal_gun_4",
+    "name": "Decal Gun 4",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "DecalGun_4",
+    "iconUrl": "/icons/decal_gun_4.webp",
+    "rarity": 0
+  },
+  {
+    "id": "decal_gun_5",
+    "name": "Decal Gun 5",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "DecalGun_5",
+    "iconUrl": "/icons/decal_gun_5.webp",
+    "rarity": 0
+  },
+  {
+    "id": "depresso_armor",
+    "name": "Depresso Armor",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "Player_Outfit_Kigurumi001",
+    "iconUrl": "/icons/depresso_armor.webp",
+    "rarity": 3
+  },
+  {
+    "id": "depresso_helmet",
+    "name": "Depresso Helmet",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "HeadEquip045",
+    "iconUrl": "/icons/depresso_helmet.webp",
+    "rarity": 3
+  },
+  {
+    "id": "double-barreled_shotgun",
+    "name": "Double-Barreled Shotgun",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "DoubleBarrelShotgun",
+    "iconUrl": "/icons/double-barreled_shotgun.webp",
+    "rarity": 0
+  },
+  {
+    "id": "double-barreled_shotgun_2",
+    "name": "Double-Barreled Shotgun (Uncommon)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "DoubleBarrelShotgun_2",
+    "rarity": 1,
+    "variantOf": "double-barreled_shotgun",
+    "iconUrl": "/icons/double-barreled_shotgun.webp"
+  },
+  {
+    "id": "double-barreled_shotgun_3",
+    "name": "Double-Barreled Shotgun (Rare)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "DoubleBarrelShotgun_3",
+    "rarity": 2,
+    "variantOf": "double-barreled_shotgun",
+    "iconUrl": "/icons/double-barreled_shotgun.webp"
+  },
+  {
+    "id": "double-barreled_shotgun_4",
+    "name": "Double-Barreled Shotgun (Epic)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "DoubleBarrelShotgun_4",
+    "rarity": 3,
+    "variantOf": "double-barreled_shotgun",
+    "iconUrl": "/icons/double-barreled_shotgun.webp"
+  },
+  {
+    "id": "double-barreled_shotgun_5",
+    "name": "Double-Barreled Shotgun (Legendary)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "DoubleBarrelShotgun_5",
+    "rarity": 4,
+    "variantOf": "double-barreled_shotgun",
+    "iconUrl": "/icons/double-barreled_shotgun.webp"
+  },
+  {
+    "id": "dragon_grenade",
+    "name": "Dragon Grenade",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "FragGrenade_Dragon",
+    "iconUrl": "/icons/dragon_grenade.webp",
     "rarity": 0
   },
   {
@@ -197,6 +1598,15 @@
     "iconUrl": "/icons/drone_launcher.webp"
   },
   {
+    "id": "dumud_helm",
+    "name": "Dumud Helm",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "HeadEquip030",
+    "iconUrl": "/icons/dumud_helm.webp",
+    "rarity": 0
+  },
+  {
     "id": "electric_organ",
     "name": "Electric Organ",
     "category": "raw",
@@ -204,6 +1614,265 @@
     "code": "ElectricOrgan",
     "iconUrl": "/icons/electric_organ.webp",
     "rarity": 0
+  },
+  {
+    "id": "elizabees_staff",
+    "name": "Elizabee's Staff",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "Spear_QueenBee",
+    "iconUrl": "/icons/elizabees_staff.webp",
+    "rarity": 1
+  },
+  {
+    "id": "energy_shotgun",
+    "name": "Energy Shotgun",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "EnergyShotgun",
+    "iconUrl": "/icons/energy_shotgun.webp",
+    "rarity": 0
+  },
+  {
+    "id": "energy_shotgun_2",
+    "name": "Energy Shotgun (Uncommon)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "EnergyShotgun_2",
+    "rarity": 1,
+    "variantOf": "energy_shotgun",
+    "iconUrl": "/icons/energy_shotgun.webp"
+  },
+  {
+    "id": "energy_shotgun_3",
+    "name": "Energy Shotgun (Rare)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "EnergyShotgun_3",
+    "rarity": 2,
+    "variantOf": "energy_shotgun",
+    "iconUrl": "/icons/energy_shotgun.webp"
+  },
+  {
+    "id": "energy_shotgun_4",
+    "name": "Energy Shotgun (Epic)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "EnergyShotgun_4",
+    "rarity": 3,
+    "variantOf": "energy_shotgun",
+    "iconUrl": "/icons/energy_shotgun.webp"
+  },
+  {
+    "id": "energy_shotgun_5",
+    "name": "Energy Shotgun (Legendary)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "EnergyShotgun_5",
+    "rarity": 4,
+    "variantOf": "energy_shotgun",
+    "iconUrl": "/icons/energy_shotgun.webp"
+  },
+  {
+    "id": "enhanced_lilys_spear",
+    "name": "Enhanced Lily's Spear",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "Spear_ForestBoss2",
+    "iconUrl": "/icons/enhanced_lilys_spear.webp",
+    "rarity": 2
+  },
+  {
+    "id": "enhanced_lilys_spear_2",
+    "name": "Enhanced Lily's Spear (Legendary)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "rarity": 4,
+    "variantOf": "enhanced_lilys_spear",
+    "iconUrl": "/icons/enhanced_lilys_spear.webp"
+  },
+  {
+    "id": "excalibur",
+    "name": "Excalibur",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "YakushimaBlade004",
+    "iconUrl": "/icons/excalibur.webp",
+    "rarity": 0
+  },
+  {
+    "id": "excalibur_3",
+    "name": "Excalibur (Rare)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "YakushimaBlade004_3",
+    "rarity": 2,
+    "variantOf": "excalibur",
+    "iconUrl": "/icons/excalibur.webp"
+  },
+  {
+    "id": "excalibur_4",
+    "name": "Excalibur (Epic)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "YakushimaBlade004_4",
+    "rarity": 3,
+    "variantOf": "excalibur",
+    "iconUrl": "/icons/excalibur.webp"
+  },
+  {
+    "id": "explorer_cap",
+    "name": "Explorer Cap",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "Head009",
+    "iconUrl": "/icons/explorer_cap.webp",
+    "rarity": 0
+  },
+  {
+    "id": "explorer_cap_2",
+    "name": "Explorer Cap (Uncommon)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "Head009_2",
+    "rarity": 1,
+    "variantOf": "explorer_cap",
+    "iconUrl": "/icons/explorer_cap.webp"
+  },
+  {
+    "id": "explorer_cap_3",
+    "name": "Explorer Cap (Rare)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "Head009_3",
+    "rarity": 2,
+    "variantOf": "explorer_cap",
+    "iconUrl": "/icons/explorer_cap.webp"
+  },
+  {
+    "id": "explorer_cap_4",
+    "name": "Explorer Cap (Epic)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "Head009_4",
+    "rarity": 3,
+    "variantOf": "explorer_cap",
+    "iconUrl": "/icons/explorer_cap.webp"
+  },
+  {
+    "id": "explorer_cap_5",
+    "name": "Explorer Cap (Legendary)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 4,
+    "variantOf": "explorer_cap",
+    "iconUrl": "/icons/explorer_cap.webp"
+  },
+  {
+    "id": "eye_of_cthulhu_mask",
+    "name": "Eye of Cthulhu Mask",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "YakushimaHeadEquip006",
+    "iconUrl": "/icons/eye_of_cthulhu_mask.webp",
+    "rarity": 4
+  },
+  {
+    "id": "farming_hat",
+    "name": "Farming Hat",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "Head011",
+    "iconUrl": "/icons/farming_hat.webp",
+    "rarity": 0
+  },
+  {
+    "id": "farming_hat_2",
+    "name": "Farming Hat (Uncommon)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "Head011_2",
+    "rarity": 1,
+    "variantOf": "farming_hat",
+    "iconUrl": "/icons/farming_hat.webp"
+  },
+  {
+    "id": "farming_hat_3",
+    "name": "Farming Hat (Rare)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "Head011_3",
+    "rarity": 2,
+    "variantOf": "farming_hat",
+    "iconUrl": "/icons/farming_hat.webp"
+  },
+  {
+    "id": "farming_hat_4",
+    "name": "Farming Hat (Epic)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "Head011_4",
+    "rarity": 3,
+    "variantOf": "farming_hat",
+    "iconUrl": "/icons/farming_hat.webp"
+  },
+  {
+    "id": "farming_hat_5",
+    "name": "Farming Hat (Legendary)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "Head011_5",
+    "rarity": 4,
+    "variantOf": "farming_hat",
+    "iconUrl": "/icons/farming_hat.webp"
+  },
+  {
+    "id": "feathered_hair_band",
+    "name": "Feathered Hair Band",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "FurHelmet",
+    "iconUrl": "/icons/feathered_hair_band.webp",
+    "rarity": 0
+  },
+  {
+    "id": "feathered_hair_band_2",
+    "name": "Feathered Hair Band (Uncommon)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "FurHelmet_2",
+    "rarity": 1,
+    "variantOf": "feathered_hair_band",
+    "iconUrl": "/icons/feathered_hair_band.webp"
+  },
+  {
+    "id": "feathered_hair_band_3",
+    "name": "Feathered Hair Band (Rare)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "FurHelmet_3",
+    "rarity": 2,
+    "variantOf": "feathered_hair_band",
+    "iconUrl": "/icons/feathered_hair_band.webp"
+  },
+  {
+    "id": "feathered_hair_band_4",
+    "name": "Feathered Hair Band (Epic)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "FurHelmet_4",
+    "rarity": 3,
+    "variantOf": "feathered_hair_band",
+    "iconUrl": "/icons/feathered_hair_band.webp"
+  },
+  {
+    "id": "feathered_hair_band_5",
+    "name": "Feathered Hair Band (Legendary)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 4,
+    "variantOf": "feathered_hair_band",
+    "iconUrl": "/icons/feathered_hair_band.webp"
   },
   {
     "id": "fiber",
@@ -215,12 +1884,811 @@
     "rarity": 0
   },
   {
+    "id": "fire_arrow_crossbow",
+    "name": "Fire Arrow Crossbow",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "BowGun_Fire",
+    "iconUrl": "/icons/fire_arrow_crossbow.webp",
+    "rarity": 0
+  },
+  {
+    "id": "fire_arrow_crossbow_2",
+    "name": "Fire Arrow Crossbow (Uncommon)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "BowGun_Fire_2",
+    "rarity": 1,
+    "variantOf": "fire_arrow_crossbow",
+    "iconUrl": "/icons/fire_arrow_crossbow.webp"
+  },
+  {
+    "id": "fire_arrow_crossbow_3",
+    "name": "Fire Arrow Crossbow (Rare)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "BowGun_Fire_3",
+    "rarity": 2,
+    "variantOf": "fire_arrow_crossbow",
+    "iconUrl": "/icons/fire_arrow_crossbow.webp"
+  },
+  {
+    "id": "fire_arrow_crossbow_4",
+    "name": "Fire Arrow Crossbow (Epic)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "BowGun_Fire_4",
+    "rarity": 3,
+    "variantOf": "fire_arrow_crossbow",
+    "iconUrl": "/icons/fire_arrow_crossbow.webp"
+  },
+  {
+    "id": "fire_arrow_crossbow_5",
+    "name": "Fire Arrow Crossbow (Legendary)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "BowGun_Fire_5",
+    "rarity": 4,
+    "variantOf": "fire_arrow_crossbow",
+    "iconUrl": "/icons/fire_arrow_crossbow.webp"
+  },
+  {
+    "id": "fire_bow",
+    "name": "Fire Bow",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "Bow_Fire",
+    "iconUrl": "/icons/fire_bow.webp",
+    "rarity": 0
+  },
+  {
     "id": "flame_organ",
     "name": "Flame Organ",
     "category": "raw",
     "isBaseMaterial": true,
     "code": "FireOrgan",
     "iconUrl": "/icons/flame_organ.webp",
+    "rarity": 0
+  },
+  {
+    "id": "flamethrower",
+    "name": "Flamethrower",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "FlameThrower",
+    "iconUrl": "/icons/flamethrower.webp",
+    "rarity": 0
+  },
+  {
+    "id": "flamethrower_2",
+    "name": "Flamethrower (Uncommon)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "FlameThrower_2",
+    "rarity": 1,
+    "variantOf": "flamethrower",
+    "iconUrl": "/icons/flamethrower.webp"
+  },
+  {
+    "id": "flamethrower_3",
+    "name": "Flamethrower (Rare)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "FlameThrower_3",
+    "rarity": 2,
+    "variantOf": "flamethrower",
+    "iconUrl": "/icons/flamethrower.webp"
+  },
+  {
+    "id": "flamethrower_4",
+    "name": "Flamethrower (Epic)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "FlameThrower_4",
+    "rarity": 3,
+    "variantOf": "flamethrower",
+    "iconUrl": "/icons/flamethrower.webp"
+  },
+  {
+    "id": "flamethrower_5",
+    "name": "Flamethrower (Legendary)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "FlameThrower_5",
+    "rarity": 4,
+    "variantOf": "flamethrower",
+    "iconUrl": "/icons/flamethrower.webp"
+  },
+  {
+    "id": "frag_grenade",
+    "name": "Frag Grenade",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "FragGrenade",
+    "iconUrl": "/icons/frag_grenade.webp",
+    "rarity": 0
+  },
+  {
+    "id": "frag_grenade_mk2",
+    "name": "Frag Grenade Mk2",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "FragGrenade_Super",
+    "iconUrl": "/icons/frag_grenade_mk2.webp",
+    "rarity": 0
+  },
+  {
+    "id": "gatling_gun",
+    "name": "Gatling Gun",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "GatlingGun",
+    "iconUrl": "/icons/gatling_gun.webp",
+    "rarity": 0
+  },
+  {
+    "id": "gatling_gun_2",
+    "name": "Gatling Gun (Uncommon)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "GatlingGun_2",
+    "rarity": 1,
+    "variantOf": "gatling_gun",
+    "iconUrl": "/icons/gatling_gun.webp"
+  },
+  {
+    "id": "gatling_gun_3",
+    "name": "Gatling Gun (Rare)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "GatlingGun_3",
+    "rarity": 2,
+    "variantOf": "gatling_gun",
+    "iconUrl": "/icons/gatling_gun.webp"
+  },
+  {
+    "id": "gatling_gun_4",
+    "name": "Gatling Gun (Epic)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "GatlingGun_4",
+    "rarity": 3,
+    "variantOf": "gatling_gun",
+    "iconUrl": "/icons/gatling_gun.webp"
+  },
+  {
+    "id": "gatling_gun_5",
+    "name": "Gatling Gun (Legendary)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "GatlingGun_5",
+    "rarity": 4,
+    "variantOf": "gatling_gun",
+    "iconUrl": "/icons/gatling_gun.webp"
+  },
+  {
+    "id": "ghangler_accessory",
+    "name": "Ghangler Accessory",
+    "category": "armor",
+    "isBaseMaterial": true,
+    "code": "HeadEquip059",
+    "iconUrl": "/icons/ghangler_accessory.webp"
+  },
+  {
+    "id": "giga_grappling_gun",
+    "name": "Giga Grappling Gun",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "GrapplingGun3",
+    "iconUrl": "/icons/giga_grappling_gun.webp",
+    "rarity": 2
+  },
+  {
+    "id": "giga_shield",
+    "name": "Giga Shield",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "Shield_03",
+    "iconUrl": "/icons/giga_shield.webp",
+    "rarity": 1
+  },
+  {
+    "id": "gloopie_hat",
+    "name": "Gloopie Hat",
+    "category": "armor",
+    "isBaseMaterial": true,
+    "code": "HeadEquip052",
+    "iconUrl": "/icons/gloopie_hat.webp"
+  },
+  {
+    "id": "gold_coin",
+    "name": "Gold Coin",
+    "category": "component",
+    "isBaseMaterial": false,
+    "code": "Money",
+    "iconUrl": "/icons/gold_coin.webp",
+    "rarity": 0
+  },
+  {
+    "id": "golden_crown",
+    "name": "Golden Crown",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "Head002",
+    "iconUrl": "/icons/golden_crown.webp",
+    "rarity": 0
+  },
+  {
+    "id": "golden_crown_2",
+    "name": "Golden Crown (Uncommon)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 1,
+    "variantOf": "golden_crown",
+    "iconUrl": "/icons/golden_crown.webp"
+  },
+  {
+    "id": "golden_crown_3",
+    "name": "Golden Crown (Rare)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 2,
+    "variantOf": "golden_crown",
+    "iconUrl": "/icons/golden_crown.webp"
+  },
+  {
+    "id": "golden_crown_4",
+    "name": "Golden Crown (Epic)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 3,
+    "variantOf": "golden_crown",
+    "iconUrl": "/icons/golden_crown.webp"
+  },
+  {
+    "id": "golden_crown_5",
+    "name": "Golden Crown (Legendary)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 4,
+    "variantOf": "golden_crown",
+    "iconUrl": "/icons/golden_crown.webp"
+  },
+  {
+    "id": "graduation_cap",
+    "name": "Graduation Cap",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "Head010",
+    "iconUrl": "/icons/graduation_cap.webp",
+    "rarity": 0
+  },
+  {
+    "id": "graduation_cap_2",
+    "name": "Graduation Cap (Uncommon)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 1,
+    "variantOf": "graduation_cap",
+    "iconUrl": "/icons/graduation_cap.webp"
+  },
+  {
+    "id": "graduation_cap_3",
+    "name": "Graduation Cap (Rare)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "Head010_3",
+    "rarity": 2,
+    "variantOf": "graduation_cap",
+    "iconUrl": "/icons/graduation_cap.webp"
+  },
+  {
+    "id": "graduation_cap_4",
+    "name": "Graduation Cap (Epic)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "Head010_4",
+    "rarity": 3,
+    "variantOf": "graduation_cap",
+    "iconUrl": "/icons/graduation_cap.webp"
+  },
+  {
+    "id": "graduation_cap_5",
+    "name": "Graduation Cap (Legendary)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "Head010_5",
+    "rarity": 4,
+    "variantOf": "graduation_cap",
+    "iconUrl": "/icons/graduation_cap.webp"
+  },
+  {
+    "id": "grappling_gun",
+    "name": "Grappling Gun",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "GrapplingGun",
+    "iconUrl": "/icons/grappling_gun.webp",
+    "rarity": 0
+  },
+  {
+    "id": "grass_grenade",
+    "name": "Grass Grenade",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "FragGrenade_Leaf",
+    "iconUrl": "/icons/grass_grenade.webp",
+    "rarity": 0
+  },
+  {
+    "id": "grenade_launcher",
+    "name": "Grenade Launcher",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "GrenadeLauncher",
+    "iconUrl": "/icons/grenade_launcher.webp",
+    "rarity": 0
+  },
+  {
+    "id": "grenade_launcher_2",
+    "name": "Grenade Launcher (Uncommon)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "GrenadeLauncher_2",
+    "rarity": 1,
+    "variantOf": "grenade_launcher",
+    "iconUrl": "/icons/grenade_launcher.webp"
+  },
+  {
+    "id": "grenade_launcher_3",
+    "name": "Grenade Launcher (Rare)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "GrenadeLauncher_3",
+    "rarity": 2,
+    "variantOf": "grenade_launcher",
+    "iconUrl": "/icons/grenade_launcher.webp"
+  },
+  {
+    "id": "grenade_launcher_4",
+    "name": "Grenade Launcher (Epic)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "GrenadeLauncher_4",
+    "rarity": 3,
+    "variantOf": "grenade_launcher",
+    "iconUrl": "/icons/grenade_launcher.webp"
+  },
+  {
+    "id": "grenade_launcher_5",
+    "name": "Grenade Launcher (Legendary)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "GrenadeLauncher_5",
+    "rarity": 4,
+    "variantOf": "grenade_launcher",
+    "iconUrl": "/icons/grenade_launcher.webp"
+  },
+  {
+    "id": "grinning_tocotoco_cap",
+    "name": "Grinning Tocotoco Cap",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "Head014",
+    "iconUrl": "/icons/grinning_tocotoco_cap.webp",
+    "rarity": 0
+  },
+  {
+    "id": "grinning_tocotoco_cap_2",
+    "name": "Grinning Tocotoco Cap (Uncommon)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 1,
+    "variantOf": "grinning_tocotoco_cap",
+    "iconUrl": "/icons/grinning_tocotoco_cap.webp"
+  },
+  {
+    "id": "grinning_tocotoco_cap_3",
+    "name": "Grinning Tocotoco Cap (Rare)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "Head014_3",
+    "rarity": 2,
+    "variantOf": "grinning_tocotoco_cap",
+    "iconUrl": "/icons/grinning_tocotoco_cap.webp"
+  },
+  {
+    "id": "grinning_tocotoco_cap_4",
+    "name": "Grinning Tocotoco Cap (Epic)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "Head014_4",
+    "rarity": 3,
+    "variantOf": "grinning_tocotoco_cap",
+    "iconUrl": "/icons/grinning_tocotoco_cap.webp"
+  },
+  {
+    "id": "grinning_tocotoco_cap_5",
+    "name": "Grinning Tocotoco Cap (Legendary)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 4,
+    "variantOf": "grinning_tocotoco_cap",
+    "iconUrl": "/icons/grinning_tocotoco_cap.webp"
+  },
+  {
+    "id": "ground_grenade",
+    "name": "Ground Grenade",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "FragGrenade_Ground",
+    "iconUrl": "/icons/ground_grenade.webp",
+    "rarity": 0
+  },
+  {
+    "id": "guided_missile_launcher",
+    "name": "Guided Missile Launcher",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "GuidedMissileLauncher",
+    "iconUrl": "/icons/guided_missile_launcher.webp",
+    "rarity": 0
+  },
+  {
+    "id": "guided_missile_launcher_2",
+    "name": "Guided Missile Launcher (Uncommon)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "GuidedMissileLauncher_2",
+    "rarity": 1,
+    "variantOf": "guided_missile_launcher",
+    "iconUrl": "/icons/guided_missile_launcher.webp"
+  },
+  {
+    "id": "guided_missile_launcher_3",
+    "name": "Guided Missile Launcher (Rare)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "GuidedMissileLauncher_3",
+    "rarity": 2,
+    "variantOf": "guided_missile_launcher",
+    "iconUrl": "/icons/guided_missile_launcher.webp"
+  },
+  {
+    "id": "guided_missile_launcher_4",
+    "name": "Guided Missile Launcher (Epic)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "GuidedMissileLauncher_4",
+    "rarity": 3,
+    "variantOf": "guided_missile_launcher",
+    "iconUrl": "/icons/guided_missile_launcher.webp"
+  },
+  {
+    "id": "guided_missile_launcher_5",
+    "name": "Guided Missile Launcher (Legendary)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "rarity": 4,
+    "variantOf": "guided_missile_launcher",
+    "iconUrl": "/icons/guided_missile_launcher.webp"
+  },
+  {
+    "id": "gumoss_cap",
+    "name": "Gumoss Cap",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "Head015",
+    "iconUrl": "/icons/gumoss_cap.webp",
+    "rarity": 0
+  },
+  {
+    "id": "gumoss_cap_2",
+    "name": "Gumoss Cap (Uncommon)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 1,
+    "variantOf": "gumoss_cap",
+    "iconUrl": "/icons/gumoss_cap.webp"
+  },
+  {
+    "id": "gumoss_cap_3",
+    "name": "Gumoss Cap (Rare)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 2,
+    "variantOf": "gumoss_cap",
+    "iconUrl": "/icons/gumoss_cap.webp"
+  },
+  {
+    "id": "gumoss_cap_4",
+    "name": "Gumoss Cap (Epic)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "Head015_4",
+    "rarity": 3,
+    "variantOf": "gumoss_cap",
+    "iconUrl": "/icons/gumoss_cap.webp"
+  },
+  {
+    "id": "gumoss_cap_5",
+    "name": "Gumoss Cap (Legendary)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "Head015_5",
+    "rarity": 4,
+    "variantOf": "gumoss_cap",
+    "iconUrl": "/icons/gumoss_cap.webp"
+  },
+  {
+    "id": "gumoss_leaf",
+    "name": "Gumoss Leaf",
+    "category": "raw",
+    "isBaseMaterial": true,
+    "code": "PalItem_PlantSlime",
+    "iconUrl": "/icons/gumoss_leaf.webp",
+    "rarity": 0
+  },
+  {
+    "id": "gunpowder",
+    "name": "Gunpowder",
+    "category": "component",
+    "isBaseMaterial": false,
+    "code": "Gunpowder2",
+    "iconUrl": "/icons/gunpowder.webp",
+    "rarity": 0
+  },
+  {
+    "id": "hallowed_bar",
+    "name": "Hallowed Bar",
+    "category": "raw",
+    "isBaseMaterial": true,
+    "code": "YakushimaIngot001",
+    "iconUrl": "/icons/hallowed_bar.webp",
+    "rarity": 0
+  },
+  {
+    "id": "hallowed_headgear",
+    "name": "Hallowed Headgear",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "YakushimaHeadEquip002",
+    "iconUrl": "/icons/hallowed_headgear.webp",
+    "rarity": 0
+  },
+  {
+    "id": "hallowed_headgear_2",
+    "name": "Hallowed Headgear (Uncommon)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 1,
+    "variantOf": "hallowed_headgear",
+    "iconUrl": "/icons/hallowed_headgear.webp"
+  },
+  {
+    "id": "hallowed_headgear_3",
+    "name": "Hallowed Headgear (Rare)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 2,
+    "variantOf": "hallowed_headgear",
+    "iconUrl": "/icons/hallowed_headgear.webp"
+  },
+  {
+    "id": "hallowed_headgear_4",
+    "name": "Hallowed Headgear (Epic)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 3,
+    "variantOf": "hallowed_headgear",
+    "iconUrl": "/icons/hallowed_headgear.webp"
+  },
+  {
+    "id": "hallowed_headgear_5",
+    "name": "Hallowed Headgear (Legendary)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 4,
+    "variantOf": "hallowed_headgear",
+    "iconUrl": "/icons/hallowed_headgear.webp"
+  },
+  {
+    "id": "hallowed_helmet",
+    "name": "Hallowed Helmet",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "YakushimaHeadEquip003",
+    "iconUrl": "/icons/hallowed_helmet.webp",
+    "rarity": 0
+  },
+  {
+    "id": "hallowed_helmet_2",
+    "name": "Hallowed Helmet (Uncommon)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "YakushimaHeadEquip003_2",
+    "rarity": 1,
+    "variantOf": "hallowed_helmet",
+    "iconUrl": "/icons/hallowed_helmet.webp"
+  },
+  {
+    "id": "hallowed_helmet_3",
+    "name": "Hallowed Helmet (Rare)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "YakushimaHeadEquip003_3",
+    "rarity": 2,
+    "variantOf": "hallowed_helmet",
+    "iconUrl": "/icons/hallowed_helmet.webp"
+  },
+  {
+    "id": "hallowed_helmet_4",
+    "name": "Hallowed Helmet (Epic)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "YakushimaHeadEquip003_4",
+    "rarity": 3,
+    "variantOf": "hallowed_helmet",
+    "iconUrl": "/icons/hallowed_helmet.webp"
+  },
+  {
+    "id": "hallowed_helmet_5",
+    "name": "Hallowed Helmet (Legendary)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 4,
+    "variantOf": "hallowed_helmet",
+    "iconUrl": "/icons/hallowed_helmet.webp"
+  },
+  {
+    "id": "hallowed_hood",
+    "name": "Hallowed Hood",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "YakushimaHeadEquip004",
+    "iconUrl": "/icons/hallowed_hood.webp",
+    "rarity": 0
+  },
+  {
+    "id": "hallowed_hood_2",
+    "name": "Hallowed Hood (Uncommon)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 1,
+    "variantOf": "hallowed_hood",
+    "iconUrl": "/icons/hallowed_hood.webp"
+  },
+  {
+    "id": "hallowed_hood_3",
+    "name": "Hallowed Hood (Rare)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "YakushimaHeadEquip004_3",
+    "rarity": 2,
+    "variantOf": "hallowed_hood",
+    "iconUrl": "/icons/hallowed_hood.webp"
+  },
+  {
+    "id": "hallowed_hood_4",
+    "name": "Hallowed Hood (Epic)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "YakushimaHeadEquip004_4",
+    "rarity": 3,
+    "variantOf": "hallowed_hood",
+    "iconUrl": "/icons/hallowed_hood.webp"
+  },
+  {
+    "id": "hallowed_hood_5",
+    "name": "Hallowed Hood (Legendary)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 4,
+    "variantOf": "hallowed_hood",
+    "iconUrl": "/icons/hallowed_hood.webp"
+  },
+  {
+    "id": "hallowed_mask",
+    "name": "Hallowed Mask",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "YakushimaHeadEquip001",
+    "iconUrl": "/icons/hallowed_mask.webp",
+    "rarity": 0
+  },
+  {
+    "id": "hallowed_mask_2",
+    "name": "Hallowed Mask (Uncommon)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 1,
+    "variantOf": "hallowed_mask",
+    "iconUrl": "/icons/hallowed_mask.webp"
+  },
+  {
+    "id": "hallowed_mask_3",
+    "name": "Hallowed Mask (Rare)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "YakushimaHeadEquip001_3",
+    "rarity": 2,
+    "variantOf": "hallowed_mask",
+    "iconUrl": "/icons/hallowed_mask.webp"
+  },
+  {
+    "id": "hallowed_mask_4",
+    "name": "Hallowed Mask (Epic)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "YakushimaHeadEquip001_4",
+    "rarity": 3,
+    "variantOf": "hallowed_mask",
+    "iconUrl": "/icons/hallowed_mask.webp"
+  },
+  {
+    "id": "hallowed_mask_5",
+    "name": "Hallowed Mask (Legendary)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 4,
+    "variantOf": "hallowed_mask",
+    "iconUrl": "/icons/hallowed_mask.webp"
+  },
+  {
+    "id": "hallowed_plate_mail",
+    "name": "Hallowed Plate Mail",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "YakushimaArmor001",
+    "iconUrl": "/icons/hallowed_plate_mail.webp",
+    "rarity": 0
+  },
+  {
+    "id": "hallowed_plate_mail_2",
+    "name": "Hallowed Plate Mail (Uncommon)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "YakushimaArmor001_2",
+    "rarity": 1,
+    "variantOf": "hallowed_plate_mail",
+    "iconUrl": "/icons/hallowed_plate_mail.webp"
+  },
+  {
+    "id": "hallowed_plate_mail_3",
+    "name": "Hallowed Plate Mail (Rare)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "YakushimaArmor001_3",
+    "rarity": 2,
+    "variantOf": "hallowed_plate_mail",
+    "iconUrl": "/icons/hallowed_plate_mail.webp"
+  },
+  {
+    "id": "hallowed_plate_mail_4",
+    "name": "Hallowed Plate Mail (Epic)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "YakushimaArmor001_4",
+    "rarity": 3,
+    "variantOf": "hallowed_plate_mail",
+    "iconUrl": "/icons/hallowed_plate_mail.webp"
+  },
+  {
+    "id": "hallowed_plate_mail_5",
+    "name": "Hallowed Plate Mail (Legendary)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 4,
+    "variantOf": "hallowed_plate_mail",
+    "iconUrl": "/icons/hallowed_plate_mail.webp"
+  },
+  {
+    "id": "hand-held_torch",
+    "name": "Hand-Held Torch",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "Torch",
+    "iconUrl": "/icons/hand-held_torch.webp",
     "rarity": 0
   },
   {
@@ -273,6 +2741,448 @@
     "iconUrl": "/icons/handgun.webp"
   },
   {
+    "id": "hardwood",
+    "name": "Hardwood",
+    "category": "raw",
+    "isBaseMaterial": true,
+    "code": "Wood_Fine",
+    "iconUrl": "/icons/hardwood.webp",
+    "rarity": 1
+  },
+  {
+    "id": "heat_resistant_hexolite_armor",
+    "name": "Heat Resistant Hexolite Armor",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "SFArmorHeat",
+    "iconUrl": "/icons/heat_resistant_hexolite_armor.webp",
+    "rarity": 0
+  },
+  {
+    "id": "heat_resistant_hexolite_armor_2",
+    "name": "Heat Resistant Hexolite Armor (Uncommon)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 1,
+    "variantOf": "heat_resistant_hexolite_armor",
+    "iconUrl": "/icons/heat_resistant_hexolite_armor.webp"
+  },
+  {
+    "id": "heat_resistant_hexolite_armor_3",
+    "name": "Heat Resistant Hexolite Armor (Rare)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "SFArmorHeat_3",
+    "rarity": 2,
+    "variantOf": "heat_resistant_hexolite_armor",
+    "iconUrl": "/icons/heat_resistant_hexolite_armor.webp"
+  },
+  {
+    "id": "heat_resistant_hexolite_armor_4",
+    "name": "Heat Resistant Hexolite Armor (Epic)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 3,
+    "variantOf": "heat_resistant_hexolite_armor",
+    "iconUrl": "/icons/heat_resistant_hexolite_armor.webp"
+  },
+  {
+    "id": "heat_resistant_hexolite_armor_5",
+    "name": "Heat Resistant Hexolite Armor (Legendary)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 4,
+    "variantOf": "heat_resistant_hexolite_armor",
+    "iconUrl": "/icons/heat_resistant_hexolite_armor.webp"
+  },
+  {
+    "id": "heat_resistant_metal_armor",
+    "name": "Heat Resistant Metal Armor",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "CopperArmorHeat",
+    "iconUrl": "/icons/heat_resistant_metal_armor.webp",
+    "rarity": 0
+  },
+  {
+    "id": "heat_resistant_metal_armor_2",
+    "name": "Heat Resistant Metal Armor (Uncommon)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "CopperArmorHeat_2",
+    "rarity": 1,
+    "variantOf": "heat_resistant_metal_armor",
+    "iconUrl": "/icons/heat_resistant_metal_armor.webp"
+  },
+  {
+    "id": "heat_resistant_metal_armor_3",
+    "name": "Heat Resistant Metal Armor (Rare)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "CopperArmorHeat_3",
+    "rarity": 2,
+    "variantOf": "heat_resistant_metal_armor",
+    "iconUrl": "/icons/heat_resistant_metal_armor.webp"
+  },
+  {
+    "id": "heat_resistant_metal_armor_4",
+    "name": "Heat Resistant Metal Armor (Epic)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "CopperArmorHeat_4",
+    "rarity": 3,
+    "variantOf": "heat_resistant_metal_armor",
+    "iconUrl": "/icons/heat_resistant_metal_armor.webp"
+  },
+  {
+    "id": "heat_resistant_metal_armor_5",
+    "name": "Heat Resistant Metal Armor (Legendary)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 4,
+    "variantOf": "heat_resistant_metal_armor",
+    "iconUrl": "/icons/heat_resistant_metal_armor.webp"
+  },
+  {
+    "id": "heat_resistant_pal_metal_armor",
+    "name": "Heat Resistant Pal Metal Armor",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "StealArmorHeat",
+    "iconUrl": "/icons/heat_resistant_pal_metal_armor.webp",
+    "rarity": 0
+  },
+  {
+    "id": "heat_resistant_pal_metal_armor_2",
+    "name": "Heat Resistant Pal Metal Armor (Uncommon)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "StealArmorHeat_2",
+    "rarity": 1,
+    "variantOf": "heat_resistant_pal_metal_armor",
+    "iconUrl": "/icons/heat_resistant_pal_metal_armor.webp"
+  },
+  {
+    "id": "heat_resistant_pal_metal_armor_3",
+    "name": "Heat Resistant Pal Metal Armor (Rare)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "StealArmorHeat_3",
+    "rarity": 2,
+    "variantOf": "heat_resistant_pal_metal_armor",
+    "iconUrl": "/icons/heat_resistant_pal_metal_armor.webp"
+  },
+  {
+    "id": "heat_resistant_pal_metal_armor_4",
+    "name": "Heat Resistant Pal Metal Armor (Epic)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 3,
+    "variantOf": "heat_resistant_pal_metal_armor",
+    "iconUrl": "/icons/heat_resistant_pal_metal_armor.webp"
+  },
+  {
+    "id": "heat_resistant_pal_metal_armor_5",
+    "name": "Heat Resistant Pal Metal Armor (Legendary)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "StealArmorHeat_5",
+    "rarity": 4,
+    "variantOf": "heat_resistant_pal_metal_armor",
+    "iconUrl": "/icons/heat_resistant_pal_metal_armor.webp"
+  },
+  {
+    "id": "heat_resistant_pelt_armor",
+    "name": "Heat Resistant Pelt Armor",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "FurArmorHeat",
+    "iconUrl": "/icons/heat_resistant_pelt_armor.webp",
+    "rarity": 0
+  },
+  {
+    "id": "heat_resistant_pelt_armor_2",
+    "name": "Heat Resistant Pelt Armor (Uncommon)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 1,
+    "variantOf": "heat_resistant_pelt_armor",
+    "iconUrl": "/icons/heat_resistant_pelt_armor.webp"
+  },
+  {
+    "id": "heat_resistant_pelt_armor_3",
+    "name": "Heat Resistant Pelt Armor (Rare)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 2,
+    "variantOf": "heat_resistant_pelt_armor",
+    "iconUrl": "/icons/heat_resistant_pelt_armor.webp"
+  },
+  {
+    "id": "heat_resistant_pelt_armor_4",
+    "name": "Heat Resistant Pelt Armor (Epic)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 3,
+    "variantOf": "heat_resistant_pelt_armor",
+    "iconUrl": "/icons/heat_resistant_pelt_armor.webp"
+  },
+  {
+    "id": "heat_resistant_pelt_armor_5",
+    "name": "Heat Resistant Pelt Armor (Legendary)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 4,
+    "variantOf": "heat_resistant_pelt_armor",
+    "iconUrl": "/icons/heat_resistant_pelt_armor.webp"
+  },
+  {
+    "id": "heat_resistant_plasteel_armor",
+    "name": "Heat Resistant Plasteel Armor",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "PlasticArmorHeat",
+    "iconUrl": "/icons/heat_resistant_plasteel_armor.webp",
+    "rarity": 0
+  },
+  {
+    "id": "heat_resistant_plasteel_armor_2",
+    "name": "Heat Resistant Plasteel Armor (Uncommon)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 1,
+    "variantOf": "heat_resistant_plasteel_armor",
+    "iconUrl": "/icons/heat_resistant_plasteel_armor.webp"
+  },
+  {
+    "id": "heat_resistant_plasteel_armor_3",
+    "name": "Heat Resistant Plasteel Armor (Rare)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "PlasticArmorHeat_3",
+    "rarity": 2,
+    "variantOf": "heat_resistant_plasteel_armor",
+    "iconUrl": "/icons/heat_resistant_plasteel_armor.webp"
+  },
+  {
+    "id": "heat_resistant_plasteel_armor_4",
+    "name": "Heat Resistant Plasteel Armor (Epic)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "PlasticArmorHeat_4",
+    "rarity": 3,
+    "variantOf": "heat_resistant_plasteel_armor",
+    "iconUrl": "/icons/heat_resistant_plasteel_armor.webp"
+  },
+  {
+    "id": "heat_resistant_plasteel_armor_5",
+    "name": "Heat Resistant Plasteel Armor (Legendary)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 4,
+    "variantOf": "heat_resistant_plasteel_armor",
+    "iconUrl": "/icons/heat_resistant_plasteel_armor.webp"
+  },
+  {
+    "id": "heat_resistant_refined_metal_armor",
+    "name": "Heat Resistant Refined Metal Armor",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "IronArmorHeat",
+    "iconUrl": "/icons/heat_resistant_refined_metal_armor.webp",
+    "rarity": 0
+  },
+  {
+    "id": "heat_resistant_refined_metal_armor_2",
+    "name": "Heat Resistant Refined Metal Armor (Uncommon)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 1,
+    "variantOf": "heat_resistant_refined_metal_armor",
+    "iconUrl": "/icons/heat_resistant_refined_metal_armor.webp"
+  },
+  {
+    "id": "heat_resistant_refined_metal_armor_3",
+    "name": "Heat Resistant Refined Metal Armor (Rare)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "IronArmorHeat_3",
+    "rarity": 2,
+    "variantOf": "heat_resistant_refined_metal_armor",
+    "iconUrl": "/icons/heat_resistant_refined_metal_armor.webp"
+  },
+  {
+    "id": "heat_resistant_refined_metal_armor_4",
+    "name": "Heat Resistant Refined Metal Armor (Epic)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 3,
+    "variantOf": "heat_resistant_refined_metal_armor",
+    "iconUrl": "/icons/heat_resistant_refined_metal_armor.webp"
+  },
+  {
+    "id": "heat_resistant_refined_metal_armor_5",
+    "name": "Heat Resistant Refined Metal Armor (Legendary)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 4,
+    "variantOf": "heat_resistant_refined_metal_armor",
+    "iconUrl": "/icons/heat_resistant_refined_metal_armor.webp"
+  },
+  {
+    "id": "heat-resistant_ancient_armor",
+    "name": "Heat-Resistant Ancient Armor",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "AncientArmorHeat",
+    "iconUrl": "/icons/heat-resistant_ancient_armor.webp",
+    "rarity": 0
+  },
+  {
+    "id": "heat-resistant_ancient_armor_2",
+    "name": "Heat-Resistant Ancient Armor (Uncommon)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "AncientArmorHeat_2",
+    "rarity": 1,
+    "variantOf": "heat-resistant_ancient_armor",
+    "iconUrl": "/icons/heat-resistant_ancient_armor.webp"
+  },
+  {
+    "id": "heat-resistant_ancient_armor_3",
+    "name": "Heat-Resistant Ancient Armor (Rare)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 2,
+    "variantOf": "heat-resistant_ancient_armor",
+    "iconUrl": "/icons/heat-resistant_ancient_armor.webp"
+  },
+  {
+    "id": "heat-resistant_ancient_armor_4",
+    "name": "Heat-Resistant Ancient Armor (Epic)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "AncientArmorHeat_4",
+    "rarity": 3,
+    "variantOf": "heat-resistant_ancient_armor",
+    "iconUrl": "/icons/heat-resistant_ancient_armor.webp"
+  },
+  {
+    "id": "heat-resistant_ancient_armor_5",
+    "name": "Heat-Resistant Ancient Armor (Legendary)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 4,
+    "variantOf": "heat-resistant_ancient_armor",
+    "iconUrl": "/icons/heat-resistant_ancient_armor.webp"
+  },
+  {
+    "id": "heavy_assault_rifle",
+    "name": "Heavy Assault Rifle",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "SkyAssaultRifle",
+    "iconUrl": "/icons/heavy_assault_rifle.webp",
+    "rarity": 0
+  },
+  {
+    "id": "heavy_assault_rifle_2",
+    "name": "Heavy Assault Rifle (Uncommon)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "SkyAssaultRifle_2",
+    "rarity": 1,
+    "variantOf": "heavy_assault_rifle",
+    "iconUrl": "/icons/heavy_assault_rifle.webp"
+  },
+  {
+    "id": "heavy_assault_rifle_3",
+    "name": "Heavy Assault Rifle (Rare)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "SkyAssaultRifle_3",
+    "rarity": 2,
+    "variantOf": "heavy_assault_rifle",
+    "iconUrl": "/icons/heavy_assault_rifle.webp"
+  },
+  {
+    "id": "heavy_assault_rifle_4",
+    "name": "Heavy Assault Rifle (Epic)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "SkyAssaultRifle_4",
+    "rarity": 3,
+    "variantOf": "heavy_assault_rifle",
+    "iconUrl": "/icons/heavy_assault_rifle.webp"
+  },
+  {
+    "id": "heavy_assault_rifle_5",
+    "name": "Heavy Assault Rifle (Legendary)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "SkyAssaultRifle_5",
+    "rarity": 4,
+    "variantOf": "heavy_assault_rifle",
+    "iconUrl": "/icons/heavy_assault_rifle.webp"
+  },
+  {
+    "id": "helmet",
+    "name": "Helmet",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "Head006",
+    "iconUrl": "/icons/helmet.webp",
+    "rarity": 0
+  },
+  {
+    "id": "helmet_2",
+    "name": "Helmet (Uncommon)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "Head006_2",
+    "rarity": 1,
+    "variantOf": "helmet",
+    "iconUrl": "/icons/helmet.webp"
+  },
+  {
+    "id": "helmet_3",
+    "name": "Helmet (Rare)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "Head006_3",
+    "rarity": 2,
+    "variantOf": "helmet",
+    "iconUrl": "/icons/helmet.webp"
+  },
+  {
+    "id": "helmet_4",
+    "name": "Helmet (Epic)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "Head006_4",
+    "rarity": 3,
+    "variantOf": "helmet",
+    "iconUrl": "/icons/helmet.webp"
+  },
+  {
+    "id": "helmet_5",
+    "name": "Helmet (Legendary)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "Head006_5",
+    "rarity": 4,
+    "variantOf": "helmet",
+    "iconUrl": "/icons/helmet.webp"
+  },
+  {
+    "id": "herbil_headband",
+    "name": "Herbil Headband",
+    "category": "armor",
+    "isBaseMaterial": true,
+    "code": "HeadEquip050",
+    "iconUrl": "/icons/herbil_headband.webp"
+  },
+  {
     "id": "hexolite",
     "name": "Hexolite",
     "category": "component",
@@ -280,6 +3190,100 @@
     "code": "StainlessSteel",
     "iconUrl": "/icons/hexolite.webp",
     "rarity": 0
+  },
+  {
+    "id": "hexolite_armor",
+    "name": "Hexolite Armor",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "SFArmor",
+    "iconUrl": "/icons/hexolite_armor.webp",
+    "rarity": 0
+  },
+  {
+    "id": "hexolite_armor_2",
+    "name": "Hexolite Armor (Uncommon)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "SFArmor_2",
+    "rarity": 1,
+    "variantOf": "hexolite_armor",
+    "iconUrl": "/icons/hexolite_armor.webp"
+  },
+  {
+    "id": "hexolite_armor_3",
+    "name": "Hexolite Armor (Rare)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 2,
+    "variantOf": "hexolite_armor",
+    "iconUrl": "/icons/hexolite_armor.webp"
+  },
+  {
+    "id": "hexolite_armor_4",
+    "name": "Hexolite Armor (Epic)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "SFArmor_4",
+    "rarity": 3,
+    "variantOf": "hexolite_armor",
+    "iconUrl": "/icons/hexolite_armor.webp"
+  },
+  {
+    "id": "hexolite_armor_5",
+    "name": "Hexolite Armor (Legendary)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "SFArmor_5",
+    "rarity": 4,
+    "variantOf": "hexolite_armor",
+    "iconUrl": "/icons/hexolite_armor.webp"
+  },
+  {
+    "id": "hexolite_helmet",
+    "name": "Hexolite Helmet",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "SFHelmet",
+    "iconUrl": "/icons/hexolite_helmet.webp",
+    "rarity": 0
+  },
+  {
+    "id": "hexolite_helmet_2",
+    "name": "Hexolite Helmet (Uncommon)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 1,
+    "variantOf": "hexolite_helmet",
+    "iconUrl": "/icons/hexolite_helmet.webp"
+  },
+  {
+    "id": "hexolite_helmet_3",
+    "name": "Hexolite Helmet (Rare)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 2,
+    "variantOf": "hexolite_helmet",
+    "iconUrl": "/icons/hexolite_helmet.webp"
+  },
+  {
+    "id": "hexolite_helmet_4",
+    "name": "Hexolite Helmet (Epic)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "SFHelmet_4",
+    "rarity": 3,
+    "variantOf": "hexolite_helmet",
+    "iconUrl": "/icons/hexolite_helmet.webp"
+  },
+  {
+    "id": "hexolite_helmet_5",
+    "name": "Hexolite Helmet (Legendary)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 4,
+    "variantOf": "hexolite_helmet",
+    "iconUrl": "/icons/hexolite_helmet.webp"
   },
   {
     "id": "hexolite_quartz",
@@ -291,12 +3295,119 @@
     "rarity": 0
   },
   {
+    "id": "high_quality_cloth",
+    "name": "High Quality Cloth",
+    "category": "component",
+    "isBaseMaterial": false,
+    "code": "Cloth2",
+    "iconUrl": "/icons/high_quality_cloth.webp",
+    "rarity": 1
+  },
+  {
     "id": "high_quality_pal_oil",
     "name": "High Quality Pal Oil",
     "category": "raw",
     "isBaseMaterial": true,
     "code": "PalOil",
     "iconUrl": "/icons/high_quality_pal_oil.webp",
+    "rarity": 0
+  },
+  {
+    "id": "high_quality_wooden_board",
+    "name": "High Quality Wooden Board",
+    "category": "component",
+    "isBaseMaterial": false,
+    "code": "HighGrade_Processed_Wood",
+    "iconUrl": "/icons/high_quality_wooden_board.webp",
+    "rarity": 2
+  },
+  {
+    "id": "homing_sphere_launcher",
+    "name": "Homing Sphere Launcher",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "HomingSphereLauncher",
+    "iconUrl": "/icons/homing_sphere_launcher.webp",
+    "rarity": 2
+  },
+  {
+    "id": "honey",
+    "name": "Honey",
+    "category": "consumable",
+    "isBaseMaterial": true,
+    "code": "Honey",
+    "iconUrl": "/icons/honey.webp",
+    "rarity": 0
+  },
+  {
+    "id": "horn",
+    "name": "Horn",
+    "category": "raw",
+    "isBaseMaterial": true,
+    "code": "Horn",
+    "iconUrl": "/icons/horn.webp",
+    "rarity": 0
+  },
+  {
+    "id": "horns_of_supremacy",
+    "name": "Horns of Supremacy",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "HeadEquip041",
+    "iconUrl": "/icons/horns_of_supremacy.webp",
+    "rarity": 4
+  },
+  {
+    "id": "hyper_grappling_gun",
+    "name": "Hyper Grappling Gun",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "GrapplingGun4",
+    "iconUrl": "/icons/hyper_grappling_gun.webp",
+    "rarity": 3
+  },
+  {
+    "id": "hyper_shield",
+    "name": "Hyper Shield",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "Shield_04",
+    "iconUrl": "/icons/hyper_shield.webp",
+    "rarity": 2
+  },
+  {
+    "id": "ice_grenade",
+    "name": "Ice Grenade",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "FragGrenade_Ice",
+    "iconUrl": "/icons/ice_grenade.webp",
+    "rarity": 0
+  },
+  {
+    "id": "ice_organ",
+    "name": "Ice Organ",
+    "category": "raw",
+    "isBaseMaterial": true,
+    "code": "IceOrgan",
+    "iconUrl": "/icons/ice_organ.webp",
+    "rarity": 0
+  },
+  {
+    "id": "icelyn_hat",
+    "name": "Icelyn Hat",
+    "category": "armor",
+    "isBaseMaterial": true,
+    "code": "HeadEquip060",
+    "iconUrl": "/icons/icelyn_hat.webp"
+  },
+  {
+    "id": "incendiary_grenade",
+    "name": "Incendiary Grenade",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "FragGrenade_Fire",
+    "iconUrl": "/icons/incendiary_grenade.webp",
     "rarity": 0
   },
   {
@@ -307,6 +3418,1318 @@
     "code": "CopperIngot",
     "iconUrl": "/icons/ingot.webp",
     "rarity": 0
+  },
+  {
+    "id": "intermediate_fishing_rod_(cattiva)",
+    "name": "Intermediate Fishing Rod (Cattiva)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "FishingRod_02_1",
+    "iconUrl": "/icons/intermediate_fishing_rod_(cattiva).webp",
+    "rarity": 1
+  },
+  {
+    "id": "intermediate_fishing_rod_(croajiro)",
+    "name": "Intermediate Fishing Rod (Croajiro)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "FishingRod_02_2",
+    "iconUrl": "/icons/intermediate_fishing_rod_(croajiro).webp",
+    "rarity": 2
+  },
+  {
+    "id": "jelliette_hat",
+    "name": "Jelliette Hat",
+    "category": "armor",
+    "isBaseMaterial": true,
+    "code": "HeadEquip053",
+    "iconUrl": "/icons/jelliette_hat.webp"
+  },
+  {
+    "id": "katana",
+    "name": "Katana",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "Katana",
+    "iconUrl": "/icons/katana.webp",
+    "rarity": 0
+  },
+  {
+    "id": "katana_2",
+    "name": "Katana (Uncommon)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "Katana_2",
+    "rarity": 1,
+    "variantOf": "katana",
+    "iconUrl": "/icons/katana.webp"
+  },
+  {
+    "id": "katana_3",
+    "name": "Katana (Rare)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "Katana_3",
+    "rarity": 2,
+    "variantOf": "katana",
+    "iconUrl": "/icons/katana.webp"
+  },
+  {
+    "id": "katana_4",
+    "name": "Katana (Epic)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "Katana_4",
+    "rarity": 3,
+    "variantOf": "katana",
+    "iconUrl": "/icons/katana.webp"
+  },
+  {
+    "id": "katana_5",
+    "name": "Katana (Legendary)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "Katana_5",
+    "rarity": 4,
+    "variantOf": "katana",
+    "iconUrl": "/icons/katana.webp"
+  },
+  {
+    "id": "katress_cap",
+    "name": "Katress Cap",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "Head017",
+    "iconUrl": "/icons/katress_cap.webp",
+    "rarity": 0
+  },
+  {
+    "id": "katress_cap_2",
+    "name": "Katress Cap (Uncommon)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "Head017_2",
+    "rarity": 1,
+    "variantOf": "katress_cap",
+    "iconUrl": "/icons/katress_cap.webp"
+  },
+  {
+    "id": "katress_cap_3",
+    "name": "Katress Cap (Rare)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "Head017_3",
+    "rarity": 2,
+    "variantOf": "katress_cap",
+    "iconUrl": "/icons/katress_cap.webp"
+  },
+  {
+    "id": "katress_cap_4",
+    "name": "Katress Cap (Epic)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "Head017_4",
+    "rarity": 3,
+    "variantOf": "katress_cap",
+    "iconUrl": "/icons/katress_cap.webp"
+  },
+  {
+    "id": "katress_cap_5",
+    "name": "Katress Cap (Legendary)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "Head017_5",
+    "rarity": 4,
+    "variantOf": "katress_cap",
+    "iconUrl": "/icons/katress_cap.webp"
+  },
+  {
+    "id": "katress_hair",
+    "name": "Katress Hair",
+    "category": "raw",
+    "isBaseMaterial": true,
+    "code": "PalItem_CatMage",
+    "iconUrl": "/icons/katress_hair.webp",
+    "rarity": 0
+  },
+  {
+    "id": "killamari_cap",
+    "name": "Killamari Cap",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "HeadEquip026",
+    "iconUrl": "/icons/killamari_cap.webp",
+    "rarity": 0
+  },
+  {
+    "id": "killamari_cap_2",
+    "name": "Killamari Cap (Uncommon)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 1,
+    "variantOf": "killamari_cap",
+    "iconUrl": "/icons/killamari_cap.webp"
+  },
+  {
+    "id": "killamari_cap_3",
+    "name": "Killamari Cap (Rare)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "HeadEquip026_3",
+    "rarity": 2,
+    "variantOf": "killamari_cap",
+    "iconUrl": "/icons/killamari_cap.webp"
+  },
+  {
+    "id": "killamari_cap_4",
+    "name": "Killamari Cap (Epic)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "HeadEquip026_4",
+    "rarity": 3,
+    "variantOf": "killamari_cap",
+    "iconUrl": "/icons/killamari_cap.webp"
+  },
+  {
+    "id": "killamari_cap_5",
+    "name": "Killamari Cap (Legendary)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 4,
+    "variantOf": "killamari_cap",
+    "iconUrl": "/icons/killamari_cap.webp"
+  },
+  {
+    "id": "killamari_tentacle",
+    "name": "Killamari Tentacle",
+    "category": "raw",
+    "isBaseMaterial": true,
+    "code": "PalItem_NegativeOctopus",
+    "iconUrl": "/icons/killamari_tentacle.webp",
+    "rarity": 0
+  },
+  {
+    "id": "kingpaca_headband",
+    "name": "Kingpaca Headband",
+    "category": "armor",
+    "isBaseMaterial": true,
+    "code": "HeadEquip051",
+    "iconUrl": "/icons/kingpaca_headband.webp"
+  },
+  {
+    "id": "lamball_helm",
+    "name": "Lamball Helm",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "HeadEquip029",
+    "iconUrl": "/icons/lamball_helm.webp",
+    "rarity": 0
+  },
+  {
+    "id": "laser_gatling_gun",
+    "name": "Laser Gatling Gun",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "LaserGatlingGun",
+    "iconUrl": "/icons/laser_gatling_gun.webp",
+    "rarity": 0
+  },
+  {
+    "id": "laser_gatling_gun_2",
+    "name": "Laser Gatling Gun (Uncommon)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "LaserGatlingGun_2",
+    "rarity": 1,
+    "variantOf": "laser_gatling_gun",
+    "iconUrl": "/icons/laser_gatling_gun.webp"
+  },
+  {
+    "id": "laser_gatling_gun_3",
+    "name": "Laser Gatling Gun (Rare)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "LaserGatlingGun_3",
+    "rarity": 2,
+    "variantOf": "laser_gatling_gun",
+    "iconUrl": "/icons/laser_gatling_gun.webp"
+  },
+  {
+    "id": "laser_gatling_gun_4",
+    "name": "Laser Gatling Gun (Epic)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "LaserGatlingGun_4",
+    "rarity": 3,
+    "variantOf": "laser_gatling_gun",
+    "iconUrl": "/icons/laser_gatling_gun.webp"
+  },
+  {
+    "id": "laser_gatling_gun_5",
+    "name": "Laser Gatling Gun (Legendary)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "LaserGatlingGun_5",
+    "rarity": 4,
+    "variantOf": "laser_gatling_gun",
+    "iconUrl": "/icons/laser_gatling_gun.webp"
+  },
+  {
+    "id": "laser_rifle",
+    "name": "Laser Rifle",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "LaserRifle",
+    "iconUrl": "/icons/laser_rifle.webp",
+    "rarity": 0
+  },
+  {
+    "id": "laser_rifle_2",
+    "name": "Laser Rifle (Uncommon)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "LaserRifle_2",
+    "rarity": 1,
+    "variantOf": "laser_rifle",
+    "iconUrl": "/icons/laser_rifle.webp"
+  },
+  {
+    "id": "laser_rifle_3",
+    "name": "Laser Rifle (Rare)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "LaserRifle_3",
+    "rarity": 2,
+    "variantOf": "laser_rifle",
+    "iconUrl": "/icons/laser_rifle.webp"
+  },
+  {
+    "id": "laser_rifle_4",
+    "name": "Laser Rifle (Epic)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "LaserRifle_4",
+    "rarity": 3,
+    "variantOf": "laser_rifle",
+    "iconUrl": "/icons/laser_rifle.webp"
+  },
+  {
+    "id": "laser_rifle_5",
+    "name": "Laser Rifle (Legendary)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "LaserRifle_5",
+    "rarity": 4,
+    "variantOf": "laser_rifle",
+    "iconUrl": "/icons/laser_rifle.webp"
+  },
+  {
+    "id": "laser_sword",
+    "name": "Laser Sword",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "SkyBeamSword",
+    "iconUrl": "/icons/laser_sword.webp",
+    "rarity": 0
+  },
+  {
+    "id": "laser_sword_2",
+    "name": "Laser Sword (Uncommon)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "SkyBeamSword_2",
+    "rarity": 1,
+    "variantOf": "laser_sword",
+    "iconUrl": "/icons/laser_sword.webp"
+  },
+  {
+    "id": "laser_sword_3",
+    "name": "Laser Sword (Rare)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "SkyBeamSword_3",
+    "rarity": 2,
+    "variantOf": "laser_sword",
+    "iconUrl": "/icons/laser_sword.webp"
+  },
+  {
+    "id": "laser_sword_4",
+    "name": "Laser Sword (Epic)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "SkyBeamSword_4",
+    "rarity": 3,
+    "variantOf": "laser_sword",
+    "iconUrl": "/icons/laser_sword.webp"
+  },
+  {
+    "id": "laser_sword_5",
+    "name": "Laser Sword (Legendary)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "SkyBeamSword_5",
+    "rarity": 4,
+    "variantOf": "laser_sword",
+    "iconUrl": "/icons/laser_sword.webp"
+  },
+  {
+    "id": "leather",
+    "name": "Leather",
+    "category": "raw",
+    "isBaseMaterial": true,
+    "code": "Leather",
+    "iconUrl": "/icons/leather.webp",
+    "rarity": 0
+  },
+  {
+    "id": "leezpunk_crest",
+    "name": "Leezpunk Crest",
+    "category": "raw",
+    "isBaseMaterial": true,
+    "code": "PalItem_LizardMan",
+    "iconUrl": "/icons/leezpunk_crest.webp",
+    "rarity": 0
+  },
+  {
+    "id": "leezpunk_hood",
+    "name": "Leezpunk Hood",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "HeadEquip025",
+    "iconUrl": "/icons/leezpunk_hood.webp",
+    "rarity": 0
+  },
+  {
+    "id": "leezpunk_hood_2",
+    "name": "Leezpunk Hood (Uncommon)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "HeadEquip025_2",
+    "rarity": 1,
+    "variantOf": "leezpunk_hood",
+    "iconUrl": "/icons/leezpunk_hood.webp"
+  },
+  {
+    "id": "leezpunk_hood_3",
+    "name": "Leezpunk Hood (Rare)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "HeadEquip025_3",
+    "rarity": 2,
+    "variantOf": "leezpunk_hood",
+    "iconUrl": "/icons/leezpunk_hood.webp"
+  },
+  {
+    "id": "leezpunk_hood_4",
+    "name": "Leezpunk Hood (Epic)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "HeadEquip025_4",
+    "rarity": 3,
+    "variantOf": "leezpunk_hood",
+    "iconUrl": "/icons/leezpunk_hood.webp"
+  },
+  {
+    "id": "leezpunk_hood_5",
+    "name": "Leezpunk Hood (Legendary)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "HeadEquip025_5",
+    "rarity": 4,
+    "variantOf": "leezpunk_hood",
+    "iconUrl": "/icons/leezpunk_hood.webp"
+  },
+  {
+    "id": "legendary_meowmere",
+    "name": "Legendary Meowmere",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "YakushimaBlade005",
+    "iconUrl": "/icons/legendary_meowmere.webp",
+    "rarity": 4
+  },
+  {
+    "id": "lightweight_ancient_armor",
+    "name": "Lightweight Ancient Armor",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "AncientArmorWeight",
+    "iconUrl": "/icons/lightweight_ancient_armor.webp",
+    "rarity": 0
+  },
+  {
+    "id": "lightweight_ancient_armor_2",
+    "name": "Lightweight Ancient Armor (Uncommon)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "AncientArmorWeight_2",
+    "rarity": 1,
+    "variantOf": "lightweight_ancient_armor",
+    "iconUrl": "/icons/lightweight_ancient_armor.webp"
+  },
+  {
+    "id": "lightweight_ancient_armor_3",
+    "name": "Lightweight Ancient Armor (Rare)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "AncientArmorWeight_3",
+    "rarity": 2,
+    "variantOf": "lightweight_ancient_armor",
+    "iconUrl": "/icons/lightweight_ancient_armor.webp"
+  },
+  {
+    "id": "lightweight_ancient_armor_4",
+    "name": "Lightweight Ancient Armor (Epic)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 3,
+    "variantOf": "lightweight_ancient_armor",
+    "iconUrl": "/icons/lightweight_ancient_armor.webp"
+  },
+  {
+    "id": "lightweight_ancient_armor_5",
+    "name": "Lightweight Ancient Armor (Legendary)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 4,
+    "variantOf": "lightweight_ancient_armor",
+    "iconUrl": "/icons/lightweight_ancient_armor.webp"
+  },
+  {
+    "id": "lightweight_hexolite_armor",
+    "name": "Lightweight Hexolite Armor",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "SFArmorWeight",
+    "iconUrl": "/icons/lightweight_hexolite_armor.webp",
+    "rarity": 0
+  },
+  {
+    "id": "lightweight_hexolite_armor_2",
+    "name": "Lightweight Hexolite Armor (Uncommon)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "SFArmorWeight_2",
+    "rarity": 1,
+    "variantOf": "lightweight_hexolite_armor",
+    "iconUrl": "/icons/lightweight_hexolite_armor.webp"
+  },
+  {
+    "id": "lightweight_hexolite_armor_3",
+    "name": "Lightweight Hexolite Armor (Rare)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 2,
+    "variantOf": "lightweight_hexolite_armor",
+    "iconUrl": "/icons/lightweight_hexolite_armor.webp"
+  },
+  {
+    "id": "lightweight_hexolite_armor_4",
+    "name": "Lightweight Hexolite Armor (Epic)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "SFArmorWeight_4",
+    "rarity": 3,
+    "variantOf": "lightweight_hexolite_armor",
+    "iconUrl": "/icons/lightweight_hexolite_armor.webp"
+  },
+  {
+    "id": "lightweight_hexolite_armor_5",
+    "name": "Lightweight Hexolite Armor (Legendary)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 4,
+    "variantOf": "lightweight_hexolite_armor",
+    "iconUrl": "/icons/lightweight_hexolite_armor.webp"
+  },
+  {
+    "id": "lightweight_plasteel_armor",
+    "name": "Lightweight Plasteel Armor",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "PlasticArmorWeight",
+    "iconUrl": "/icons/lightweight_plasteel_armor.webp",
+    "rarity": 0
+  },
+  {
+    "id": "lightweight_plasteel_armor_2",
+    "name": "Lightweight Plasteel Armor (Uncommon)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "PlasticArmorWeight_2",
+    "rarity": 1,
+    "variantOf": "lightweight_plasteel_armor",
+    "iconUrl": "/icons/lightweight_plasteel_armor.webp"
+  },
+  {
+    "id": "lightweight_plasteel_armor_3",
+    "name": "Lightweight Plasteel Armor (Rare)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "PlasticArmorWeight_3",
+    "rarity": 2,
+    "variantOf": "lightweight_plasteel_armor",
+    "iconUrl": "/icons/lightweight_plasteel_armor.webp"
+  },
+  {
+    "id": "lightweight_plasteel_armor_4",
+    "name": "Lightweight Plasteel Armor (Epic)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "PlasticArmorWeight_4",
+    "rarity": 3,
+    "variantOf": "lightweight_plasteel_armor",
+    "iconUrl": "/icons/lightweight_plasteel_armor.webp"
+  },
+  {
+    "id": "lightweight_plasteel_armor_5",
+    "name": "Lightweight Plasteel Armor (Legendary)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 4,
+    "variantOf": "lightweight_plasteel_armor",
+    "iconUrl": "/icons/lightweight_plasteel_armor.webp"
+  },
+  {
+    "id": "lily_hat",
+    "name": "Lily Hat",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "GYM_Head_Forest",
+    "iconUrl": "/icons/lily_hat.webp",
+    "rarity": 4
+  },
+  {
+    "id": "lilys_spear",
+    "name": "Lily's Spear",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "Spear_ForestBoss",
+    "iconUrl": "/icons/lilys_spear.webp",
+    "rarity": 2
+  },
+  {
+    "id": "lilys_spear_5",
+    "name": "Lily's Spear (Legendary)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "Spear_ForestBoss_5",
+    "rarity": 4,
+    "variantOf": "lilys_spear",
+    "iconUrl": "/icons/lilys_spear.webp"
+  },
+  {
+    "id": "long-eared_headband",
+    "name": "Long-Eared Headband",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "Head003",
+    "iconUrl": "/icons/long-eared_headband.webp",
+    "rarity": 0
+  },
+  {
+    "id": "long-eared_headband_2",
+    "name": "Long-Eared Headband (Uncommon)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 1,
+    "variantOf": "long-eared_headband",
+    "iconUrl": "/icons/long-eared_headband.webp"
+  },
+  {
+    "id": "long-eared_headband_3",
+    "name": "Long-Eared Headband (Rare)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 2,
+    "variantOf": "long-eared_headband",
+    "iconUrl": "/icons/long-eared_headband.webp"
+  },
+  {
+    "id": "long-eared_headband_4",
+    "name": "Long-Eared Headband (Epic)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 3,
+    "variantOf": "long-eared_headband",
+    "iconUrl": "/icons/long-eared_headband.webp"
+  },
+  {
+    "id": "long-eared_headband_5",
+    "name": "Long-Eared Headband (Legendary)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 4,
+    "variantOf": "long-eared_headband",
+    "iconUrl": "/icons/long-eared_headband.webp"
+  },
+  {
+    "id": "lyleen_accessory",
+    "name": "Lyleen Accessory",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "HeadEquip023",
+    "iconUrl": "/icons/lyleen_accessory.webp",
+    "rarity": 0
+  },
+  {
+    "id": "makeshift_assault_rifle",
+    "name": "Makeshift Assault Rifle",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "MakeshiftAssaultRifle",
+    "iconUrl": "/icons/makeshift_assault_rifle.webp",
+    "rarity": 0
+  },
+  {
+    "id": "makeshift_assault_rifle_2",
+    "name": "Makeshift Assault Rifle (Uncommon)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "MakeshiftAssaultRifle_2",
+    "rarity": 1,
+    "variantOf": "makeshift_assault_rifle",
+    "iconUrl": "/icons/makeshift_assault_rifle.webp"
+  },
+  {
+    "id": "makeshift_assault_rifle_3",
+    "name": "Makeshift Assault Rifle (Rare)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "MakeshiftAssaultRifle_3",
+    "rarity": 2,
+    "variantOf": "makeshift_assault_rifle",
+    "iconUrl": "/icons/makeshift_assault_rifle.webp"
+  },
+  {
+    "id": "makeshift_assault_rifle_4",
+    "name": "Makeshift Assault Rifle (Epic)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "MakeshiftAssaultRifle_4",
+    "rarity": 3,
+    "variantOf": "makeshift_assault_rifle",
+    "iconUrl": "/icons/makeshift_assault_rifle.webp"
+  },
+  {
+    "id": "makeshift_assault_rifle_5",
+    "name": "Makeshift Assault Rifle (Legendary)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "MakeshiftAssaultRifle_5",
+    "rarity": 4,
+    "variantOf": "makeshift_assault_rifle",
+    "iconUrl": "/icons/makeshift_assault_rifle.webp"
+  },
+  {
+    "id": "makeshift_handgun",
+    "name": "Makeshift Handgun",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "MakeshiftHandgun",
+    "iconUrl": "/icons/makeshift_handgun.webp",
+    "rarity": 0
+  },
+  {
+    "id": "makeshift_handgun_2",
+    "name": "Makeshift Handgun (Uncommon)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "MakeshiftHandgun_2",
+    "rarity": 1,
+    "variantOf": "makeshift_handgun",
+    "iconUrl": "/icons/makeshift_handgun.webp"
+  },
+  {
+    "id": "makeshift_handgun_3",
+    "name": "Makeshift Handgun (Rare)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "MakeshiftHandgun_3",
+    "rarity": 2,
+    "variantOf": "makeshift_handgun",
+    "iconUrl": "/icons/makeshift_handgun.webp"
+  },
+  {
+    "id": "makeshift_handgun_4",
+    "name": "Makeshift Handgun (Epic)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "MakeshiftHandgun_4",
+    "rarity": 3,
+    "variantOf": "makeshift_handgun",
+    "iconUrl": "/icons/makeshift_handgun.webp"
+  },
+  {
+    "id": "makeshift_handgun_5",
+    "name": "Makeshift Handgun (Legendary)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "MakeshiftHandgun_5",
+    "rarity": 4,
+    "variantOf": "makeshift_handgun",
+    "iconUrl": "/icons/makeshift_handgun.webp"
+  },
+  {
+    "id": "makeshift_shotgun",
+    "name": "Makeshift Shotgun",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "MakeshiftShotgun",
+    "iconUrl": "/icons/makeshift_shotgun.webp",
+    "rarity": 0
+  },
+  {
+    "id": "makeshift_shotgun_2",
+    "name": "Makeshift Shotgun (Uncommon)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "MakeshiftShotgun_2",
+    "rarity": 1,
+    "variantOf": "makeshift_shotgun",
+    "iconUrl": "/icons/makeshift_shotgun.webp"
+  },
+  {
+    "id": "makeshift_shotgun_3",
+    "name": "Makeshift Shotgun (Rare)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "MakeshiftShotgun_3",
+    "rarity": 2,
+    "variantOf": "makeshift_shotgun",
+    "iconUrl": "/icons/makeshift_shotgun.webp"
+  },
+  {
+    "id": "makeshift_shotgun_4",
+    "name": "Makeshift Shotgun (Epic)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "MakeshiftShotgun_4",
+    "rarity": 3,
+    "variantOf": "makeshift_shotgun",
+    "iconUrl": "/icons/makeshift_shotgun.webp"
+  },
+  {
+    "id": "makeshift_shotgun_5",
+    "name": "Makeshift Shotgun (Legendary)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "rarity": 4,
+    "variantOf": "makeshift_shotgun",
+    "iconUrl": "/icons/makeshift_shotgun.webp"
+  },
+  {
+    "id": "makeshift_smg",
+    "name": "Makeshift SMG",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "MakeshiftSubmachineGun",
+    "iconUrl": "/icons/makeshift_smg.webp",
+    "rarity": 0
+  },
+  {
+    "id": "makeshift_smg_2",
+    "name": "Makeshift SMG (Uncommon)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "MakeshiftSubmachineGun_2",
+    "rarity": 1,
+    "variantOf": "makeshift_smg",
+    "iconUrl": "/icons/makeshift_smg.webp"
+  },
+  {
+    "id": "makeshift_smg_3",
+    "name": "Makeshift SMG (Rare)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "MakeshiftSubmachineGun_3",
+    "rarity": 2,
+    "variantOf": "makeshift_smg",
+    "iconUrl": "/icons/makeshift_smg.webp"
+  },
+  {
+    "id": "makeshift_smg_4",
+    "name": "Makeshift SMG (Epic)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "MakeshiftSubmachineGun_4",
+    "rarity": 3,
+    "variantOf": "makeshift_smg",
+    "iconUrl": "/icons/makeshift_smg.webp"
+  },
+  {
+    "id": "makeshift_smg_5",
+    "name": "Makeshift SMG (Legendary)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "MakeshiftSubmachineGun_5",
+    "rarity": 4,
+    "variantOf": "makeshift_smg",
+    "iconUrl": "/icons/makeshift_smg.webp"
+  },
+  {
+    "id": "marcus_hat",
+    "name": "Marcus Hat",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "GYM_Head_Desert",
+    "iconUrl": "/icons/marcus_hat.webp",
+    "rarity": 4
+  },
+  {
+    "id": "marksman_revolver",
+    "name": "Marksman Revolver",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "OctaviaRevolver",
+    "iconUrl": "/icons/marksman_revolver.webp",
+    "rarity": 0
+  },
+  {
+    "id": "marksman_revolver_2",
+    "name": "Marksman Revolver (Uncommon)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "OctaviaRevolver_2",
+    "rarity": 1,
+    "variantOf": "marksman_revolver",
+    "iconUrl": "/icons/marksman_revolver.webp"
+  },
+  {
+    "id": "marksman_revolver_3",
+    "name": "Marksman Revolver (Rare)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "OctaviaRevolver_3",
+    "rarity": 2,
+    "variantOf": "marksman_revolver",
+    "iconUrl": "/icons/marksman_revolver.webp"
+  },
+  {
+    "id": "marksman_revolver_4",
+    "name": "Marksman Revolver (Epic)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "OctaviaRevolver_4",
+    "rarity": 3,
+    "variantOf": "marksman_revolver",
+    "iconUrl": "/icons/marksman_revolver.webp"
+  },
+  {
+    "id": "marksman_revolver_5",
+    "name": "Marksman Revolver (Legendary)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "OctaviaRevolver_5",
+    "rarity": 4,
+    "variantOf": "marksman_revolver",
+    "iconUrl": "/icons/marksman_revolver.webp"
+  },
+  {
+    "id": "meat_cleaver",
+    "name": "Meat Cleaver",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "MeatCutterKnife",
+    "iconUrl": "/icons/meat_cleaver.webp",
+    "rarity": 0
+  },
+  {
+    "id": "mechanical_bow",
+    "name": "Mechanical Bow",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "SkyBow",
+    "iconUrl": "/icons/mechanical_bow.webp",
+    "rarity": 0
+  },
+  {
+    "id": "mechanical_bow_2",
+    "name": "Mechanical Bow (Uncommon)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "SkyBow_2",
+    "rarity": 1,
+    "variantOf": "mechanical_bow",
+    "iconUrl": "/icons/mechanical_bow.webp"
+  },
+  {
+    "id": "mechanical_bow_3",
+    "name": "Mechanical Bow (Rare)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "rarity": 2,
+    "variantOf": "mechanical_bow",
+    "iconUrl": "/icons/mechanical_bow.webp"
+  },
+  {
+    "id": "mechanical_bow_4",
+    "name": "Mechanical Bow (Epic)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "rarity": 3,
+    "variantOf": "mechanical_bow",
+    "iconUrl": "/icons/mechanical_bow.webp"
+  },
+  {
+    "id": "mechanical_bow_5",
+    "name": "Mechanical Bow (Legendary)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "SkyBow_5",
+    "rarity": 4,
+    "variantOf": "mechanical_bow",
+    "iconUrl": "/icons/mechanical_bow.webp"
+  },
+  {
+    "id": "mega_grappling_gun",
+    "name": "Mega Grappling Gun",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "GrapplingGun2",
+    "iconUrl": "/icons/mega_grappling_gun.webp",
+    "rarity": 1
+  },
+  {
+    "id": "mega_shield",
+    "name": "Mega Shield",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "Shield_02",
+    "iconUrl": "/icons/mega_shield.webp",
+    "rarity": 0
+  },
+  {
+    "id": "megaboost_gun",
+    "name": "Megaboost Gun",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "PalDopingShot_2",
+    "iconUrl": "/icons/megaboost_gun.webp",
+    "rarity": 0
+  },
+  {
+    "id": "meowmere",
+    "name": "Meowmere",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "YakushimaBlade",
+    "iconUrl": "/icons/meowmere.webp",
+    "rarity": 4
+  },
+  {
+    "id": "metal_armor",
+    "name": "Metal Armor",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "CopperArmor",
+    "iconUrl": "/icons/metal_armor.webp",
+    "rarity": 0
+  },
+  {
+    "id": "metal_armor_2",
+    "name": "Metal Armor (Uncommon)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "CopperArmor_2",
+    "rarity": 1,
+    "variantOf": "metal_armor",
+    "iconUrl": "/icons/metal_armor.webp"
+  },
+  {
+    "id": "metal_armor_3",
+    "name": "Metal Armor (Rare)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "CopperArmor_3",
+    "rarity": 2,
+    "variantOf": "metal_armor",
+    "iconUrl": "/icons/metal_armor.webp"
+  },
+  {
+    "id": "metal_armor_4",
+    "name": "Metal Armor (Epic)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 3,
+    "variantOf": "metal_armor",
+    "iconUrl": "/icons/metal_armor.webp"
+  },
+  {
+    "id": "metal_armor_5",
+    "name": "Metal Armor (Legendary)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 4,
+    "variantOf": "metal_armor",
+    "iconUrl": "/icons/metal_armor.webp"
+  },
+  {
+    "id": "metal_axe",
+    "name": "Metal Axe",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "Axe_Tier_01",
+    "iconUrl": "/icons/metal_axe.webp",
+    "rarity": 1
+  },
+  {
+    "id": "metal_bat",
+    "name": "Metal Bat",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "Bat3",
+    "iconUrl": "/icons/metal_bat.webp",
+    "rarity": 0
+  },
+  {
+    "id": "metal_bat_2",
+    "name": "Metal Bat (Uncommon)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "Bat3_2",
+    "rarity": 1,
+    "variantOf": "metal_bat",
+    "iconUrl": "/icons/metal_bat.webp"
+  },
+  {
+    "id": "metal_bat_3",
+    "name": "Metal Bat (Rare)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "Bat3_3",
+    "rarity": 2,
+    "variantOf": "metal_bat",
+    "iconUrl": "/icons/metal_bat.webp"
+  },
+  {
+    "id": "metal_bat_4",
+    "name": "Metal Bat (Epic)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "Bat3_4",
+    "rarity": 3,
+    "variantOf": "metal_bat",
+    "iconUrl": "/icons/metal_bat.webp"
+  },
+  {
+    "id": "metal_bat_5",
+    "name": "Metal Bat (Legendary)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "Bat3_5",
+    "rarity": 4,
+    "variantOf": "metal_bat",
+    "iconUrl": "/icons/metal_bat.webp"
+  },
+  {
+    "id": "metal_detector",
+    "name": "Metal Detector",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "MetalDetector",
+    "iconUrl": "/icons/metal_detector.webp",
+    "rarity": 3
+  },
+  {
+    "id": "metal_helm",
+    "name": "Metal Helm",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "CopperHelmet",
+    "iconUrl": "/icons/metal_helm.webp",
+    "rarity": 0
+  },
+  {
+    "id": "metal_helm_2",
+    "name": "Metal Helm (Uncommon)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "CopperHelmet_2",
+    "rarity": 1,
+    "variantOf": "metal_helm",
+    "iconUrl": "/icons/metal_helm.webp"
+  },
+  {
+    "id": "metal_helm_3",
+    "name": "Metal Helm (Rare)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "CopperHelmet_3",
+    "rarity": 2,
+    "variantOf": "metal_helm",
+    "iconUrl": "/icons/metal_helm.webp"
+  },
+  {
+    "id": "metal_helm_4",
+    "name": "Metal Helm (Epic)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 3,
+    "variantOf": "metal_helm",
+    "iconUrl": "/icons/metal_helm.webp"
+  },
+  {
+    "id": "metal_helm_5",
+    "name": "Metal Helm (Legendary)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "CopperHelmet_5",
+    "rarity": 4,
+    "variantOf": "metal_helm",
+    "iconUrl": "/icons/metal_helm.webp"
+  },
+  {
+    "id": "metal_pickaxe",
+    "name": "Metal Pickaxe",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "Pickaxe_Tier_01",
+    "iconUrl": "/icons/metal_pickaxe.webp",
+    "rarity": 1
+  },
+  {
+    "id": "metal_spear",
+    "name": "Metal Spear",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "Spear_2",
+    "iconUrl": "/icons/metal_spear.webp",
+    "rarity": 0
+  },
+  {
+    "id": "meteor_launcher",
+    "name": "Meteor Launcher",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "Launcher_Meteor",
+    "iconUrl": "/icons/meteor_launcher.webp",
+    "rarity": 0
+  },
+  {
+    "id": "meteor_launcher_5",
+    "name": "Meteor Launcher (Legendary)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "Launcher_Meteor_5",
+    "rarity": 4,
+    "variantOf": "meteor_launcher",
+    "iconUrl": "/icons/meteor_launcher.webp"
+  },
+  {
+    "id": "meteorite_fragment",
+    "name": "Meteorite Fragment",
+    "category": "raw",
+    "isBaseMaterial": true,
+    "code": "MeteorDrop",
+    "iconUrl": "/icons/meteorite_fragment.webp",
+    "rarity": 0
+  },
+  {
+    "id": "monarchs_crown",
+    "name": "Monarch's Crown",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "Head001",
+    "iconUrl": "/icons/monarchs_crown.webp",
+    "rarity": 0
+  },
+  {
+    "id": "monarchs_crown_2",
+    "name": "Monarch's Crown (Uncommon)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 1,
+    "variantOf": "monarchs_crown",
+    "iconUrl": "/icons/monarchs_crown.webp"
+  },
+  {
+    "id": "monarchs_crown_3",
+    "name": "Monarch's Crown (Rare)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "Head001_3",
+    "rarity": 2,
+    "variantOf": "monarchs_crown",
+    "iconUrl": "/icons/monarchs_crown.webp"
+  },
+  {
+    "id": "monarchs_crown_4",
+    "name": "Monarch's Crown (Epic)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "Head001_4",
+    "rarity": 3,
+    "variantOf": "monarchs_crown",
+    "iconUrl": "/icons/monarchs_crown.webp"
+  },
+  {
+    "id": "monarchs_crown_5",
+    "name": "Monarch's Crown (Legendary)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "Head001_5",
+    "rarity": 4,
+    "variantOf": "monarchs_crown",
+    "iconUrl": "/icons/monarchs_crown.webp"
+  },
+  {
+    "id": "moon_lord_mask",
+    "name": "Moon Lord Mask",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "YakushimaHeadEquip005",
+    "iconUrl": "/icons/moon_lord_mask.webp",
+    "rarity": 4
+  },
+  {
+    "id": "multi_guided_missile_launcher",
+    "name": "Multi Guided Missile Launcher",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "MultiGuidedMissileLauncher",
+    "iconUrl": "/icons/multi_guided_missile_launcher.webp",
+    "rarity": 0
+  },
+  {
+    "id": "multi_guided_missile_launcher_2",
+    "name": "Multi Guided Missile Launcher (Uncommon)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "MultiGuidedMissileLauncher_2",
+    "rarity": 1,
+    "variantOf": "multi_guided_missile_launcher",
+    "iconUrl": "/icons/multi_guided_missile_launcher.webp"
+  },
+  {
+    "id": "multi_guided_missile_launcher_3",
+    "name": "Multi Guided Missile Launcher (Rare)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "MultiGuidedMissileLauncher_3",
+    "rarity": 2,
+    "variantOf": "multi_guided_missile_launcher",
+    "iconUrl": "/icons/multi_guided_missile_launcher.webp"
+  },
+  {
+    "id": "multi_guided_missile_launcher_4",
+    "name": "Multi Guided Missile Launcher (Epic)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "MultiGuidedMissileLauncher_4",
+    "rarity": 3,
+    "variantOf": "multi_guided_missile_launcher",
+    "iconUrl": "/icons/multi_guided_missile_launcher.webp"
+  },
+  {
+    "id": "multi_guided_missile_launcher_5",
+    "name": "Multi Guided Missile Launcher (Legendary)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "MultiGuidedMissileLauncher_5",
+    "rarity": 4,
+    "variantOf": "multi_guided_missile_launcher",
+    "iconUrl": "/icons/multi_guided_missile_launcher.webp"
   },
   {
     "id": "musket",
@@ -367,12 +4790,356 @@
     "rarity": 0
   },
   {
+    "id": "nightglow",
+    "name": "Nightglow",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "YakushimaLantern001",
+    "iconUrl": "/icons/nightglow.webp",
+    "rarity": 0
+  },
+  {
+    "id": "nightglow_2",
+    "name": "Nightglow (Uncommon)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "rarity": 1,
+    "variantOf": "nightglow",
+    "iconUrl": "/icons/nightglow.webp"
+  },
+  {
+    "id": "nightglow_3",
+    "name": "Nightglow (Rare)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "YakushimaLantern001_3",
+    "rarity": 2,
+    "variantOf": "nightglow",
+    "iconUrl": "/icons/nightglow.webp"
+  },
+  {
+    "id": "nightglow_4",
+    "name": "Nightglow (Epic)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "YakushimaLantern001_4",
+    "rarity": 3,
+    "variantOf": "nightglow",
+    "iconUrl": "/icons/nightglow.webp"
+  },
+  {
+    "id": "nightglow_5",
+    "name": "Nightglow (Legendary)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "rarity": 4,
+    "variantOf": "nightglow",
+    "iconUrl": "/icons/nightglow.webp"
+  },
+  {
+    "id": "nightstar_sand",
+    "name": "Nightstar Sand",
+    "category": "raw",
+    "isBaseMaterial": true,
+    "code": "NightStone",
+    "iconUrl": "/icons/nightstar_sand.webp",
+    "rarity": 0
+  },
+  {
+    "id": "old_bow",
+    "name": "Old Bow",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "WeakerBow",
+    "iconUrl": "/icons/old_bow.webp",
+    "rarity": 0
+  },
+  {
+    "id": "old_bow_2",
+    "name": "Old Bow (Uncommon)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "WeakerBow_2",
+    "rarity": 1,
+    "variantOf": "old_bow",
+    "iconUrl": "/icons/old_bow.webp"
+  },
+  {
+    "id": "old_bow_3",
+    "name": "Old Bow (Rare)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "WeakerBow_3",
+    "rarity": 2,
+    "variantOf": "old_bow",
+    "iconUrl": "/icons/old_bow.webp"
+  },
+  {
+    "id": "old_bow_4",
+    "name": "Old Bow (Epic)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "WeakerBow_4",
+    "rarity": 3,
+    "variantOf": "old_bow",
+    "iconUrl": "/icons/old_bow.webp"
+  },
+  {
+    "id": "old_bow_5",
+    "name": "Old Bow (Legendary)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "WeakerBow_5",
+    "rarity": 4,
+    "variantOf": "old_bow",
+    "iconUrl": "/icons/old_bow.webp"
+  },
+  {
+    "id": "old_revolver",
+    "name": "Old Revolver",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "OldRevolver",
+    "iconUrl": "/icons/old_revolver.webp",
+    "rarity": 0
+  },
+  {
+    "id": "old_revolver_2",
+    "name": "Old Revolver (Uncommon)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "OldRevolver_2",
+    "rarity": 1,
+    "variantOf": "old_revolver",
+    "iconUrl": "/icons/old_revolver.webp"
+  },
+  {
+    "id": "old_revolver_3",
+    "name": "Old Revolver (Rare)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "OldRevolver_3",
+    "rarity": 2,
+    "variantOf": "old_revolver",
+    "iconUrl": "/icons/old_revolver.webp"
+  },
+  {
+    "id": "old_revolver_4",
+    "name": "Old Revolver (Epic)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "OldRevolver_4",
+    "rarity": 3,
+    "variantOf": "old_revolver",
+    "iconUrl": "/icons/old_revolver.webp"
+  },
+  {
+    "id": "old_revolver_5",
+    "name": "Old Revolver (Legendary)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "OldRevolver_5",
+    "rarity": 4,
+    "variantOf": "old_revolver",
+    "iconUrl": "/icons/old_revolver.webp"
+  },
+  {
     "id": "ore",
     "name": "Ore",
     "category": "raw",
     "isBaseMaterial": true,
     "code": "CopperOre",
     "iconUrl": "/icons/ore.webp",
+    "rarity": 0
+  },
+  {
+    "id": "overheat_rifle",
+    "name": "Overheat Rifle",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "OverheatRifle",
+    "iconUrl": "/icons/overheat_rifle.webp",
+    "rarity": 0
+  },
+  {
+    "id": "overheat_rifle_2",
+    "name": "Overheat Rifle (Uncommon)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "OverheatRifle_2",
+    "rarity": 1,
+    "variantOf": "overheat_rifle",
+    "iconUrl": "/icons/overheat_rifle.webp"
+  },
+  {
+    "id": "overheat_rifle_3",
+    "name": "Overheat Rifle (Rare)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "OverheatRifle_3",
+    "rarity": 2,
+    "variantOf": "overheat_rifle",
+    "iconUrl": "/icons/overheat_rifle.webp"
+  },
+  {
+    "id": "overheat_rifle_4",
+    "name": "Overheat Rifle (Epic)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "OverheatRifle_4",
+    "rarity": 3,
+    "variantOf": "overheat_rifle",
+    "iconUrl": "/icons/overheat_rifle.webp"
+  },
+  {
+    "id": "overheat_rifle_5",
+    "name": "Overheat Rifle (Legendary)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "OverheatRifle_5",
+    "rarity": 4,
+    "variantOf": "overheat_rifle",
+    "iconUrl": "/icons/overheat_rifle.webp"
+  },
+  {
+    "id": "pal_metal_armor",
+    "name": "Pal Metal Armor",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "StealArmor",
+    "iconUrl": "/icons/pal_metal_armor.webp",
+    "rarity": 0
+  },
+  {
+    "id": "pal_metal_armor_2",
+    "name": "Pal Metal Armor (Uncommon)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 1,
+    "variantOf": "pal_metal_armor",
+    "iconUrl": "/icons/pal_metal_armor.webp"
+  },
+  {
+    "id": "pal_metal_armor_3",
+    "name": "Pal Metal Armor (Rare)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "StealArmor_3",
+    "rarity": 2,
+    "variantOf": "pal_metal_armor",
+    "iconUrl": "/icons/pal_metal_armor.webp"
+  },
+  {
+    "id": "pal_metal_armor_4",
+    "name": "Pal Metal Armor (Epic)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "StealArmor_4",
+    "rarity": 3,
+    "variantOf": "pal_metal_armor",
+    "iconUrl": "/icons/pal_metal_armor.webp"
+  },
+  {
+    "id": "pal_metal_armor_5",
+    "name": "Pal Metal Armor (Legendary)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 4,
+    "variantOf": "pal_metal_armor",
+    "iconUrl": "/icons/pal_metal_armor.webp"
+  },
+  {
+    "id": "pal_metal_axe",
+    "name": "Pal Metal Axe",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "Axe_Steal",
+    "iconUrl": "/icons/pal_metal_axe.webp",
+    "rarity": 3
+  },
+  {
+    "id": "pal_metal_helm",
+    "name": "Pal Metal Helm",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "StealHelmet",
+    "iconUrl": "/icons/pal_metal_helm.webp",
+    "rarity": 0
+  },
+  {
+    "id": "pal_metal_helm_2",
+    "name": "Pal Metal Helm (Uncommon)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "StealHelmet_2",
+    "rarity": 1,
+    "variantOf": "pal_metal_helm",
+    "iconUrl": "/icons/pal_metal_helm.webp"
+  },
+  {
+    "id": "pal_metal_helm_3",
+    "name": "Pal Metal Helm (Rare)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "StealHelmet_3",
+    "rarity": 2,
+    "variantOf": "pal_metal_helm",
+    "iconUrl": "/icons/pal_metal_helm.webp"
+  },
+  {
+    "id": "pal_metal_helm_4",
+    "name": "Pal Metal Helm (Epic)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "StealHelmet_4",
+    "rarity": 3,
+    "variantOf": "pal_metal_helm",
+    "iconUrl": "/icons/pal_metal_helm.webp"
+  },
+  {
+    "id": "pal_metal_helm_5",
+    "name": "Pal Metal Helm (Legendary)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "StealHelmet_5",
+    "rarity": 4,
+    "variantOf": "pal_metal_helm",
+    "iconUrl": "/icons/pal_metal_helm.webp"
+  },
+  {
+    "id": "pal_metal_ingot",
+    "name": "Pal Metal Ingot",
+    "category": "component",
+    "isBaseMaterial": false,
+    "code": "StealIngot",
+    "iconUrl": "/icons/pal_metal_ingot.webp",
+    "rarity": 0
+  },
+  {
+    "id": "pal_metal_pickaxe",
+    "name": "Pal Metal Pickaxe",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "Pickaxe_Steal",
+    "iconUrl": "/icons/pal_metal_pickaxe.webp",
+    "rarity": 3
+  },
+  {
+    "id": "pal_recovery_grenade",
+    "name": "Pal Recovery Grenade",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "PalHealingGrenade",
+    "iconUrl": "/icons/pal_recovery_grenade.webp",
+    "rarity": 0
+  },
+  {
+    "id": "paldium_fragment",
+    "name": "Paldium Fragment",
+    "category": "component",
+    "isBaseMaterial": false,
+    "code": "Pal_crystal_S",
+    "iconUrl": "/icons/paldium_fragment.webp",
     "rarity": 0
   },
   {
@@ -394,12 +5161,373 @@
     "rarity": 0
   },
   {
+    "id": "pelt_armor",
+    "name": "Pelt Armor",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "FurArmor",
+    "iconUrl": "/icons/pelt_armor.webp",
+    "rarity": 0
+  },
+  {
+    "id": "pelt_armor_2",
+    "name": "Pelt Armor (Uncommon)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "FurArmor_2",
+    "rarity": 1,
+    "variantOf": "pelt_armor",
+    "iconUrl": "/icons/pelt_armor.webp"
+  },
+  {
+    "id": "pelt_armor_3",
+    "name": "Pelt Armor (Rare)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "FurArmor_3",
+    "rarity": 2,
+    "variantOf": "pelt_armor",
+    "iconUrl": "/icons/pelt_armor.webp"
+  },
+  {
+    "id": "pelt_armor_4",
+    "name": "Pelt Armor (Epic)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 3,
+    "variantOf": "pelt_armor",
+    "iconUrl": "/icons/pelt_armor.webp"
+  },
+  {
+    "id": "pelt_armor_5",
+    "name": "Pelt Armor (Legendary)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 4,
+    "variantOf": "pelt_armor",
+    "iconUrl": "/icons/pelt_armor.webp"
+  },
+  {
+    "id": "penking_cap",
+    "name": "Penking Cap",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "Head016",
+    "iconUrl": "/icons/penking_cap.webp",
+    "rarity": 0
+  },
+  {
+    "id": "penking_cap_2",
+    "name": "Penking Cap (Uncommon)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "Head016_2",
+    "rarity": 1,
+    "variantOf": "penking_cap",
+    "iconUrl": "/icons/penking_cap.webp"
+  },
+  {
+    "id": "penking_cap_3",
+    "name": "Penking Cap (Rare)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "Head016_3",
+    "rarity": 2,
+    "variantOf": "penking_cap",
+    "iconUrl": "/icons/penking_cap.webp"
+  },
+  {
+    "id": "penking_cap_4",
+    "name": "Penking Cap (Epic)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "Head016_4",
+    "rarity": 3,
+    "variantOf": "penking_cap",
+    "iconUrl": "/icons/penking_cap.webp"
+  },
+  {
+    "id": "penking_cap_5",
+    "name": "Penking Cap (Legendary)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "Head016_5",
+    "rarity": 4,
+    "variantOf": "penking_cap",
+    "iconUrl": "/icons/penking_cap.webp"
+  },
+  {
+    "id": "penking_plume",
+    "name": "Penking Plume",
+    "category": "raw",
+    "isBaseMaterial": true,
+    "code": "PalItem_CaptainPenguin",
+    "iconUrl": "/icons/penking_plume.webp",
+    "rarity": 0
+  },
+  {
+    "id": "plasma_cannon",
+    "name": "Plasma Cannon",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "EnergyRocketLauncher",
+    "iconUrl": "/icons/plasma_cannon.webp",
+    "rarity": 0
+  },
+  {
+    "id": "plasma_cannon_2",
+    "name": "Plasma Cannon (Uncommon)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "EnergyRocketLauncher_2",
+    "rarity": 1,
+    "variantOf": "plasma_cannon",
+    "iconUrl": "/icons/plasma_cannon.webp"
+  },
+  {
+    "id": "plasma_cannon_3",
+    "name": "Plasma Cannon (Rare)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "EnergyRocketLauncher_3",
+    "rarity": 2,
+    "variantOf": "plasma_cannon",
+    "iconUrl": "/icons/plasma_cannon.webp"
+  },
+  {
+    "id": "plasma_cannon_4",
+    "name": "Plasma Cannon (Epic)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "EnergyRocketLauncher_4",
+    "rarity": 3,
+    "variantOf": "plasma_cannon",
+    "iconUrl": "/icons/plasma_cannon.webp"
+  },
+  {
+    "id": "plasma_cannon_5",
+    "name": "Plasma Cannon (Legendary)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "rarity": 4,
+    "variantOf": "plasma_cannon",
+    "iconUrl": "/icons/plasma_cannon.webp"
+  },
+  {
+    "id": "plasma_multicutter",
+    "name": "Plasma Multicutter",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "LaserMiningTool",
+    "iconUrl": "/icons/plasma_multicutter.webp",
+    "rarity": 4
+  },
+  {
+    "id": "plasma_rifle",
+    "name": "Plasma Rifle",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "ElectricArcAssaultRifle",
+    "iconUrl": "/icons/plasma_rifle.webp",
+    "rarity": 0
+  },
+  {
+    "id": "plasma_rifle_2",
+    "name": "Plasma Rifle (Uncommon)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "ElectricArcAssaultRifle_2",
+    "rarity": 1,
+    "variantOf": "plasma_rifle",
+    "iconUrl": "/icons/plasma_rifle.webp"
+  },
+  {
+    "id": "plasma_rifle_3",
+    "name": "Plasma Rifle (Rare)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "ElectricArcAssaultRifle_3",
+    "rarity": 2,
+    "variantOf": "plasma_rifle",
+    "iconUrl": "/icons/plasma_rifle.webp"
+  },
+  {
+    "id": "plasma_rifle_4",
+    "name": "Plasma Rifle (Epic)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "ElectricArcAssaultRifle_4",
+    "rarity": 3,
+    "variantOf": "plasma_rifle",
+    "iconUrl": "/icons/plasma_rifle.webp"
+  },
+  {
+    "id": "plasma_rifle_5",
+    "name": "Plasma Rifle (Legendary)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "rarity": 4,
+    "variantOf": "plasma_rifle",
+    "iconUrl": "/icons/plasma_rifle.webp"
+  },
+  {
     "id": "plasteel",
     "name": "Plasteel",
     "category": "component",
     "isBaseMaterial": false,
     "code": "Plastic",
     "iconUrl": "/icons/plasteel.webp",
+    "rarity": 0
+  },
+  {
+    "id": "plasteel_armor",
+    "name": "Plasteel Armor",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "PlasticArmor",
+    "iconUrl": "/icons/plasteel_armor.webp",
+    "rarity": 0
+  },
+  {
+    "id": "plasteel_armor_2",
+    "name": "Plasteel Armor (Uncommon)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "PlasticArmor_2",
+    "rarity": 1,
+    "variantOf": "plasteel_armor",
+    "iconUrl": "/icons/plasteel_armor.webp"
+  },
+  {
+    "id": "plasteel_armor_3",
+    "name": "Plasteel Armor (Rare)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 2,
+    "variantOf": "plasteel_armor",
+    "iconUrl": "/icons/plasteel_armor.webp"
+  },
+  {
+    "id": "plasteel_armor_4",
+    "name": "Plasteel Armor (Epic)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "PlasticArmor_4",
+    "rarity": 3,
+    "variantOf": "plasteel_armor",
+    "iconUrl": "/icons/plasteel_armor.webp"
+  },
+  {
+    "id": "plasteel_armor_5",
+    "name": "Plasteel Armor (Legendary)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 4,
+    "variantOf": "plasteel_armor",
+    "iconUrl": "/icons/plasteel_armor.webp"
+  },
+  {
+    "id": "plasteel_helmet",
+    "name": "Plasteel Helmet",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "PlasticHelmet",
+    "iconUrl": "/icons/plasteel_helmet.webp",
+    "rarity": 0
+  },
+  {
+    "id": "plasteel_helmet_2",
+    "name": "Plasteel Helmet (Uncommon)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 1,
+    "variantOf": "plasteel_helmet",
+    "iconUrl": "/icons/plasteel_helmet.webp"
+  },
+  {
+    "id": "plasteel_helmet_3",
+    "name": "Plasteel Helmet (Rare)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "PlasticHelmet_3",
+    "rarity": 2,
+    "variantOf": "plasteel_helmet",
+    "iconUrl": "/icons/plasteel_helmet.webp"
+  },
+  {
+    "id": "plasteel_helmet_4",
+    "name": "Plasteel Helmet (Epic)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 3,
+    "variantOf": "plasteel_helmet",
+    "iconUrl": "/icons/plasteel_helmet.webp"
+  },
+  {
+    "id": "plasteel_helmet_5",
+    "name": "Plasteel Helmet (Legendary)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 4,
+    "variantOf": "plasteel_helmet",
+    "iconUrl": "/icons/plasteel_helmet.webp"
+  },
+  {
+    "id": "poison_arrow_crossbow",
+    "name": "Poison Arrow Crossbow",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "BowGun_Poison",
+    "iconUrl": "/icons/poison_arrow_crossbow.webp",
+    "rarity": 0
+  },
+  {
+    "id": "poison_arrow_crossbow_2",
+    "name": "Poison Arrow Crossbow (Uncommon)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "BowGun_Poison_2",
+    "rarity": 1,
+    "variantOf": "poison_arrow_crossbow",
+    "iconUrl": "/icons/poison_arrow_crossbow.webp"
+  },
+  {
+    "id": "poison_arrow_crossbow_3",
+    "name": "Poison Arrow Crossbow (Rare)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "BowGun_Poison_3",
+    "rarity": 2,
+    "variantOf": "poison_arrow_crossbow",
+    "iconUrl": "/icons/poison_arrow_crossbow.webp"
+  },
+  {
+    "id": "poison_arrow_crossbow_4",
+    "name": "Poison Arrow Crossbow (Epic)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "BowGun_Poison_4",
+    "rarity": 3,
+    "variantOf": "poison_arrow_crossbow",
+    "iconUrl": "/icons/poison_arrow_crossbow.webp"
+  },
+  {
+    "id": "poison_arrow_crossbow_5",
+    "name": "Poison Arrow Crossbow (Legendary)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "BowGun_Poison_5",
+    "rarity": 4,
+    "variantOf": "poison_arrow_crossbow",
+    "iconUrl": "/icons/poison_arrow_crossbow.webp"
+  },
+  {
+    "id": "poison_bow",
+    "name": "Poison Bow",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "Bow_Poison",
+    "iconUrl": "/icons/poison_bow.webp",
     "rarity": 0
   },
   {
@@ -410,6 +5538,113 @@
     "code": "Polymer",
     "iconUrl": "/icons/polymer.webp",
     "rarity": 0
+  },
+  {
+    "id": "primitive_sword",
+    "name": "Primitive Sword",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "BronzeSword",
+    "iconUrl": "/icons/primitive_sword.webp",
+    "rarity": 0
+  },
+  {
+    "id": "prototype_shotgun",
+    "name": "Prototype Shotgun",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "SkyShotgun",
+    "iconUrl": "/icons/prototype_shotgun.webp",
+    "rarity": 0
+  },
+  {
+    "id": "prototype_shotgun_2",
+    "name": "Prototype Shotgun (Uncommon)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "SkyShotgun_2",
+    "rarity": 1,
+    "variantOf": "prototype_shotgun",
+    "iconUrl": "/icons/prototype_shotgun.webp"
+  },
+  {
+    "id": "prototype_shotgun_3",
+    "name": "Prototype Shotgun (Rare)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "SkyShotgun_3",
+    "rarity": 2,
+    "variantOf": "prototype_shotgun",
+    "iconUrl": "/icons/prototype_shotgun.webp"
+  },
+  {
+    "id": "prototype_shotgun_4",
+    "name": "Prototype Shotgun (Epic)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "SkyShotgun_4",
+    "rarity": 3,
+    "variantOf": "prototype_shotgun",
+    "iconUrl": "/icons/prototype_shotgun.webp"
+  },
+  {
+    "id": "prototype_shotgun_5",
+    "name": "Prototype Shotgun (Legendary)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "SkyShotgun_5",
+    "rarity": 4,
+    "variantOf": "prototype_shotgun",
+    "iconUrl": "/icons/prototype_shotgun.webp"
+  },
+  {
+    "id": "pump-action_shotgun",
+    "name": "Pump-Action Shotgun",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "PumpActionShotgun",
+    "iconUrl": "/icons/pump-action_shotgun.webp",
+    "rarity": 0
+  },
+  {
+    "id": "pump-action_shotgun_2",
+    "name": "Pump-Action Shotgun (Uncommon)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "PumpActionShotgun_2",
+    "rarity": 1,
+    "variantOf": "pump-action_shotgun",
+    "iconUrl": "/icons/pump-action_shotgun.webp"
+  },
+  {
+    "id": "pump-action_shotgun_3",
+    "name": "Pump-Action Shotgun (Rare)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "PumpActionShotgun_3",
+    "rarity": 2,
+    "variantOf": "pump-action_shotgun",
+    "iconUrl": "/icons/pump-action_shotgun.webp"
+  },
+  {
+    "id": "pump-action_shotgun_4",
+    "name": "Pump-Action Shotgun (Epic)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "PumpActionShotgun_4",
+    "rarity": 3,
+    "variantOf": "pump-action_shotgun",
+    "iconUrl": "/icons/pump-action_shotgun.webp"
+  },
+  {
+    "id": "pump-action_shotgun_5",
+    "name": "Pump-Action Shotgun (Legendary)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "PumpActionShotgun_5",
+    "rarity": 4,
+    "variantOf": "pump-action_shotgun",
+    "iconUrl": "/icons/pump-action_shotgun.webp"
   },
   {
     "id": "pure_quartz",
@@ -430,6 +5665,577 @@
     "rarity": 0
   },
   {
+    "id": "refined_metal_armor",
+    "name": "Refined Metal Armor",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "IronArmor",
+    "iconUrl": "/icons/refined_metal_armor.webp",
+    "rarity": 0
+  },
+  {
+    "id": "refined_metal_armor_2",
+    "name": "Refined Metal Armor (Uncommon)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "IronArmor_2",
+    "rarity": 1,
+    "variantOf": "refined_metal_armor",
+    "iconUrl": "/icons/refined_metal_armor.webp"
+  },
+  {
+    "id": "refined_metal_armor_3",
+    "name": "Refined Metal Armor (Rare)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 2,
+    "variantOf": "refined_metal_armor",
+    "iconUrl": "/icons/refined_metal_armor.webp"
+  },
+  {
+    "id": "refined_metal_armor_4",
+    "name": "Refined Metal Armor (Epic)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 3,
+    "variantOf": "refined_metal_armor",
+    "iconUrl": "/icons/refined_metal_armor.webp"
+  },
+  {
+    "id": "refined_metal_armor_5",
+    "name": "Refined Metal Armor (Legendary)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 4,
+    "variantOf": "refined_metal_armor",
+    "iconUrl": "/icons/refined_metal_armor.webp"
+  },
+  {
+    "id": "refined_metal_axe",
+    "name": "Refined Metal Axe",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "Axe_Tier_02",
+    "iconUrl": "/icons/refined_metal_axe.webp",
+    "rarity": 2
+  },
+  {
+    "id": "refined_metal_helm",
+    "name": "Refined Metal Helm",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "IronHelmet",
+    "iconUrl": "/icons/refined_metal_helm.webp",
+    "rarity": 0
+  },
+  {
+    "id": "refined_metal_helm_2",
+    "name": "Refined Metal Helm (Uncommon)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "IronHelmet_2",
+    "rarity": 1,
+    "variantOf": "refined_metal_helm",
+    "iconUrl": "/icons/refined_metal_helm.webp"
+  },
+  {
+    "id": "refined_metal_helm_3",
+    "name": "Refined Metal Helm (Rare)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "IronHelmet_3",
+    "rarity": 2,
+    "variantOf": "refined_metal_helm",
+    "iconUrl": "/icons/refined_metal_helm.webp"
+  },
+  {
+    "id": "refined_metal_helm_4",
+    "name": "Refined Metal Helm (Epic)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "IronHelmet_4",
+    "rarity": 3,
+    "variantOf": "refined_metal_helm",
+    "iconUrl": "/icons/refined_metal_helm.webp"
+  },
+  {
+    "id": "refined_metal_helm_5",
+    "name": "Refined Metal Helm (Legendary)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "IronHelmet_5",
+    "rarity": 4,
+    "variantOf": "refined_metal_helm",
+    "iconUrl": "/icons/refined_metal_helm.webp"
+  },
+  {
+    "id": "refined_metal_pickaxe",
+    "name": "Refined Metal Pickaxe",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "Pickaxe_Tier_02",
+    "iconUrl": "/icons/refined_metal_pickaxe.webp",
+    "rarity": 2
+  },
+  {
+    "id": "refined_metal_spear",
+    "name": "Refined Metal Spear",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "Spear_3",
+    "iconUrl": "/icons/refined_metal_spear.webp",
+    "rarity": 0
+  },
+  {
+    "id": "ribbuny_headband",
+    "name": "Ribbuny Headband",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "HeadEquip028",
+    "iconUrl": "/icons/ribbuny_headband.webp",
+    "rarity": 0
+  },
+  {
+    "id": "ribbuny_headband_2",
+    "name": "Ribbuny Headband (Uncommon)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "HeadEquip028_2",
+    "rarity": 1,
+    "variantOf": "ribbuny_headband",
+    "iconUrl": "/icons/ribbuny_headband.webp"
+  },
+  {
+    "id": "ribbuny_headband_3",
+    "name": "Ribbuny Headband (Rare)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "HeadEquip028_3",
+    "rarity": 2,
+    "variantOf": "ribbuny_headband",
+    "iconUrl": "/icons/ribbuny_headband.webp"
+  },
+  {
+    "id": "ribbuny_headband_4",
+    "name": "Ribbuny Headband (Epic)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "HeadEquip028_4",
+    "rarity": 3,
+    "variantOf": "ribbuny_headband",
+    "iconUrl": "/icons/ribbuny_headband.webp"
+  },
+  {
+    "id": "ribbuny_headband_5",
+    "name": "Ribbuny Headband (Legendary)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "HeadEquip028_5",
+    "rarity": 4,
+    "variantOf": "ribbuny_headband",
+    "iconUrl": "/icons/ribbuny_headband.webp"
+  },
+  {
+    "id": "ribbuny_ribbon",
+    "name": "Ribbuny Ribbon",
+    "category": "raw",
+    "isBaseMaterial": true,
+    "code": "PalItem_PinkRabbit",
+    "iconUrl": "/icons/ribbuny_ribbon.webp",
+    "rarity": 0
+  },
+  {
+    "id": "rocket_launcher",
+    "name": "Rocket Launcher",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "Launcher_Default",
+    "iconUrl": "/icons/rocket_launcher.webp",
+    "rarity": 0
+  },
+  {
+    "id": "rocket_launcher_2",
+    "name": "Rocket Launcher (Uncommon)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "Launcher_Default_2",
+    "rarity": 1,
+    "variantOf": "rocket_launcher",
+    "iconUrl": "/icons/rocket_launcher.webp"
+  },
+  {
+    "id": "rocket_launcher_3",
+    "name": "Rocket Launcher (Rare)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "Launcher_Default_3",
+    "rarity": 2,
+    "variantOf": "rocket_launcher",
+    "iconUrl": "/icons/rocket_launcher.webp"
+  },
+  {
+    "id": "rocket_launcher_4",
+    "name": "Rocket Launcher (Epic)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "Launcher_Default_4",
+    "rarity": 3,
+    "variantOf": "rocket_launcher",
+    "iconUrl": "/icons/rocket_launcher.webp"
+  },
+  {
+    "id": "rocket_launcher_5",
+    "name": "Rocket Launcher (Legendary)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "Launcher_Default_5",
+    "rarity": 4,
+    "variantOf": "rocket_launcher",
+    "iconUrl": "/icons/rocket_launcher.webp"
+  },
+  {
+    "id": "saya_hat",
+    "name": "Saya Hat",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "GYM_Head_Sakurajima",
+    "iconUrl": "/icons/saya_hat.webp",
+    "rarity": 4
+  },
+  {
+    "id": "scatter_sphere_launcher",
+    "name": "Scatter Sphere Launcher",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "SphereLauncher",
+    "iconUrl": "/icons/scatter_sphere_launcher.webp",
+    "rarity": 0
+  },
+  {
+    "id": "semi-auto_rifle",
+    "name": "Semi-Auto Rifle",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "SemiAutoRifle",
+    "iconUrl": "/icons/semi-auto_rifle.webp",
+    "rarity": 0
+  },
+  {
+    "id": "semi-auto_rifle_2",
+    "name": "Semi-Auto Rifle (Uncommon)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "SemiAutoRifle_2",
+    "rarity": 1,
+    "variantOf": "semi-auto_rifle",
+    "iconUrl": "/icons/semi-auto_rifle.webp"
+  },
+  {
+    "id": "semi-auto_rifle_3",
+    "name": "Semi-Auto Rifle (Rare)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "SemiAutoRifle_3",
+    "rarity": 2,
+    "variantOf": "semi-auto_rifle",
+    "iconUrl": "/icons/semi-auto_rifle.webp"
+  },
+  {
+    "id": "semi-auto_rifle_4",
+    "name": "Semi-Auto Rifle (Epic)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "SemiAutoRifle_4",
+    "rarity": 3,
+    "variantOf": "semi-auto_rifle",
+    "iconUrl": "/icons/semi-auto_rifle.webp"
+  },
+  {
+    "id": "semi-auto_rifle_5",
+    "name": "Semi-Auto Rifle (Legendary)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "SemiAutoRifle_5",
+    "rarity": 4,
+    "variantOf": "semi-auto_rifle",
+    "iconUrl": "/icons/semi-auto_rifle.webp"
+  },
+  {
+    "id": "semi-auto_shotgun",
+    "name": "Semi-Auto Shotgun",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "SemiAutoShotgun",
+    "iconUrl": "/icons/semi-auto_shotgun.webp",
+    "rarity": 0
+  },
+  {
+    "id": "semi-auto_shotgun_2",
+    "name": "Semi-Auto Shotgun (Uncommon)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "SemiAutoShotgun_2",
+    "rarity": 1,
+    "variantOf": "semi-auto_shotgun",
+    "iconUrl": "/icons/semi-auto_shotgun.webp"
+  },
+  {
+    "id": "semi-auto_shotgun_3",
+    "name": "Semi-Auto Shotgun (Rare)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "SemiAutoShotgun_3",
+    "rarity": 2,
+    "variantOf": "semi-auto_shotgun",
+    "iconUrl": "/icons/semi-auto_shotgun.webp"
+  },
+  {
+    "id": "semi-auto_shotgun_4",
+    "name": "Semi-Auto Shotgun (Epic)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "SemiAutoShotgun_4",
+    "rarity": 3,
+    "variantOf": "semi-auto_shotgun",
+    "iconUrl": "/icons/semi-auto_shotgun.webp"
+  },
+  {
+    "id": "semi-auto_shotgun_5",
+    "name": "Semi-Auto Shotgun (Legendary)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "SemiAutoShotgun_5",
+    "rarity": 4,
+    "variantOf": "semi-auto_shotgun",
+    "iconUrl": "/icons/semi-auto_shotgun.webp"
+  },
+  {
+    "id": "shock_grenade",
+    "name": "Shock Grenade",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "FragGrenade_Elec",
+    "iconUrl": "/icons/shock_grenade.webp",
+    "rarity": 0
+  },
+  {
+    "id": "shroomer_hat",
+    "name": "Shroomer Hat",
+    "category": "armor",
+    "isBaseMaterial": true,
+    "code": "HeadEquip058",
+    "iconUrl": "/icons/shroomer_hat.webp"
+  },
+  {
+    "id": "sibelyx_hat",
+    "name": "Sibelyx Hat",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "HeadEquip024",
+    "iconUrl": "/icons/sibelyx_hat.webp",
+    "rarity": 0
+  },
+  {
+    "id": "silk_hat",
+    "name": "Silk Hat",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "Head007",
+    "iconUrl": "/icons/silk_hat.webp",
+    "rarity": 0
+  },
+  {
+    "id": "silk_hat_2",
+    "name": "Silk Hat (Uncommon)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 1,
+    "variantOf": "silk_hat",
+    "iconUrl": "/icons/silk_hat.webp"
+  },
+  {
+    "id": "silk_hat_3",
+    "name": "Silk Hat (Rare)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "Head007_3",
+    "rarity": 2,
+    "variantOf": "silk_hat",
+    "iconUrl": "/icons/silk_hat.webp"
+  },
+  {
+    "id": "silk_hat_4",
+    "name": "Silk Hat (Epic)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "Head007_4",
+    "rarity": 3,
+    "variantOf": "silk_hat",
+    "iconUrl": "/icons/silk_hat.webp"
+  },
+  {
+    "id": "silk_hat_5",
+    "name": "Silk Hat (Legendary)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "Head007_5",
+    "rarity": 4,
+    "variantOf": "silk_hat",
+    "iconUrl": "/icons/silk_hat.webp"
+  },
+  {
+    "id": "single-shot_rifle",
+    "name": "Single-Shot Rifle",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "SingleShotRifle",
+    "iconUrl": "/icons/single-shot_rifle.webp",
+    "rarity": 0
+  },
+  {
+    "id": "single-shot_rifle_2",
+    "name": "Single-Shot Rifle (Uncommon)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "SingleShotRifle_2",
+    "rarity": 1,
+    "variantOf": "single-shot_rifle",
+    "iconUrl": "/icons/single-shot_rifle.webp"
+  },
+  {
+    "id": "single-shot_rifle_3",
+    "name": "Single-Shot Rifle (Rare)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "SingleShotRifle_3",
+    "rarity": 2,
+    "variantOf": "single-shot_rifle",
+    "iconUrl": "/icons/single-shot_rifle.webp"
+  },
+  {
+    "id": "single-shot_rifle_4",
+    "name": "Single-Shot Rifle (Epic)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "SingleShotRifle_4",
+    "rarity": 3,
+    "variantOf": "single-shot_rifle",
+    "iconUrl": "/icons/single-shot_rifle.webp"
+  },
+  {
+    "id": "single-shot_rifle_5",
+    "name": "Single-Shot Rifle (Legendary)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "rarity": 4,
+    "variantOf": "single-shot_rifle",
+    "iconUrl": "/icons/single-shot_rifle.webp"
+  },
+  {
+    "id": "single-shot_sphere_launcher",
+    "name": "Single-Shot Sphere Launcher",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "SphereLauncher_Once",
+    "iconUrl": "/icons/single-shot_sphere_launcher.webp",
+    "rarity": 0
+  },
+  {
+    "id": "smg",
+    "name": "SMG",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "SubmachineGun",
+    "iconUrl": "/icons/smg.webp",
+    "rarity": 0
+  },
+  {
+    "id": "smg_2",
+    "name": "SMG (Uncommon)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "SubmachineGun_2",
+    "rarity": 1,
+    "variantOf": "smg",
+    "iconUrl": "/icons/smg.webp"
+  },
+  {
+    "id": "smg_3",
+    "name": "SMG (Rare)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "SubmachineGun_3",
+    "rarity": 2,
+    "variantOf": "smg",
+    "iconUrl": "/icons/smg.webp"
+  },
+  {
+    "id": "smg_4",
+    "name": "SMG (Epic)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "SubmachineGun_4",
+    "rarity": 3,
+    "variantOf": "smg",
+    "iconUrl": "/icons/smg.webp"
+  },
+  {
+    "id": "smg_5",
+    "name": "SMG (Legendary)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "SubmachineGun_5",
+    "rarity": 4,
+    "variantOf": "smg",
+    "iconUrl": "/icons/smg.webp"
+  },
+  {
+    "id": "soft_hat",
+    "name": "Soft Hat",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "Head005",
+    "iconUrl": "/icons/soft_hat.webp",
+    "rarity": 0
+  },
+  {
+    "id": "soft_hat_2",
+    "name": "Soft Hat (Uncommon)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 1,
+    "variantOf": "soft_hat",
+    "iconUrl": "/icons/soft_hat.webp"
+  },
+  {
+    "id": "soft_hat_3",
+    "name": "Soft Hat (Rare)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 2,
+    "variantOf": "soft_hat",
+    "iconUrl": "/icons/soft_hat.webp"
+  },
+  {
+    "id": "soft_hat_4",
+    "name": "Soft Hat (Epic)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "Head005_4",
+    "rarity": 3,
+    "variantOf": "soft_hat",
+    "iconUrl": "/icons/soft_hat.webp"
+  },
+  {
+    "id": "soft_hat_5",
+    "name": "Soft Hat (Legendary)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 4,
+    "variantOf": "soft_hat",
+    "iconUrl": "/icons/soft_hat.webp"
+  },
+  {
     "id": "soralite",
     "name": "Soralite",
     "category": "raw",
@@ -448,6 +6254,59 @@
     "rarity": 0
   },
   {
+    "id": "splatterina_hat",
+    "name": "Splatterina Hat",
+    "category": "armor",
+    "isBaseMaterial": true,
+    "code": "HeadEquip061",
+    "iconUrl": "/icons/splatterina_hat.webp"
+  },
+  {
+    "id": "stone",
+    "name": "Stone",
+    "category": "raw",
+    "isBaseMaterial": true,
+    "code": "Stone",
+    "iconUrl": "/icons/stone.webp",
+    "rarity": 0
+  },
+  {
+    "id": "stone_axe",
+    "name": "Stone Axe",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "Axe_Tier_00",
+    "iconUrl": "/icons/stone_axe.webp",
+    "rarity": 0
+  },
+  {
+    "id": "stone_pickaxe",
+    "name": "Stone Pickaxe",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "Pickaxe_Tier_00",
+    "iconUrl": "/icons/stone_pickaxe.webp",
+    "rarity": 0
+  },
+  {
+    "id": "stone_spear",
+    "name": "Stone Spear",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "Spear",
+    "iconUrl": "/icons/stone_spear.webp",
+    "rarity": 0
+  },
+  {
+    "id": "stun_baton",
+    "name": "Stun Baton",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "ElecBaton",
+    "iconUrl": "/icons/stun_baton.webp",
+    "rarity": 0
+  },
+  {
     "id": "sulfur",
     "name": "Sulfur",
     "category": "raw",
@@ -455,6 +6314,266 @@
     "code": "Sulfur",
     "iconUrl": "/icons/sulfur.webp",
     "rarity": 0
+  },
+  {
+    "id": "swee_cap",
+    "name": "Swee Cap",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "HeadEquip031",
+    "iconUrl": "/icons/swee_cap.webp",
+    "rarity": 0
+  },
+  {
+    "id": "swee_cap_2",
+    "name": "Swee Cap (Uncommon)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "HeadEquip031_2",
+    "rarity": 1,
+    "variantOf": "swee_cap",
+    "iconUrl": "/icons/swee_cap.webp"
+  },
+  {
+    "id": "swee_cap_3",
+    "name": "Swee Cap (Rare)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "HeadEquip031_3",
+    "rarity": 2,
+    "variantOf": "swee_cap",
+    "iconUrl": "/icons/swee_cap.webp"
+  },
+  {
+    "id": "swee_cap_4",
+    "name": "Swee Cap (Epic)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "HeadEquip031_4",
+    "rarity": 3,
+    "variantOf": "swee_cap",
+    "iconUrl": "/icons/swee_cap.webp"
+  },
+  {
+    "id": "swee_cap_5",
+    "name": "Swee Cap (Legendary)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "HeadEquip031_5",
+    "rarity": 4,
+    "variantOf": "swee_cap",
+    "iconUrl": "/icons/swee_cap.webp"
+  },
+  {
+    "id": "swee_hair",
+    "name": "Swee Hair",
+    "category": "raw",
+    "isBaseMaterial": true,
+    "code": "PalItem_MopBaby",
+    "iconUrl": "/icons/swee_hair.webp",
+    "rarity": 0
+  },
+  {
+    "id": "sword",
+    "name": "Sword",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "Sword",
+    "iconUrl": "/icons/sword.webp",
+    "rarity": 0
+  },
+  {
+    "id": "sword_2",
+    "name": "Sword (Uncommon)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "Sword_2",
+    "rarity": 1,
+    "variantOf": "sword",
+    "iconUrl": "/icons/sword.webp"
+  },
+  {
+    "id": "sword_3",
+    "name": "Sword (Rare)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "Sword_3",
+    "rarity": 2,
+    "variantOf": "sword",
+    "iconUrl": "/icons/sword.webp"
+  },
+  {
+    "id": "sword_4",
+    "name": "Sword (Epic)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "Sword_4",
+    "rarity": 3,
+    "variantOf": "sword",
+    "iconUrl": "/icons/sword.webp"
+  },
+  {
+    "id": "sword_5",
+    "name": "Sword (Legendary)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "Sword_5",
+    "rarity": 4,
+    "variantOf": "sword",
+    "iconUrl": "/icons/sword.webp"
+  },
+  {
+    "id": "tactical_grenade_launcher",
+    "name": "Tactical Grenade Launcher",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "SkyGrenadeLauncher",
+    "iconUrl": "/icons/tactical_grenade_launcher.webp",
+    "rarity": 0
+  },
+  {
+    "id": "tactical_grenade_launcher_2",
+    "name": "Tactical Grenade Launcher (Uncommon)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "SkyGrenadeLauncher_2",
+    "rarity": 1,
+    "variantOf": "tactical_grenade_launcher",
+    "iconUrl": "/icons/tactical_grenade_launcher.webp"
+  },
+  {
+    "id": "tactical_grenade_launcher_3",
+    "name": "Tactical Grenade Launcher (Rare)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "SkyGrenadeLauncher_3",
+    "rarity": 2,
+    "variantOf": "tactical_grenade_launcher",
+    "iconUrl": "/icons/tactical_grenade_launcher.webp"
+  },
+  {
+    "id": "tactical_grenade_launcher_4",
+    "name": "Tactical Grenade Launcher (Epic)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "SkyGrenadeLauncher_4",
+    "rarity": 3,
+    "variantOf": "tactical_grenade_launcher",
+    "iconUrl": "/icons/tactical_grenade_launcher.webp"
+  },
+  {
+    "id": "tactical_grenade_launcher_5",
+    "name": "Tactical Grenade Launcher (Legendary)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "SkyGrenadeLauncher_5",
+    "rarity": 4,
+    "variantOf": "tactical_grenade_launcher",
+    "iconUrl": "/icons/tactical_grenade_launcher.webp"
+  },
+  {
+    "id": "tarantriss_hat",
+    "name": "Tarantriss Hat",
+    "category": "armor",
+    "isBaseMaterial": true,
+    "code": "HeadEquip062",
+    "iconUrl": "/icons/tarantriss_hat.webp"
+  },
+  {
+    "id": "terra_blade",
+    "name": "Terra Blade",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "YakushimaBlade002",
+    "iconUrl": "/icons/terra_blade.webp",
+    "rarity": 0
+  },
+  {
+    "id": "terra_blade_2",
+    "name": "Terra Blade (Uncommon)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "YakushimaBlade002_2",
+    "rarity": 1,
+    "variantOf": "terra_blade",
+    "iconUrl": "/icons/terra_blade.webp"
+  },
+  {
+    "id": "terra_blade_3",
+    "name": "Terra Blade (Rare)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "YakushimaBlade002_3",
+    "rarity": 2,
+    "variantOf": "terra_blade",
+    "iconUrl": "/icons/terra_blade.webp"
+  },
+  {
+    "id": "terra_blade_4",
+    "name": "Terra Blade (Epic)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "YakushimaBlade002_4",
+    "rarity": 3,
+    "variantOf": "terra_blade",
+    "iconUrl": "/icons/terra_blade.webp"
+  },
+  {
+    "id": "terra_blade_5",
+    "name": "Terra Blade (Legendary)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "rarity": 4,
+    "variantOf": "terra_blade",
+    "iconUrl": "/icons/terra_blade.webp"
+  },
+  {
+    "id": "terraprisma",
+    "name": "Terraprisma",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "YakushimaBlade003",
+    "iconUrl": "/icons/terraprisma.webp",
+    "rarity": 0
+  },
+  {
+    "id": "terraprisma_2",
+    "name": "Terraprisma (Uncommon)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "YakushimaBlade003_2",
+    "rarity": 1,
+    "variantOf": "terraprisma",
+    "iconUrl": "/icons/terraprisma.webp"
+  },
+  {
+    "id": "terraprisma_3",
+    "name": "Terraprisma (Rare)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "YakushimaBlade003_3",
+    "rarity": 2,
+    "variantOf": "terraprisma",
+    "iconUrl": "/icons/terraprisma.webp"
+  },
+  {
+    "id": "terraprisma_4",
+    "name": "Terraprisma (Epic)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "YakushimaBlade003_4",
+    "rarity": 3,
+    "variantOf": "terraprisma",
+    "iconUrl": "/icons/terraprisma.webp"
+  },
+  {
+    "id": "terraprisma_5",
+    "name": "Terraprisma (Legendary)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "rarity": 4,
+    "variantOf": "terraprisma",
+    "iconUrl": "/icons/terraprisma.webp"
   },
   {
     "id": "thermal_core",
@@ -466,6 +6585,272 @@
     "rarity": 0
   },
   {
+    "id": "three_shot_bow",
+    "name": "Three Shot Bow",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "Bow_Triple",
+    "iconUrl": "/icons/three_shot_bow.webp",
+    "rarity": 0
+  },
+  {
+    "id": "tocotoco_cap",
+    "name": "Tocotoco Cap",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "Head013",
+    "iconUrl": "/icons/tocotoco_cap.webp",
+    "rarity": 0
+  },
+  {
+    "id": "tocotoco_cap_2",
+    "name": "Tocotoco Cap (Uncommon)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 1,
+    "variantOf": "tocotoco_cap",
+    "iconUrl": "/icons/tocotoco_cap.webp"
+  },
+  {
+    "id": "tocotoco_cap_3",
+    "name": "Tocotoco Cap (Rare)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 2,
+    "variantOf": "tocotoco_cap",
+    "iconUrl": "/icons/tocotoco_cap.webp"
+  },
+  {
+    "id": "tocotoco_cap_4",
+    "name": "Tocotoco Cap (Epic)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 3,
+    "variantOf": "tocotoco_cap",
+    "iconUrl": "/icons/tocotoco_cap.webp"
+  },
+  {
+    "id": "tocotoco_cap_5",
+    "name": "Tocotoco Cap (Legendary)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 4,
+    "variantOf": "tocotoco_cap",
+    "iconUrl": "/icons/tocotoco_cap.webp"
+  },
+  {
+    "id": "tocotoco_feather",
+    "name": "Tocotoco Feather",
+    "category": "raw",
+    "isBaseMaterial": true,
+    "code": "PalItem_ColorfulBird",
+    "iconUrl": "/icons/tocotoco_feather.webp",
+    "rarity": 0
+  },
+  {
+    "id": "tricorne",
+    "name": "Tricorne",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "Head008",
+    "iconUrl": "/icons/tricorne.webp",
+    "rarity": 0
+  },
+  {
+    "id": "tricorne_2",
+    "name": "Tricorne (Uncommon)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 1,
+    "variantOf": "tricorne",
+    "iconUrl": "/icons/tricorne.webp"
+  },
+  {
+    "id": "tricorne_3",
+    "name": "Tricorne (Rare)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "Head008_3",
+    "rarity": 2,
+    "variantOf": "tricorne",
+    "iconUrl": "/icons/tricorne.webp"
+  },
+  {
+    "id": "tricorne_4",
+    "name": "Tricorne (Epic)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 3,
+    "variantOf": "tricorne",
+    "iconUrl": "/icons/tricorne.webp"
+  },
+  {
+    "id": "tricorne_5",
+    "name": "Tricorne (Legendary)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 4,
+    "variantOf": "tricorne",
+    "iconUrl": "/icons/tricorne.webp"
+  },
+  {
+    "id": "tropical_outfit",
+    "name": "Tropical Outfit",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "ClothArmorHeat",
+    "iconUrl": "/icons/tropical_outfit.webp",
+    "rarity": 0
+  },
+  {
+    "id": "tropical_outfit_2",
+    "name": "Tropical Outfit (Uncommon)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 1,
+    "variantOf": "tropical_outfit",
+    "iconUrl": "/icons/tropical_outfit.webp"
+  },
+  {
+    "id": "tropical_outfit_3",
+    "name": "Tropical Outfit (Rare)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "ClothArmorHeat_3",
+    "rarity": 2,
+    "variantOf": "tropical_outfit",
+    "iconUrl": "/icons/tropical_outfit.webp"
+  },
+  {
+    "id": "tropical_outfit_4",
+    "name": "Tropical Outfit (Epic)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 3,
+    "variantOf": "tropical_outfit",
+    "iconUrl": "/icons/tropical_outfit.webp"
+  },
+  {
+    "id": "tropical_outfit_5",
+    "name": "Tropical Outfit (Legendary)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 4,
+    "variantOf": "tropical_outfit",
+    "iconUrl": "/icons/tropical_outfit.webp"
+  },
+  {
+    "id": "tundra_outfit",
+    "name": "Tundra Outfit",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "ClothArmorCold",
+    "iconUrl": "/icons/tundra_outfit.webp",
+    "rarity": 0
+  },
+  {
+    "id": "tundra_outfit_2",
+    "name": "Tundra Outfit (Uncommon)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "ClothArmorCold_2",
+    "rarity": 1,
+    "variantOf": "tundra_outfit",
+    "iconUrl": "/icons/tundra_outfit.webp"
+  },
+  {
+    "id": "tundra_outfit_3",
+    "name": "Tundra Outfit (Rare)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "ClothArmorCold_3",
+    "rarity": 2,
+    "variantOf": "tundra_outfit",
+    "iconUrl": "/icons/tundra_outfit.webp"
+  },
+  {
+    "id": "tundra_outfit_4",
+    "name": "Tundra Outfit (Epic)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 3,
+    "variantOf": "tundra_outfit",
+    "iconUrl": "/icons/tundra_outfit.webp"
+  },
+  {
+    "id": "tundra_outfit_5",
+    "name": "Tundra Outfit (Legendary)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "ClothArmorCold_5",
+    "rarity": 4,
+    "variantOf": "tundra_outfit",
+    "iconUrl": "/icons/tundra_outfit.webp"
+  },
+  {
+    "id": "turtacle_cap",
+    "name": "Turtacle Cap",
+    "category": "armor",
+    "isBaseMaterial": true,
+    "code": "HeadEquip054",
+    "iconUrl": "/icons/turtacle_cap.webp"
+  },
+  {
+    "id": "ultra_grappling_gun",
+    "name": "Ultra Grappling Gun",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "GrapplingGun5",
+    "iconUrl": "/icons/ultra_grappling_gun.webp",
+    "rarity": 4
+  },
+  {
+    "id": "ultra_shield",
+    "name": "Ultra Shield",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "Shield_Ultra",
+    "iconUrl": "/icons/ultra_shield.webp",
+    "rarity": 3
+  },
+  {
+    "id": "v1_armor",
+    "name": "V1 Armor",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "Octavia001_Armor",
+    "iconUrl": "/icons/v1_armor.webp",
+    "rarity": 0
+  },
+  {
+    "id": "v1_armor_2",
+    "name": "V1 Armor (Legendary)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "rarity": 4,
+    "variantOf": "v1_armor",
+    "iconUrl": "/icons/v1_armor.webp"
+  },
+  {
+    "id": "v2_armor",
+    "name": "V2 Armor",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "Octavia002_Armor",
+    "iconUrl": "/icons/v2_armor.webp",
+    "rarity": 0
+  },
+  {
+    "id": "v2_armor_5",
+    "name": "V2 Armor (Legendary)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "Octavia002_Armor_5",
+    "rarity": 4,
+    "variantOf": "v2_armor",
+    "iconUrl": "/icons/v2_armor.webp"
+  },
+  {
     "id": "venom_gland",
     "name": "Venom Gland",
     "category": "raw",
@@ -473,6 +6858,130 @@
     "code": "Venom",
     "iconUrl": "/icons/venom_gland.webp",
     "rarity": 0
+  },
+  {
+    "id": "victor_hat",
+    "name": "Victor Hat",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "GYM_Head_Snow",
+    "iconUrl": "/icons/victor_hat.webp",
+    "rarity": 4
+  },
+  {
+    "id": "vortex_beater",
+    "name": "Vortex Beater",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "YakushimaGun001",
+    "iconUrl": "/icons/vortex_beater.webp",
+    "rarity": 0
+  },
+  {
+    "id": "vortex_beater_2",
+    "name": "Vortex Beater (Uncommon)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "YakushimaGun001_2",
+    "rarity": 1,
+    "variantOf": "vortex_beater",
+    "iconUrl": "/icons/vortex_beater.webp"
+  },
+  {
+    "id": "vortex_beater_3",
+    "name": "Vortex Beater (Rare)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "YakushimaGun001_3",
+    "rarity": 2,
+    "variantOf": "vortex_beater",
+    "iconUrl": "/icons/vortex_beater.webp"
+  },
+  {
+    "id": "vortex_beater_4",
+    "name": "Vortex Beater (Epic)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "YakushimaGun001_4",
+    "rarity": 3,
+    "variantOf": "vortex_beater",
+    "iconUrl": "/icons/vortex_beater.webp"
+  },
+  {
+    "id": "vortex_beater_5",
+    "name": "Vortex Beater (Legendary)",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "rarity": 4,
+    "variantOf": "vortex_beater",
+    "iconUrl": "/icons/vortex_beater.webp"
+  },
+  {
+    "id": "water_grenade",
+    "name": "Water Grenade",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "FragGrenade_Water",
+    "iconUrl": "/icons/water_grenade.webp",
+    "rarity": 0
+  },
+  {
+    "id": "witch_hat",
+    "name": "Witch Hat",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "Head004",
+    "iconUrl": "/icons/witch_hat.webp",
+    "rarity": 0
+  },
+  {
+    "id": "witch_hat_2",
+    "name": "Witch Hat (Uncommon)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "Head004_2",
+    "rarity": 1,
+    "variantOf": "witch_hat",
+    "iconUrl": "/icons/witch_hat.webp"
+  },
+  {
+    "id": "witch_hat_3",
+    "name": "Witch Hat (Rare)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "Head004_3",
+    "rarity": 2,
+    "variantOf": "witch_hat",
+    "iconUrl": "/icons/witch_hat.webp"
+  },
+  {
+    "id": "witch_hat_4",
+    "name": "Witch Hat (Epic)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "Head004_4",
+    "rarity": 3,
+    "variantOf": "witch_hat",
+    "iconUrl": "/icons/witch_hat.webp"
+  },
+  {
+    "id": "witch_hat_5",
+    "name": "Witch Hat (Legendary)",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "Head004_5",
+    "rarity": 4,
+    "variantOf": "witch_hat",
+    "iconUrl": "/icons/witch_hat.webp"
+  },
+  {
+    "id": "witchs_crown",
+    "name": "Witch's Crown",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "HeadEquip001_purple",
+    "iconUrl": "/icons/witchs_crown.webp",
+    "rarity": 4
   },
   {
     "id": "wood",
@@ -493,6 +7002,24 @@
     "rarity": 0
   },
   {
+    "id": "wooden_club",
+    "name": "Wooden Club",
+    "category": "weapon",
+    "isBaseMaterial": false,
+    "code": "Bat",
+    "iconUrl": "/icons/wooden_club.webp",
+    "rarity": 0
+  },
+  {
+    "id": "wool",
+    "name": "Wool",
+    "category": "raw",
+    "isBaseMaterial": true,
+    "code": "Wool",
+    "iconUrl": "/icons/wool.webp",
+    "rarity": 0
+  },
+  {
     "id": "world_tree_holy_water",
     "name": "World Tree Holy Water",
     "category": "misc",
@@ -500,5 +7027,32 @@
     "code": "WorldTreeHolyWater",
     "iconUrl": "/icons/world_tree_holy_water.webp",
     "rarity": 2
+  },
+  {
+    "id": "xenolords_head",
+    "name": "Xenolord's head",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "HeadEquip044",
+    "iconUrl": "/icons/xenolords_head.webp",
+    "rarity": 4
+  },
+  {
+    "id": "zenara_hat",
+    "name": "Zenara Hat",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "HeadEquip049",
+    "iconUrl": "/icons/zenara_hat.webp",
+    "rarity": 4
+  },
+  {
+    "id": "zoe_hat",
+    "name": "Zoe Hat",
+    "category": "armor",
+    "isBaseMaterial": false,
+    "code": "GYM_Head_Grass",
+    "iconUrl": "/icons/zoe_hat.webp",
+    "rarity": 4
   }
 ]

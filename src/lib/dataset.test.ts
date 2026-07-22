@@ -78,16 +78,72 @@ describe("scraped dataset", () => {
     ]);
   });
 
-  test("every variant points at an existing common base item", () => {
+  test("every variant points at a root base it out-ranks", () => {
+    // A variant's base is the weapon's lowest tier — which is not always Common
+    // (Lily's Spear starts at Rare), so we only require the variant to out-rank
+    // its base and the base to be a root with its own recipe.
     for (const item of dataset.items) {
       if (item.variantOf) {
         const base = getItem(item.variantOf);
         expect(base, `${item.id} -> ${item.variantOf}`).toBeDefined();
-        expect(base?.rarity ?? 0).toBe(0);
-        expect(item.rarity).toBeGreaterThan(0);
+        expect(
+          base?.variantOf,
+          `${item.variantOf} should be a root, not itself a variant`,
+        ).toBeUndefined();
         expect(getRecipe(item.id), `${item.id} recipe`).toBeDefined();
+        expect(
+          (item.rarity ?? 0) > (base?.rarity ?? 0),
+          `${item.id} (r${item.rarity}) should out-rank base ${base?.id} (r${base?.rarity})`,
+        ).toBe(true);
       }
     }
+  });
+
+  test("the weapon catalogue was expanded to the full paldb list", () => {
+    const baseWeapons = dataset.items.filter(
+      (i) => i.category === "weapon" && !i.variantOf,
+    );
+    // paldb tags 114 pages as Weapon; allow drift but guard against regression
+    // back to the original handful.
+    expect(baseWeapons.length).toBeGreaterThan(100);
+
+    // A spread of weapons across the tech tree should now be craftable.
+    for (const id of ["katana", "sword", "rocket_launcher", "flamethrower"]) {
+      expect(getRecipe(id), id).toBeDefined();
+    }
+  });
+
+  test("the armor catalogue was scraped alongside weapons", () => {
+    const baseArmor = dataset.items.filter(
+      (i) => i.category === "armor" && !i.variantOf,
+    );
+    expect(baseArmor.length).toBeGreaterThan(100);
+    // weapons must still be present in the same dataset
+    expect(
+      dataset.items.some((i) => i.category === "weapon" && !i.variantOf),
+    ).toBe(true);
+  });
+
+  test("Armor research reduces armor material cost, but weapon research doesn't", () => {
+    // Metal Armor: ingot 30, leather 10, cloth 5.
+    const recipe = getRecipe("metal_armor");
+    expect(recipe?.ingredients).toEqual([
+      { itemId: "ingot", quantity: 30 },
+      { itemId: "leather", quantity: 10 },
+      { itemId: "cloth", quantity: 5 },
+    ]);
+
+    const withArmor = solveCrafting("metal_armor", 1, undefined, {
+      armor: 0.15,
+    });
+    // floor(30*.85)=25, floor(10*.85)=8, floor(5*.85)=4
+    expect(withArmor.tree.children.map((c) => c.quantity)).toEqual([25, 8, 4]);
+
+    // Weapon research must not touch armor.
+    const withWeapon = solveCrafting("metal_armor", 1, undefined, {
+      weapon: 0.15,
+    });
+    expect(withWeapon.tree.children.map((c) => c.quantity)).toEqual([30, 10, 5]);
   });
 
   test("known base materials are leaves", () => {

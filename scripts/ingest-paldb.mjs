@@ -34,15 +34,36 @@ const DEFAULT_ROOTS = [
 
 const args = process.argv.slice(2);
 const WRITE = args.includes("--write");
-const rootsArg = args.find((a) => a.startsWith("--roots"));
-const ROOT_SLUGS = rootsArg
-  ? args[args.indexOf(rootsArg) + (rootsArg.includes("=") ? 0 : 1)]
-      .replace("--roots=", "")
-      .split(",")
-  : DEFAULT_ROOTS;
+
+/** Read a `--flag value` or `--flag=value` argument. */
+function argValue(name) {
+  const found = args.find((a) => a === name || a.startsWith(`${name}=`));
+  if (!found) return null;
+  return found.includes("=")
+    ? found.slice(found.indexOf("=") + 1)
+    : (args[args.indexOf(found) + 1] ?? null);
+}
+
+const rootsArg = argValue("--roots");
+const ROOT_SLUGS = rootsArg ? rootsArg.split(",") : DEFAULT_ROOTS;
+// --category <desc> pulls every page the site's index tags with that type
+// (e.g. "Weapon", "Armor") as a root, so the whole class is scraped at once.
+const CATEGORY = argValue("--category");
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const slugToId = (slug) => slug.toLowerCase();
+
+/**
+ * Encode a decoded slug for a paldb URL. encodeURIComponent leaves parentheses
+ * and a few other marks literal, but paldb's routes require them percent-encoded
+ * (e.g. Fishing_Rod_(Chillet) -> Fishing_Rod_%28Chillet%29).
+ */
+function encodeSlug(slug) {
+  return encodeURIComponent(slug).replace(
+    /[()!'*~]/g,
+    (c) => "%" + c.charCodeAt(0).toString(16).toUpperCase(),
+  );
+}
 
 async function fileExists(p) {
   try {
@@ -68,7 +89,7 @@ async function fetchPage(slug) {
   if (await fileExists(cachePath)) {
     return readFile(cachePath, "utf8");
   }
-  const res = await politeFetch(BASE + encodeURIComponent(slug));
+  const res = await politeFetch(BASE + encodeSlug(slug));
   const html = await res.text();
   await mkdir(CACHE_DIR, { recursive: true });
   await writeFile(cachePath, html, "utf8");
@@ -89,7 +110,13 @@ async function fetchIndex() {
   }
   const map = new Map();
   for (const entry of JSON.parse(raw)) {
-    map.set(entry.value, { label: entry.label, desc: entry.desc });
+    // Index values are percent-encoded (e.g. Fishing_Rod_%28Chillet%29). Store
+    // the decoded slug so it matches ingredient hrefs (also decoded) and gets
+    // re-encoded exactly once when fetched.
+    map.set(decodeURIComponent(entry.value), {
+      label: entry.label,
+      desc: entry.desc,
+    });
   }
   return map;
 }
@@ -303,15 +330,28 @@ function validate(items, recipes) {
 }
 
 async function main() {
-  console.log(`Roots: ${ROOT_SLUGS.join(", ")}  (write=${WRITE})`);
   const index = await fetchIndex();
+
+  let roots = ROOT_SLUGS;
+  if (CATEGORY) {
+    // Accept a comma-separated list so several classes land in one dataset
+    // (e.g. --category Weapon,Armor) rather than each run clobbering the last.
+    const wanted = new Set(CATEGORY.split(",").map((c) => c.trim()));
+    roots = [...index.entries()]
+      .filter(([, meta]) => wanted.has(meta.desc))
+      .map(([slug]) => slug);
+    console.log(
+      `Categories [${[...wanted].join(", ")}]: ${roots.length} root pages from index.`,
+    );
+  }
+  console.log(`Roots: ${roots.length} item(s)  (write=${WRITE})`);
 
   /** slug -> parsed page (or { error }) */
   const seen = new Map();
   /** slug -> { name, iconUrl, code } captured from ingredient links, which
    * are cheaper and more reliable than re-deriving them from the target page. */
   const linkMeta = new Map();
-  const queue = [...ROOT_SLUGS];
+  const queue = [...roots];
 
   while (queue.length > 0) {
     const slug = queue.shift();
@@ -468,7 +508,8 @@ async function main() {
         source: "paldb.cc",
         gameVersion: "1.0",
         generatedAt: new Date().toISOString(),
-        roots: ROOT_SLUGS,
+        category: CATEGORY ?? undefined,
+        roots,
       },
       null,
       2,

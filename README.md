@@ -6,8 +6,9 @@ Router) · React 19 · Tailwind v4.
 ## Status
 
 Schema, both solvers, live calculator UIs, and **real crafting data scraped
-from paldb.cc** (items, recipes, gold costs, icons). Pal/breeding data is still
-the placeholder mock set.
+from paldb.cc** — the full weapon and armor catalogues (747 items / 694 recipes
+/ 114 base weapons + 106 base armor, all tiers and materials), gold costs, and
+icons. Pal/breeding data is still the placeholder mock set.
 
 - Project scaffold, dark "schematic" theme, navigation — done
 - Data schemas (`src/lib/types.ts`) — done
@@ -36,8 +37,8 @@ UI, pick your level for Weapon / Armor / Pal Gear; the reduction applies only
 when the target item is that category, floored per-craft, never below 1, and
 never to the sub-materials it consumes (so you craft fewer AI Cores, but each
 AI Core still costs full price). Weapon and Armor items classify cleanly from
-paldb; pal gear is detected via the Pal Gear Workbench and glider tag — verify
-when you first scrape those categories.
+paldb (both scraped and verified in the app); pal gear is detected via the Pal
+Gear Workbench and glider tag — verify when you first scrape that category.
 
 ## Run
 
@@ -46,12 +47,20 @@ when you first scrape those categories.
     npm test                               # vitest — solver + dataset tests
     npm run typecheck                      # tsc --noEmit
     npm run package                        # build dist/Palbook.zip (shareable)
-    node scripts/ingest-paldb.mjs          # dry run: fetch + report only
-    node scripts/ingest-paldb.mjs --write  # write src/data + public/icons
-    node scripts/ingest-paldb.mjs --roots Drone_Launcher,Assault_Rifle
+    node scripts/ingest-paldb.mjs                   # dry run: fetch + report
+    node scripts/ingest-paldb.mjs --write           # write src/data + icons
+    node scripts/ingest-paldb.mjs --roots Katana,Sword
+    node scripts/ingest-paldb.mjs --category Weapon,Armor --write
 
 Scraped pages are cached in `.cache/paldb/` so re-runs make no requests.
-Adding a new weapon/root to `--roots` pulls in its whole ingredient tree.
+`--roots` pulls specific items (plus their whole ingredient trees);
+`--category <types>` pulls every page the paldb index tags with those types
+(comma-separated, e.g. `Weapon,Armor`) as roots. Each run rewrites the dataset
+from its roots, so scrape all wanted classes together. The current dataset is
+**Weapon + Armor** — 114 base weapons (including tools paldb tags as weapons:
+axes, pickaxes, fishing rods, torch, detector) and 106 base armor pieces, plus
+every tier variant and material they need. Add pal gear by including its type in
+the list once its paldb tag is confirmed.
 
 ## Data model (the review target)
 
