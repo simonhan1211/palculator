@@ -15,7 +15,7 @@ const jetbrains = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Palbook — Palworld 1.0 Calculator",
+  title: "Palcalc — Palworld 1.0 Calculator",
   description:
     "Recursive crafting breakdowns and breeding combinations for Palworld 1.0.",
 };
@@ -40,7 +40,7 @@ export default function RootLayout({
           <div className="mx-auto flex h-14 max-w-6xl items-center gap-6 px-4">
             <Link href="/" className="flex items-baseline gap-2">
               <span className="font-display text-lg font-bold text-primary">
-                PALBOOK
+                PALCALC
               </span>
               <span className="eyebrow hidden sm:inline">v1.0 field data</span>
             </Link>

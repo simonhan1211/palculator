@@ -1,4 +1,4 @@
-# Palbook — Palworld 1.0 Calculator
+# Palcalc — Palworld 1.0 Calculator
 
 Recursive crafting breakdowns + breeding solver for Palworld 1.0. Next.js 16 (App
 Router) · React 19 · Tailwind v4.
@@ -46,7 +46,7 @@ Gear Workbench and glider tag — verify when you first scrape that category.
     npm run dev                            # http://localhost:3000
     npm test                               # vitest — solver + dataset tests
     npm run typecheck                      # tsc --noEmit
-    npm run package                        # build dist/Palbook.zip (shareable)
+    npm run package                        # build dist/Palcalc.zip (shareable)
     node scripts/ingest-paldb.mjs                   # dry run: fetch + report
     node scripts/ingest-paldb.mjs --write           # write src/data + icons
     node scripts/ingest-paldb.mjs --roots Katana,Sword

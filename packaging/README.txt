@@ -1,11 +1,11 @@
-Palbook — Palworld Crafting & Breeding Calculator
+Palcalc — Palworld Crafting & Breeding Calculator
 ==================================================
 
 HOW TO USE
   1. Unzip this whole folder anywhere (Desktop is fine).
-  2. Double-click  Palbook.bat
+  2. Double-click  Palcalc.bat
   3. Your browser opens the app. Keep the black window open while
-     you use it; close it to stop Palbook.
+     you use it; close it to stop Palcalc.
 
 If Windows shows a blue "Windows protected your PC" screen the first
 time, click "More info" then "Run anyway" — it happens to anything

@@ -21,7 +21,7 @@ export default function Home() {
           <span className="text-primary">offspring</span>.
         </h1>
         <p className="mt-4 max-w-2xl text-fg-muted">
-          Most tools stop at the top-level recipe. Palbook walks the whole
+          Most tools stop at the top-level recipe. Palcalc walks the whole
           dependency tree — every ingot, board, and fiber — and hands you one
           consolidated shopping list of base materials for the quantity you
           actually want to build.

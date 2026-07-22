@@ -19,7 +19,7 @@ type ResearchKey = (typeof RESEARCH_TRACKS)[number]["key"];
 /** Cumulative reduction at research level 0/1/2 (−5% then +10%). */
 const LEVEL_REDUCTION = [0, 0.05, 0.15];
 const LEVEL_LABELS = ["None", "Lv 1  −5%", "Lv 2  −15%"];
-const RESEARCH_STORAGE_KEY = "palbook.research";
+const RESEARCH_STORAGE_KEY = "palcalc.research";
 
 function ItemIcon({
   itemId,
